@@ -24,7 +24,7 @@ void data_generator::random_data(){
 void data_generator::revesed_data(){
     // insertion sort
     int num = 0;
-    int size = 100000;
+    int size = 1000;
     int re_array [size];
     for (int i = 0; i<size;i++){
         num = rand();
@@ -55,7 +55,7 @@ void data_generator::revesed_data(){
         //cout<<"reversed oder: "<<end[i]<<endl;
     }
     ofstream file;
-    file.open("100000reversed.txt");
+    file.open("1000reversed.txt");
     //int size = 10;
     //int num;
     for(int i = 0;i<size;i++){
@@ -70,7 +70,7 @@ void data_generator::revesed_data(){
 
 
 void data_generator::unique_data(){
-    int size = 100000;
+    int size = 1000;
     int size_t = size*0.2;
     int select;
     int unique[size_t];
@@ -86,7 +86,7 @@ void data_generator::unique_data(){
         cout<<"The unique array is "<<unique_array[i]<<endl;
     }
     ofstream file;
-    file.open("100000unique.txt");
+    file.open("1000unique.txt");
     //int size = 10;
     //int num;
     for(int i = 0;i<size;i++){
@@ -104,7 +104,7 @@ void data_generator::unique_data(){
 
 void data_generator::partial_data(){
     int num = 0;
-    int size = 10000;
+    int size = 1000;
     int size_t = size*0.3;
     int pa_array [size];
     int part[size];
@@ -127,7 +127,7 @@ void data_generator::partial_data(){
         pa_array[j] = part[j];
     }
     ofstream file;
-    file.open("10000partial.txt");
+    file.open("1000partial.txt");
     for(int i = 0;i<size;i++){
         //num = rand();
         file << pa_array[i]<<endl;
@@ -140,8 +140,8 @@ void data_generator::partial_data(){
 
 void  data_generator::writefile(){//write file
     ofstream file;
-    file.open("filename.txt");
-    int size = 10;
+    file.open("1000random.txt");
+    int size = 100;
     int num;
     for(int i = 0;i<size;i++){
         num = rand();

@@ -17,19 +17,16 @@
 class Algorithm{
 public:
     virtual std::vector<int> load(std::string) = 0;
-    /*enum selection{
+    enum selection{
         BUBBLE = 0,
-        MERGE,
-        INSERTION,
-        LAST
-    };*/
-    //selection select();
-    //virtual void execute() = 0;
-    //virtual void display();
+        MERGE = 1,
+        INSERTION = 2
+    };
+    selection select();
+    virtual void execute(std::vector<int>&,int,int) = 0;
+    virtual void display() = 0;
     //virtual void stats();
     //virtual void save();
-//private:
-    //Algorithm::selection my_select;
 };
 #endif /* Algorithm_hpp */
 
