@@ -12,24 +12,21 @@
 #include <cstdlib>
 #include <string>
 #include <vector>
-//using namespace std;
+
 
 class Algorithm{
 public:
     virtual std::vector<int> load(std::string) = 0;
-    /*enum selection{
+    enum selection{
         BUBBLE = 0,
-        MERGE,
-        INSERTION,
-        LAST
-    };*/
-    //selection select();
-    //virtual void execute() = 0;
-    //virtual void display();
-    //virtual void stats();
-    //virtual void save();
-//private:
-    //Algorithm::selection my_select;
+        MERGE = 1,
+        INSERTION = 2
+    };
+    selection select();
+    virtual void execute(std::vector<int>&,int,int) = 0;
+    virtual void display() = 0;
+    virtual void state() = 0;
+    virtual void save(std::string,std::string) = 0;
 };
 #endif /* Algorithm_hpp */
 
