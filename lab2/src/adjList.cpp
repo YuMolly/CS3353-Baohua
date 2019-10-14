@@ -13,29 +13,31 @@
 #include <sstream>
 using namespace std;
 adjList::adjList(){
-    //head = nullptr;
-    depth = 0;
-    //counter = 0;
-}
-adjList::~adjList(){
-    
+    vector<int> temp;
+    vector<vector<int>> temp1;
+    temp1.push_back(temp);
+    adj_list = temp1;
+    totalCost = 0.0;
 }
 void adjList::addEdge(string scr,string des){
-    
     int head;
     head = stoi(scr);
     int child;
     child = stoi(des);
-    //cout<<"Head is :"<<head<<endl;
-    //cout<<"child is : "<<child<<endl;
     for(int i = adj_list.size();i<head;i++){
         vector<int>temp;
         adj_list.push_back(temp);
     }
     adj_list[head-1].push_back(child);
-    //adj[child].push_back(head);
-    //cout<<"size is "<<adj.size()<<endl;
 }
+std::vector<std::vector<int>> adjList::getList(){
+    return adj_list;
+}
+
+float adjList::Cost(string x, string y, float cost){
+    return totalCost;
+}
+
 void adjList::display(){
     for(int i = 0;i<adj_list.size();i++){
         cout << i + 1 << "-> ";

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A983F472235397CD009E01BE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A983F471235397CD009E01BE /* main.cpp */; };
+		A983F4752353AE15009E01BE /* adjMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A983F4732353AE15009E01BE /* adjMatrix.cpp */; };
 		A98500F0234BDB82006979FC /* Sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A98500E3234BDB81006979FC /* Sort.cpp */; };
 		A98500F1234BDB82006979FC /* sortAlgos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A98500E5234BDB82006979FC /* sortAlgos.cpp */; };
 		A98500F4234BDC3C006979FC /* searchAlgo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A98500F2234BDC3C006979FC /* searchAlgo.cpp */; };
@@ -29,6 +30,8 @@
 
 /* Begin PBXFileReference section */
 		A983F471235397CD009E01BE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A983F4732353AE15009E01BE /* adjMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = adjMatrix.cpp; sourceTree = "<group>"; };
+		A983F4742353AE15009E01BE /* adjMatrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = adjMatrix.hpp; sourceTree = "<group>"; };
 		A98500CD234BDADC006979FC /* lab2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lab2; sourceTree = BUILT_PRODUCTS_DIR; };
 		A98500E1234BDB81006979FC /* lab1 report.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lab1 report.docx"; sourceTree = "<group>"; };
 		A98500E3234BDB81006979FC /* Sort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sort.cpp; sourceTree = "<group>"; };
@@ -77,6 +80,8 @@
 				A98500E4234BDB82006979FC /* Sort.hpp */,
 				A98500E5234BDB82006979FC /* sortAlgos.cpp */,
 				A98500E6234BDB82006979FC /* sortAlgos.hpp */,
+				A983F4732353AE15009E01BE /* adjMatrix.cpp */,
+				A983F4742353AE15009E01BE /* adjMatrix.hpp */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,6 +161,7 @@
 				A983F472235397CD009E01BE /* main.cpp in Sources */,
 				A985010123521F8E006979FC /* Graph.cpp in Sources */,
 				A98500F0234BDB82006979FC /* Sort.cpp in Sources */,
+				A983F4752353AE15009E01BE /* adjMatrix.cpp in Sources */,
 				A98500F7234D62F6006979FC /* adjList.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

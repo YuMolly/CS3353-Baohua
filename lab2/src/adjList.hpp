@@ -9,22 +9,23 @@
 #ifndef adjList_hpp
 #define adjList_hpp
 
-//#include "Graph.hpp"
+
 #include <stdio.h>
 #include <iostream>
 #include <vector>
 
-//#include "Node.hpp"
 class adjList{
 public:
     adjList();
-    ~adjList();
     void addEdge(std::string,std::string);
+    std::vector<std::vector<int>> getList();
+    float Cost(std::string,std::string,float);
     void display();
 private:
     //Node*head;
+    float totalCost;
     std::vector<std::vector<int>> adj_list;
-    int depth;
+    //int depth;
     //int counter;
 };
 #endif /* adjList_hpp */

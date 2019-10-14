@@ -12,15 +12,21 @@
 #include <stdio.h>
 #include <iostream>
 #include "adjList.hpp"
+#include "adjMatrix.hpp"
+#include "searchAlgo.hpp"
 class Graph{
 public:
-    void loadGraph(std::string);
-    int weightGraph();
-    int positionGraph();
+    Graph();
+    ~Graph();
+    void loadGraph(std::string,std::string,std::string);
+    void DFS(std::string,std::string);
     void display();
 private:
+    int depth;
     int weight;
     int position;
-    adjList adj;
+    adjList *adj;
+    adjMatrix *adM;
+    searchAlgo *search;
 };
 #endif /* Graph_hpp */
