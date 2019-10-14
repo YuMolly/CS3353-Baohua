@@ -17,15 +17,16 @@
 class searchAlgo{
 public:
     searchAlgo(int);
-    void SL_DFS(std::vector<std::vector<int>>,int,int);
-    void SM_DFS(adjMatrix*,int,int);
-    void S_BFS(int,int);
-    void S_Dijkstra(int,int);
-    void S_A_star(int,int);
+    void SLr_DFS(std::vector<std::vector<int>>,int,int);
+    void SLi_DFS(std::vector<std::vector<int>>,int,int);
+    void SMr_BFS(std::vector<std::vector<int>>,int,int);
+    void SMi_BFS(std::vector<std::vector<int>>,int,int);
+    void SL_Dijkstra(int,int);
+    void SM_Dijkstra(int,int);
+    void SL_A_star(int,int);
+    void SM_A_star(int,int);
     void display();
 private:
     int size;
-    bool visited[100];
-    std::stack<int>path;
 };
 #endif /* searchAlgo_hpp */

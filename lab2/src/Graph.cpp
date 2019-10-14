@@ -160,12 +160,12 @@ void Graph::DFS(string x,string y){
     des = stoi(y);
     vector<vector<int>> temp1;
     temp1= adj->getList();
-    search->SL_DFS(temp1,scr, des);
+    search->SLi_DFS(temp1,scr, des);
 }
 
 
 void Graph::display(){
     //adj->display();
     //adM->display();
-    search->display();
+    //search->display();
 }

@@ -14,8 +14,8 @@ using namespace std;
 int main(){
     Graph a;
     a.loadGraph("graph.txt","weights.txt","positions.txt");
-    string scr = "2";
-    string des = "6";
+    string scr = "5";
+    string des = "15";
     a.DFS(scr,des);
     a.display();
 }

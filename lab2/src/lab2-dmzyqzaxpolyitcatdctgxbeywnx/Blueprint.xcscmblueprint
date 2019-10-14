@@ -1,0 +1,22 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5235F918ED6C7F6A82EC4E76DEF225BE6E5987B8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "135F9404-6777-46F5-95AE-EF85A198D152",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5235F918ED6C7F6A82EC4E76DEF225BE6E5987B8" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "lab2",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "lab2.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/YuMolly\/CS3353-Baohua.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5235F918ED6C7F6A82EC4E76DEF225BE6E5987B8"
+    }
+  ]
+}
