@@ -20,10 +20,16 @@ public:
     ~Graph();
     void loadGraph(std::string,std::string,std::string);
     void DFS(std::string,std::string);
-    void display();
+    void BFS(std::string,std::string);
+    void Dijkstra(std::string x,std::string y);
+    void Cost(std::string,std::string,float);
+    std::vector<std::vector<float>> getCost();
+    void Stats(std::string);
+    void printcost();
 private:
-    int depth;
-    int weight;
+    int depth;//size for create adjlist and matrix
+    int wei;//size for cost
+    std::vector<std::vector<float>> cost;
     int position;
     adjList *adj;
     adjMatrix *adM;

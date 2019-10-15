@@ -41,18 +41,6 @@ void adjMatrix::addEdge(string scr, string des){
     matrix[row-1][column -1] = 1;
 }
 
-float adjMatrix::Cost(string x,string y,float cost){
-    //int scr,des;
-    //scr = stoi(x);
-    //des = stoi(y);
-    //cout<<"scr is: "<<scr<<endl;
-    //cout<<"des is: "<<des<<endl;
-    //cout<<"cost is: "<<cost<<endl;
-    
-    return totalCost;
-
-}
-
 void adjMatrix::display(){
     for(int i = 0;i<depth;i++){
         for(int j = 0; j<depth;j++){

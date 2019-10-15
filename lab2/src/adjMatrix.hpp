@@ -17,7 +17,7 @@ public:
     adjMatrix(int);
     ~adjMatrix();
     void addEdge(std::string,std::string);
-    float Cost(std::string,std::string,float);
+    //float Cost(std::string,std::string,float);
     void display();
 private:
     int** matrix;

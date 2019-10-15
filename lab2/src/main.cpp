@@ -14,8 +14,11 @@ using namespace std;
 int main(){
     Graph a;
     a.loadGraph("graph.txt","weights.txt","positions.txt");
-    string scr = "5";
-    string des = "15";
-    a.DFS(scr,des);
-    a.display();
+    string scr = "2";
+    string des = "6";
+    //a.DFS(scr,des);
+    //a.BFS(scr, des);
+    a.Dijkstra(scr,des);
+    //a.Stats("Lr_BFS");
+    //a.printcost();
 }

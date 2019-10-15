@@ -18,11 +18,11 @@ using namespace std;
 
 Graph::Graph(){
     depth = 0;
-    weight = 0;
-    position = 0;
+    wei = 0;
     adM = nullptr;
     adj = nullptr;
     search = nullptr;
+    
 }
 
 Graph::~Graph(){
@@ -98,30 +98,39 @@ while(file){
     file.close();
     ////////////
     ////////////
-    /*float weights;
+    float weights;
     int pos1,pos2;
+    int depth1;
     string b;
     string node1,node2;
-    string leave,cost;
+    int n1,n2;
+    string leave,cost1;
     while(w){
         while(getline(w,b)){
             pos1 = b.find(',');
             node1 = b.substr(0,pos1);
+            n1 = stoi(node1);
             leave = b.substr(pos1+1,b.length()-pos1+1);
             pos2 = leave.find(',');
             node2 = leave.substr(0,leave.find(','));
-            cost = leave.substr(pos2+1,leave.length());
-            //cout<<"node1 is:"<<node1<<endl;
-            //cout<<"node2 is:"<<node2<<endl;
-            //cout<<"cost is:"<<cost<<endl;
-            weights = stof(cost);
-            //cout<<"weights is:"<<weights<<endl;
-            
-            //adM->Cost(node1,node2,weights);
+            n2 = stoi(node2);
+            cost1 = leave.substr(pos2+1,leave.length());
+            weights = stof(cost1);
+            //cout<<"weights is :"<<weights<<endl;
+            //depth1++;
+            for(int i = cost.size(); i<n1; i++){
+                vector<float> t1;
+                cost.push_back(t1);
+            }
+            for(int j = cost[n1-1].size();j<n2;j++){
+                cost[n1-1].push_back(0);
+            }
+            cost[n1-1][n2-1] = weights;
+            //Cost(node1,node2,weights);
         }
         
     }
-    w.close();*/
+    w.close();
     //////////
     //////////
     /*int x,y,z;
@@ -150,22 +159,63 @@ while(file){
 }
 
 
+vector<vector<float>> Graph::getCost(){
+    return cost;
+}
+
 void Graph::DFS(string x,string y){
     //select which search algo need to be compile
     int scr,des;
-    searchAlgo*temp;
-    temp = new searchAlgo(depth);
-    search = temp;
     scr = stoi(x);
     des = stoi(y);
+    searchAlgo*Nsearch;
+    Nsearch = new searchAlgo(depth,scr);
+    search = Nsearch;
     vector<vector<int>> temp1;
     temp1= adj->getList();
-    search->SLi_DFS(temp1,scr, des);
+    vector<bool>v(temp1.size(),false);
+    //search->SLr_DFS(&v,temp1, scr, des);
+    //search->SLi_DFS(temp1,scr, des);
+    //search->SLi_BFS(temp1,scr, des);//problem!!
 }
 
+void Graph::BFS(string x,string y){
+    int scr,des;
+    scr = stoi(x);
+    des = stoi(y);
+    searchAlgo*Nsearch;
+    Nsearch = new searchAlgo(depth,scr);
+    search = Nsearch;
+    vector<vector<int>> temp1;
+    temp1= adj->getList();
+    vector<bool>v(temp1.size(),false);
+    //search->SLi_BFS(temp1,scr, des);
+    search->SLr_BFS(&v,temp1,scr,des);
+}
 
-void Graph::display(){
-    //adj->display();
-    //adM->display();
-    //search->display();
+void Graph::Dijkstra(string x,string y){
+    int scr,des;
+    scr = stoi(x);
+    des = stoi(y);
+    searchAlgo*Nsearch;
+    Nsearch = new searchAlgo(depth,scr);
+    search = Nsearch;
+    vector<vector<int>> temp1;
+    temp1= adj->getList();
+    search->SL_Dijkstra(&cost, temp1, scr, des);
+}
+void Graph::Stats(string methodName){
+    //adj->Stats();
+    //adM->Stats();
+    //search->Stats(methodName);
+}
+
+void Graph::printcost(){
+    for(int i = 0;i<cost.size();i++){
+        
+        for(int j=0;j<cost[i].size();j++){
+            cout<<"From node :"<<i;
+            cout<<" -> "<<j<<" cost is: "<< cost[i][j]<<endl;
+        }
+    }
 }
