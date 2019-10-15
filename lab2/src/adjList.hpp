@@ -22,10 +22,7 @@ public:
     float Cost(std::string,std::string,float);
     void display();
 private:
-    //Node*head;
-    float totalCost;
     std::vector<std::vector<int>> adj_list;
-    //int depth;
-    //int counter;
+
 };
 #endif /* adjList_hpp */

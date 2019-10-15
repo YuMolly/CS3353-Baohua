@@ -13,8 +13,10 @@ using namespace std;
 
 adjMatrix::adjMatrix(int size){
     int** temp = new int*[size];
+    column_Size[size];
     for(int i = 0; i < size; i++){
         temp[i] = new int[size];
+        
     }
     matrix = temp;
     for (int i = 0; i< size; i++){
@@ -41,6 +43,27 @@ void adjMatrix::addEdge(string scr, string des){
     matrix[row-1][column -1] = 1;
 }
 
+int* adjMatrix::columnSize(){
+    int counter;
+    for(int i =0;i<depth;i++){
+        counter = 0;
+        for(int j = 0;j<depth;j++){
+            if(matrix[i][j] == 1){
+                counter++;
+            }
+        }
+        column_Size[i] = counter;
+        //cout<<"row is:"<<i<<"column size is: "<<counter<<endl;
+    }
+    return column_Size;
+}
+
+int ** adjMatrix::getMatrix(){
+    return matrix;
+}
+int adjMatrix::getMatrixSize(){
+    return depth;
+}
 void adjMatrix::display(){
     for(int i = 0;i<depth;i++){
         for(int j = 0; j<depth;j++){

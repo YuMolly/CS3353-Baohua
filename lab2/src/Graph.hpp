@@ -19,9 +19,9 @@ public:
     Graph();
     ~Graph();
     void loadGraph(std::string,std::string,std::string);
-    void DFS(std::string,std::string);
-    void BFS(std::string,std::string);
-    void Dijkstra(std::string x,std::string y);
+    void DFS(int,int);
+    void BFS(int,int);
+    void Dijkstra(int,int);
     void Cost(std::string,std::string,float);
     std::vector<std::vector<float>> getCost();
     void Stats(std::string);

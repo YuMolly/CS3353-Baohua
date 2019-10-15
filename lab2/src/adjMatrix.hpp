@@ -17,12 +17,15 @@ public:
     adjMatrix(int);
     ~adjMatrix();
     void addEdge(std::string,std::string);
+    int** getMatrix();
+    int getMatrixSize();
+    int*columnSize();//count each scr has how mant child
     //float Cost(std::string,std::string,float);
     void display();
 private:
     int** matrix;
     int depth;
     float totalCost;
-    
+    int column_Size[100];
 };
 #endif /* adjMatrix_hpp */

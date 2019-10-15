@@ -79,7 +79,7 @@ while(file){
     }
 }
     //for adjMatrix
-    /*string temp,scr,des;
+    string temp,scr,des;
     int pos;
     temp1 = new adjMatrix(depth);
     adM = temp1;
@@ -94,7 +94,7 @@ while(file){
         }
         adM->addEdge(scr, temp);
         
-    }*/
+    }
     file.close();
     ////////////
     ////////////
@@ -163,51 +163,57 @@ vector<vector<float>> Graph::getCost(){
     return cost;
 }
 
-void Graph::DFS(string x,string y){
+void Graph::DFS(int scr,int des){
     //select which search algo need to be compile
-    int scr,des;
-    scr = stoi(x);
-    des = stoi(y);
     searchAlgo*Nsearch;
     Nsearch = new searchAlgo(depth,scr);
     search = Nsearch;
-    vector<vector<int>> temp1;
+    vector<vector<int>> temp1;//get adjlist
+    int ** temp2;//get adjmatrix
+    int matrixS;//get matrix size
     temp1= adj->getList();
+    temp2 = adM->getMatrix();
+    matrixS = adM->getMatrixSize();
+    int* columnSize = adM->columnSize();
     vector<bool>v(temp1.size(),false);
     //search->SLr_DFS(&v,temp1, scr, des);
     //search->SLi_DFS(temp1,scr, des);
-    //search->SLi_BFS(temp1,scr, des);//problem!!
+    //search->SMr_DFS(&v, temp2, matrixS,scr, des);
+    //search->SMi_DFS(temp2,columnSize,matrixS, scr, des);
 }
 
-void Graph::BFS(string x,string y){
-    int scr,des;
-    scr = stoi(x);
-    des = stoi(y);
+void Graph::BFS(int scr,int des){
+    //select which search algo need to be compile
     searchAlgo*Nsearch;
     Nsearch = new searchAlgo(depth,scr);
     search = Nsearch;
-    vector<vector<int>> temp1;
+    vector<vector<int>> temp1;//get adjlist
+    int ** temp2;//get adjmatrix
+    int matrixS;//get matrix size
     temp1= adj->getList();
+    temp2 = adM->getMatrix();
+    matrixS = adM->getMatrixSize();
+    int* columnSize = adM->columnSize();
     vector<bool>v(temp1.size(),false);
-    //search->SLi_BFS(temp1,scr, des);
-    search->SLr_BFS(&v,temp1,scr,des);
+    //search->SLr_BFS(&v,temp1,scr,des);
+    search->SLi_BFS(temp1,scr, des);//problem!
+    //search->SMr_BFS(&v, temp2, matrixS,scr, des);
+    //search->SMi_BFS(temp2,columnSize,matrixS, scr, des);
 }
 
-void Graph::Dijkstra(string x,string y){
-    int scr,des;
-    scr = stoi(x);
-    des = stoi(y);
+void Graph::Dijkstra(int scr,int des){
     searchAlgo*Nsearch;
     Nsearch = new searchAlgo(depth,scr);
     search = Nsearch;
     vector<vector<int>> temp1;
     temp1= adj->getList();
-    search->SL_Dijkstra(&cost, temp1, scr, des);
+    //search->SL_Dijkstra(&cost, temp1, scr, des);
+    //search->SM_Dijkstra(&cost,temp1,scr,des);
 }
 void Graph::Stats(string methodName){
     //adj->Stats();
     //adM->Stats();
-    //search->Stats(methodName);
+    search->Stats(methodName);
 }
 
 void Graph::printcost(){

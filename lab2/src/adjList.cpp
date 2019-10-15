@@ -17,7 +17,6 @@ adjList::adjList(){
     vector<vector<int>> temp1;
     temp1.push_back(temp);
     adj_list = temp1;
-    totalCost = 0.0;
 }
 void adjList::addEdge(string scr,string des){
     int head;
@@ -34,9 +33,7 @@ std::vector<std::vector<int>> adjList::getList(){
     return adj_list;
 }
 
-float adjList::Cost(string x, string y, float cost){
-    return totalCost;
-}
+
 
 void adjList::display(){
     for(int i = 0;i<adj_list.size();i++){
