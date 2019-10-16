@@ -191,18 +191,20 @@ void Graph::DFS(int scr,int des){
     int* columnSize = adM->columnSize();
     vector<bool>v(temp1.size(),false);//SET
     
-    t_1 = high_resolution_clock::now();
-    search->SLr_DFS(&v,&node_position,temp1, scr, des);//recusive
-    t_2 = high_resolution_clock::now();
-    time_span_1 = duration_cast<duration<double>>(t_2 - t_1);
-    //string functionName = "The method is: adList in DFS of recusive method";
-    time.push_back(make_pair("The method is: adList in DFS of recusive method", time_span_1.count()));
+    
     
     t_1 = high_resolution_clock::now();
     search->SLi_DFS(temp1,&node_position, &cost,scr, des);//iterative
     t_2 = high_resolution_clock::now();
     time_span_1 = duration_cast<duration<double>>(t_2 - t_1);
     time.push_back(make_pair("The method is: adList in DFS of iterative method", time_span_1.count()));
+    
+    t_1 = high_resolution_clock::now();
+    search->SLr_DFS(&v,&node_position,temp1, scr, des);//recusive
+    t_2 = high_resolution_clock::now();
+    time_span_1 = duration_cast<duration<double>>(t_2 - t_1);
+    //string functionName = "The method is: adList in DFS of recusive method";
+    time.push_back(make_pair("The method is: adList in DFS of recusive method", time_span_1.count()));
     
     vector<bool>v1(temp1.size(),false);//RESET
     t_1 = high_resolution_clock::now();
@@ -299,7 +301,7 @@ void Graph::A_star(int scr, int des){
     time_span_1 = duration_cast<duration<double>>(t_2 - t_1);
     time.push_back(make_pair("The method is: adList in A* method", time_span_1.count()));
     
-     t_1 = high_resolution_clock::now();
+    t_1 = high_resolution_clock::now();
     search->SM_A_star(&node_position,&cost,temp2,matrixS,scr,des);
     t_2 = high_resolution_clock::now();
     time_span_1 = duration_cast<duration<double>>(t_2 - t_1);

@@ -15,6 +15,7 @@
 #include <queue>
 #include <functional>
 #include <cmath>
+#include <fstream>
 using namespace std;
 using namespace std::chrono;
 
@@ -29,32 +30,11 @@ searchAlgo::searchAlgo(int x,int scr){
     q_c2.push(scr);//queue contanier for recusive matrix on BFS
 }
 
-void searchAlgo::SLr_DFS(vector<bool>*visited, vector<vector<int>>* position,vector<vector<int>> adj, int scr,int des){
-    
-    int c;
-    if((*visited)[des-1]){
-        return;
-    }
-    else{
-        if(!(*visited)[scr-1])
-            (*visited)[scr-1] = true;
-        
-        for(int i =0;i<adj[scr-1].size();++i){
-            c = adj[scr-1][i];
-            if(!(*visited)[c-1] && c != 0){
-                if((*visited)[des-1] == false){
-                    (*visited)[c-1] = true;
-                    path_r.push_back(c);
-                }
-                SLr_DFS(visited,position,adj, c, des);
-            }
-        }
-    }
-   
-}
+
 
 void searchAlgo::SLi_DFS(vector<vector<int>> adj, vector<vector<int>>* position,vector<vector<float>>* cost,int scr,int des){
-   
+    fstream output;
+    output.open("OutputFile.txt");
     vector<bool> visited(adj.size(),false);
     stack<int>path;// not private valuable exist only in function
     path.push(scr);
@@ -111,6 +91,28 @@ void searchAlgo::SLi_DFS(vector<vector<int>> adj, vector<vector<int>>* position,
     costCal(retured_path,position, cost);
 }
 
+void searchAlgo::SLr_DFS(vector<bool>*visited, vector<vector<int>>* position,vector<vector<int>> adj, int scr,int des){
+    int c;
+    if((*visited)[des-1]){
+        return;
+    }
+    else{
+        if(!(*visited)[scr-1])
+            (*visited)[scr-1] = true;
+        
+        for(int i =0;i<adj[scr-1].size();++i){
+            c = adj[scr-1][i];
+            if(!(*visited)[c-1] && c != 0){
+                if((*visited)[des-1] == false){
+                    (*visited)[c-1] = true;
+                    path_r.push_back(c);
+                }
+                SLr_DFS(visited,position,adj, c, des);
+            }
+        }
+    }
+    
+}
 void searchAlgo::SMr_DFS(vector<bool>*visited, vector<vector<int>>* position, int** adM,int Msize,int scr,int des){
    
     int c;
@@ -411,10 +413,11 @@ void searchAlgo::SM_Dijkstra(vector<vector<float>>* cost,vector<vector<int>>* po
                 }
             }
         }
+        cout<<".";
     }
     path.push_back(des);
     printS_D_A(path,position,cost,scr,des);
-   
+    Fn(path, position, cost,Msize);
 }
 
 void searchAlgo::SL_A_star(vector<vector<int>>* position,vector<vector<float>>* cost,vector<vector<int>> adj,int scr, int des){
@@ -467,7 +470,8 @@ void searchAlgo::SL_A_star(vector<vector<int>>* position,vector<vector<float>>* 
     }
     path.push_back(des);
     printS_D_A(path,position,cost,scr,des);
-    
+    cout<<"Print F(n) for A* method in adjList:";
+    Fn(path, position, cost,n);
 }
 
 void searchAlgo::SM_A_star(vector<vector<int>>* position,vector<vector<float>>* cost,int** adM,int Msize,int scr, int des){
@@ -531,7 +535,8 @@ void searchAlgo::SM_A_star(vector<vector<int>>* position,vector<vector<float>>* 
     }
     path.push_back(des);
     printS_D_A(path,position,cost,scr,des);
-   
+    cout<<"Print F(n) for A* method in adjMatrix:";
+    Fn(path, position, cost,Msize);
 }
 
 void searchAlgo::printS_D_A(vector<int>p,vector<vector<int>>* position,vector<vector<float>>* cost,int scr,int des){
@@ -547,8 +552,31 @@ void searchAlgo::printS_D_A(vector<int>p,vector<vector<int>>* position,vector<ve
     
 }
 
+void searchAlgo::Fn(std::vector<int>p, std::vector<std::vector<int> > *position, std::vector<std::vector<float> > *cost,int size){
+    cout<<"F(n) = distance(1+cost)"<<endl;
+    int n,n1 = 0;
+    float totalCost =0.0;
+    float dist = 0;
+    int power = 2;
+    float x,x1;
+    float y,y1;
+    float z,z1;
+    for(int i = 0;i<size-1;i++){
+        totalCost=(*cost)[i][i+1];
+        x = (*position)[i][0];
+        y = (*position)[i][1];
+        z = (*position)[i][2];
+        x1 = (*position)[i+1][0];
+        y1 = (*position)[i+1][1];
+        z1 = (*position)[i+1][2];
+        dist = pow((x1-x),power)+pow((y1-y),power)+pow((z1-z),power);
+        cout<<"F("<<i+1<<")="<<dist*(totalCost+1)<<endl;
+    }
+    cout<<endl;
+}
+
 float searchAlgo::costCal(vector<int> path,vector<vector<int>>* position, vector<vector<float> > * cost){
-    int n,n1;
+    int n,n1=0;
     float totalCost =0.0;
     int dist = 0;
     int power = 2;

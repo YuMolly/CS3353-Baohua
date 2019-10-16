@@ -19,8 +19,8 @@
 class searchAlgo{
 public:
     searchAlgo(int,int);
-    void SLr_DFS(std::vector<bool>*,std::vector<std::vector<int>>*,std::vector<std::vector<int>>,int,int);
     void SLi_DFS(std::vector<std::vector<int>>,std::vector<std::vector<int>>*,std::vector<std::vector<float>>*,int,int);
+    void SLr_DFS(std::vector<bool>*,std::vector<std::vector<int>>*,std::vector<std::vector<int>>,int,int);
     void SMr_DFS(std::vector<bool>*,std::vector<std::vector<int>>*,int**,int,int,int);
     void SMi_DFS(int**,std::vector<std::vector<int>>*,std::vector<std::vector<float>>*,int*,int,int,int);
     
@@ -40,6 +40,7 @@ public:
     //void printS_A(std::vector<int>,std::vector<std::vector<float>>*, int ,int);
     
     float costCal(std::vector<int>,std::vector<std::vector<int>>*,std::vector<std::vector<float>>*);
+    void Fn(std::vector<int>,std::vector<std::vector<int>>*,std::vector<std::vector<float>>*,int);
     //int distanceCal(std::vector<int>);
     void Stats(std::string,std::vector<std::vector<int>>*,std::vector<std::vector<float>>* );
 private:

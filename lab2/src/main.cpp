@@ -14,7 +14,8 @@ using namespace std;
 
 int main(int argc, char** argv){
     Graph a;
-    a.loadGraph("graph.txt","weights.txt","positions.txt");
+    
+    a.loadGraph("largeGraph.txt","largeWeights.txt","largePositions.txt");
     
     //for test
     for(int i = 0;i<100;i++){//run 100 times
@@ -29,7 +30,7 @@ int main(int argc, char** argv){
     des = stoi(y);
     //a.DFS(scr,des);
     //a.BFS(scr, des);
-    a.Dijkstra(scr,des);
+    //a.Dijkstra(scr,des);
     a.A_star(scr, des);
     //a.Stats("Lr_DFS");
     //a.Stats("Lr_BFS");
