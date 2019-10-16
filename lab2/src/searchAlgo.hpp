@@ -19,28 +19,29 @@
 class searchAlgo{
 public:
     searchAlgo(int,int);
-    void SLr_DFS(std::vector<bool>*,std::vector<std::vector<int>>,int,int);
-    void SLi_DFS(std::vector<std::vector<int>>,int,int);
-    void SMr_DFS(std::vector<bool>*,int**,int,int,int);
-    void SMi_DFS(int**,int*,int,int,int);
+    void SLr_DFS(std::vector<bool>*,std::vector<std::vector<int>>*,std::vector<std::vector<int>>,int,int);
+    void SLi_DFS(std::vector<std::vector<int>>,std::vector<std::vector<int>>*,std::vector<std::vector<float>>*,int,int);
+    void SMr_DFS(std::vector<bool>*,std::vector<std::vector<int>>*,int**,int,int,int);
+    void SMi_DFS(int**,std::vector<std::vector<int>>*,std::vector<std::vector<float>>*,int*,int,int,int);
     
-    void SLr_BFS(std::vector<bool>*,std::vector<std::vector<int>>,int,int);
-    void SLi_BFS(std::vector<std::vector<int>>,int,int);
-    void SMr_BFS(std::vector<bool>*,int**,int,int,int);
-    void SMi_BFS(int**,int*,int,int,int);
+    void SLr_BFS(std::vector<bool>*,std::vector<std::vector<int>>*,std::vector<std::vector<int>>,int,int);
+    void SLi_BFS(std::vector<std::vector<int>>,std::vector<std::vector<int>>*,std::vector<std::vector<float>>*,int,int);
+    void SMr_BFS(std::vector<bool>*,std::vector<std::vector<int>>*,int**,int,int,int);
+    void SMi_BFS(int**,std::vector<std::vector<int>>*,std::vector<std::vector<float>>*,int*,int,int,int);
     
-    void SL_Dijkstra(std::vector<std::vector<float>>*,std::vector<std::vector<int>>,int,int);
-    void SM_Dijkstra(std::vector<std::vector<float>>*,int**,int,int,int);
-    void printS_Dijkstra(std::vector<int>,std::vector<std::vector<float>>*, int ,int);
+    void SL_Dijkstra(std::vector<std::vector<float>>*,std::vector<std::vector<int>>*,std::vector<std::vector<int>>,int,int);
+    void SM_Dijkstra(std::vector<std::vector<float>>*,std::vector<std::vector<int>>*,int**,int,int,int);
+    void printS_Dijkstra(std::vector<int>,std::vector<std::vector<int>>*,std::vector<std::vector<float>>*, int ,int);
     
     void SL_A_star(std::vector<std::vector<int>>*,std::vector<std::vector<float>>*,std::vector<std::vector<int>>,int,int);
     void SM_A_star(std::vector<std::vector<int>>*,std::vector<std::vector<float>>*,int**,int,int,int);
     
-    void printS_D_A(std::vector<int>,std::vector<std::vector<float>>*, int ,int);
+    void printS_D_A(std::vector<int>,std::vector<std::vector<int>>*,std::vector<std::vector<float>>*, int ,int);
     //void printS_A(std::vector<int>,std::vector<std::vector<float>>*, int ,int);
     
-    float costCal(std::vector<int>,std::vector<std::vector<float>>*);
-    void Stats(std::string);
+    float costCal(std::vector<int>,std::vector<std::vector<int>>*,std::vector<std::vector<float>>*);
+    //int distanceCal(std::vector<int>);
+    void Stats(std::string,std::vector<std::vector<int>>*,std::vector<std::vector<float>>* );
 private:
     std::vector<int>path_r;//LIST_DFS_r
     std::vector<int>path_b;//LIST_BFS_r

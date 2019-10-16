@@ -38,5 +38,9 @@ private:
     adjList *adj;
     adjMatrix *adM;
     searchAlgo *search;
+    std::chrono::duration<double> time_span_1;
+    std::chrono::high_resolution_clock::time_point t_1;
+    std::chrono::high_resolution_clock::time_point t_2;
+    std::vector<std::pair<std::string, double>> time;
 };
 #endif /* Graph_hpp */
