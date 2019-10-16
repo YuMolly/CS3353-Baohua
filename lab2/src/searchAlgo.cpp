@@ -450,22 +450,22 @@ void searchAlgo::SL_A_star(vector<vector<int>>* position,vector<vector<float>>* 
     
     pq.push(make_pair(scr,dist));
     distance[scr-1] = dist;//for scr which has 'dist' distance to des
-    while((pq.empty() == false)&&(distance[scr-1]-distance[des-1] == 0)){
+    while((pq.empty() == false)){
         int parent = pq.top().first;
         path.push_back(parent);
         //cout<<"parent IS: "<<parent<<endl;//==scr
         //cout<<"parent distance is: "<<endl;
         pq.pop();
-        for(int i = 0; i<adj[parent-1].size();i++){
+        for(int i = 1; i<adj[parent-1].size();i++){
             int child = adj[parent-1][i];
             x = (*position)[child-1][0];
             y = (*position)[child-1][1];
             z = (*position)[child-1][2];
             dist= pow((x1-x),power)+pow((y1-y),power)+pow((z1-z),power);
-            distance[child-1] = dist;
             
             
-            if(distance[child-1] < distance[parent-1]){
+            if(distance[child-1] == 1000000){
+                distance[child-1] = dist;
                 //cout<<"distance child is: "<<distance[child-1]<<endl;
                 pq.push(make_pair(child,distance[child-1]));
             }
