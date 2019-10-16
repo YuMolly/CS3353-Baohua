@@ -16,6 +16,7 @@
 #include <functional>
 #include <cmath>
 using namespace std;
+using namespace std::chrono;
 
 searchAlgo::searchAlgo(int x,int scr){
     totalCost = 0.0;
@@ -29,6 +30,7 @@ searchAlgo::searchAlgo(int x,int scr){
 }
 
 void searchAlgo::SLr_DFS(vector<bool>*visited, vector<vector<int>> adj, int scr,int des){
+    t1 = high_resolution_clock::now();
     int c;
     if((*visited)[des-1]){
         return;
@@ -48,15 +50,17 @@ void searchAlgo::SLr_DFS(vector<bool>*visited, vector<vector<int>> adj, int scr,
             }
         }
     }
+    t2 = high_resolution_clock::now();
+    time_span = duration_cast<duration<double>>(t2 - t1);
 }
 
 void searchAlgo::SLi_DFS(vector<vector<int>> adj, int scr,int des){
+    t1 = high_resolution_clock::now();
     vector<bool> visited(adj.size(),false);
     stack<int>path;// not private valuable exist only in function
     path.push(scr);
     int temp1;
     int count;
-    int counter = -1;
    while(!visited[des-1]){
         count = 0;
         for(int j = 0;j<adj[scr-1].size();j++){
@@ -73,8 +77,8 @@ void searchAlgo::SLi_DFS(vector<vector<int>> adj, int scr,int des){
             if(!visited[scr-1]){
                 visited[scr-1] = true;
             }
-        
-            for (int i = 0; i <= adj[scr-1].size(); ++i){
+            int counter = -1;
+            for (int i = 0; i < adj[scr-1].size(); ++i){
                 counter++;
                 int temp = adj[scr-1][counter];//temp
                 if (!visited[temp-1]){
@@ -103,16 +107,18 @@ void searchAlgo::SLi_DFS(vector<vector<int>> adj, int scr,int des){
         s.pop();
     }
     cout<<endl;
+    t2 = high_resolution_clock::now();
+    time_span = duration_cast<duration<double>>(t2 - t1);
 }
 
 void searchAlgo::SMr_DFS(vector<bool>*visited,int** adM, int Msize,int scr,int des){
+    t1 = high_resolution_clock::now();
     int c;
     if((*visited)[des-1]){
         return;
     }
     else{
-        if(!(*visited)[scr-1])
-            (*visited)[scr-1] = true;
+        (*visited)[scr-1] = true;
 
         for(int i =0;i<Msize;++i){
             c = adM[scr-1][i];// =0,1
@@ -126,9 +132,12 @@ void searchAlgo::SMr_DFS(vector<bool>*visited,int** adM, int Msize,int scr,int d
             }
         }
     }
+    t2 = high_resolution_clock::now();
+    time_span = duration_cast<duration<double>>(t2 - t1);
 }
 
 void searchAlgo::SMi_DFS(int** adM, int* columnS,int Msize,int scr,int des){
+    t1 = high_resolution_clock::now();
     vector<bool> visited(Msize,false);
     stack<int>path;
     path.push(scr);
@@ -149,7 +158,7 @@ void searchAlgo::SMi_DFS(int** adM, int* columnS,int Msize,int scr,int des){
         }
         
         scr = path.top();
-        cout<<"The scr is: "<<scr<<endl;
+        //cout<<"The scr is: "<<scr<<endl;
         if(!visited[scr-1]){
             visited[scr-1] = true;
         }
@@ -157,13 +166,13 @@ void searchAlgo::SMi_DFS(int** adM, int* columnS,int Msize,int scr,int des){
         for (int i = 0; i < Msize; ++i){
             counter++;
             int temp = adM[scr-1][counter];
-            cout<<"i is: "<<i<<endl;
+            //cout<<"i is: "<<i<<endl;
             visited[scr-1] = true;
             if (!visited[counter]&& temp !=0){
                 i = 0;
                 scr = counter+1;
                 path.push(scr);
-                cout<<"push what: "<<scr<<endl;
+                //cout<<"push what: "<<scr<<endl;
                 //visited[scr-1] = true;
                 
                 counter = -1;
@@ -189,9 +198,12 @@ void searchAlgo::SMi_DFS(int** adM, int* columnS,int Msize,int scr,int des){
         s.pop();
     }
     cout<<endl;
+    t2 = high_resolution_clock::now();
+    time_span = duration_cast<duration<double>>(t2 - t1);
 }
 
 void searchAlgo::SLr_BFS(vector<bool> *visited,vector<vector<int>>adj,int scr,int des){
+    t1 = high_resolution_clock::now();
     int c;
     if((*visited)[des-1]){
         //path_b.push_back(c);
@@ -219,9 +231,12 @@ void searchAlgo::SLr_BFS(vector<bool> *visited,vector<vector<int>>adj,int scr,in
         //cout<<"c is: "<<c<<endl;
         SLr_BFS(visited,adj,c,des);
     }
+    t2 = high_resolution_clock::now();
+    time_span = duration_cast<duration<double>>(t2 - t1);
 }
 
 void searchAlgo::SLi_BFS(vector<vector<int>>adj,int scr,int des){
+    t1 = high_resolution_clock::now();
     vector<bool> visited(adj.size(),false);
     queue<int>path;
     vector<int>p;//create another vector to store the path
@@ -250,14 +265,17 @@ void searchAlgo::SLi_BFS(vector<vector<int>>adj,int scr,int des){
         scr = path.front();
     }
     p.push_back(des);
-    cout<<"The path is: ";
+    cout<<"The iterative path for adjMatrix in BFS is: ";
     for(int j = 0;j<p.size();j++){
         cout<<p[j]<<" ";
     }
-    
+    cout<<endl;
+    t2 = high_resolution_clock::now();
+    time_span = duration_cast<duration<double>>(t2 - t1);
 }
 
 void searchAlgo::SMr_BFS(vector<bool>*visited, int**adM,int Msize, int scr,int des){
+    t1 = high_resolution_clock::now();
     int c;
     //q_c2.push(scr);
     if((*visited)[des-1]){
@@ -285,12 +303,15 @@ void searchAlgo::SMr_BFS(vector<bool>*visited, int**adM,int Msize, int scr,int d
         q_c2.pop();
         //scr = q_c2.front();
         path_m.push_back(scr);
-        cout<<"scr is: "<<scr<<endl;
+        //cout<<"scr is: "<<scr<<endl;
         SMr_BFS(visited,adM,Msize,scr,des);
     }
+    t2 = high_resolution_clock::now();
+    time_span = duration_cast<duration<double>>(t2 - t1);
 }
 
 void searchAlgo::SMi_BFS(int**adM,int* columns,int Msize,int scr,int des){
+    t1 = high_resolution_clock::now();
     vector<bool> visited(Msize,false);
     queue<int>path;
     vector<int>p;//create another vector to store the path
@@ -321,13 +342,17 @@ void searchAlgo::SMi_BFS(int**adM,int* columns,int Msize,int scr,int des){
         scr = path.front();
     }
     p.push_back(des);
-    cout<<"The path is: ";
+    cout<<"The iterative path for adjMatrix in BFS is: ";
     for(int j = 0;j<p.size();j++){
         cout<<p[j]<<" ";
     }
+    cout<<endl;
+    t2 = high_resolution_clock::now();
+    time_span = duration_cast<duration<double>>(t2 - t1);
 }
 
 void searchAlgo::SL_Dijkstra(vector<vector<float>>* cost, vector<vector<int>> adj, int scr, int des){
+    t1 = high_resolution_clock::now();
     cout<<"Dijkstra method on adjlist. From "<<scr<<" to "<<des;
     vector<int>path;//record for the shortest path
     vector<float> distance;//to store cost
@@ -357,9 +382,12 @@ void searchAlgo::SL_Dijkstra(vector<vector<float>>* cost, vector<vector<int>> ad
     }
     path.push_back(des);
     printS_D_A(path,cost,scr,des);
+    t2 = high_resolution_clock::now();
+    time_span = duration_cast<duration<double>>(t2 - t1);
 }
 
 void searchAlgo::SM_Dijkstra(vector<vector<float>>* cost,int** adM,int Msize,int scr, int des){
+    t1 = high_resolution_clock::now();
     cout<<"Dijkstra method on adjMatrix. From "<<scr<<" to "<<des;
     vector<int>path;//record for the shortest path
     vector<float> distance;//to store cost
@@ -392,9 +420,12 @@ void searchAlgo::SM_Dijkstra(vector<vector<float>>* cost,int** adM,int Msize,int
     }
     path.push_back(des);
     printS_D_A(path,cost,scr,des);
+    t2 = high_resolution_clock::now();
+    time_span = duration_cast<duration<double>>(t2 - t1);
 }
 
 void searchAlgo::SL_A_star(vector<vector<int>>* position,vector<vector<float>>* cost,vector<vector<int>> adj,int scr, int des){
+    t1 = high_resolution_clock::now();
     cout<<"A* method on adjlist. From "<<scr<<" to "<<des;
     vector<int>path;//record for the shortest path
     vector<int> distance;//to store cost
@@ -413,9 +444,9 @@ void searchAlgo::SL_A_star(vector<vector<int>>* position,vector<vector<float>>* 
     dist = pow((x1-x),power)+pow((y1-y),power)+pow((z1-z),power);//the distance from scr to des(max)
     for(int i = 0; i<n;i++){
         //intialize all scr to des are the max
-        distance.push_back(dist);
+        distance.push_back(1000000);
     }
-    priority_queue<pair<int,int>> pq;
+    priority_queue<pair<int,int>,vector< pair<int, int> >, greater<pair<int, int>> > pq;
     
     pq.push(make_pair(scr,dist));
     distance[scr-1] = dist;//for scr which has 'dist' distance to des
@@ -432,17 +463,23 @@ void searchAlgo::SL_A_star(vector<vector<int>>* position,vector<vector<float>>* 
             z = (*position)[child-1][2];
             dist= pow((x1-x),power)+pow((y1-y),power)+pow((z1-z),power);
             distance[child-1] = dist;
+            
+            
             if(distance[child-1] < distance[parent-1]){
                 //cout<<"distance child is: "<<distance[child-1]<<endl;
                 pq.push(make_pair(child,distance[child-1]));
             }
         }
+        cout<<".";
     }
     path.push_back(des);
     printS_D_A(path,cost,scr,des);
+    t2 = high_resolution_clock::now();
+    time_span = duration_cast<duration<double>>(t2 - t1);
 }
 
 void searchAlgo::SM_A_star(vector<vector<int>>* position,vector<vector<float>>* cost,int** adM,int Msize,int scr, int des){
+    t1 = high_resolution_clock::now();
     cout<<"A* method on adjMatrix. From "<<scr<<" to "<<des;
     vector<int>path;//record for the shortest path
     vector<int> distance;//to store cost
@@ -466,7 +503,7 @@ void searchAlgo::SM_A_star(vector<vector<int>>* position,vector<vector<float>>* 
         //intialize all scr to des are the max
         distance.push_back(10000000);
     }
-    priority_queue<pair<int,int>> pq;
+    priority_queue<pair<int,int>,vector< pair<int, int> >, greater<pair<int, int> >> pq;
     
     pq.push(make_pair(scr,dist));
     distance[scr-1] = dist;//for scr which has 'dist' distance to des
@@ -498,9 +535,12 @@ void searchAlgo::SM_A_star(vector<vector<int>>* position,vector<vector<float>>* 
                 }
             }
         }
+        cout<<".";
     }
     path.push_back(des);
     printS_D_A(path,cost,scr,des);
+    t2 = high_resolution_clock::now();
+    time_span = duration_cast<duration<double>>(t2 - t1);
 }
 
 void searchAlgo::printS_D_A(vector<int>p,vector<vector<float>>* cost,int scr,int des){
@@ -517,7 +557,7 @@ void searchAlgo::printS_D_A(vector<int>p,vector<vector<float>>* cost,int scr,int
 
 float searchAlgo::costCal(vector<int> path, vector<vector<float> > * cost){
     int n,n1;
-    float totalCost;
+    float totalCost =0.0;
     for(int i = 0;i<path.size()-1;i++){
         n = path[i];
         n1 = path[i+1];
@@ -529,25 +569,33 @@ float searchAlgo::costCal(vector<int> path, vector<vector<float> > * cost){
 }
 
 void searchAlgo::Stats(string methodName){
-    cout<<"The recusive path is: ";
+    
     if(methodName == "Lr_DFS"){
+        cout<<"The recusive path is: Lr_DFS"<<endl;
         for(int i = 0;i<path_r.size();i++){
         cout<<path_r[i]<<" ";
        }
+        cout<<endl;
     }
     else if (methodName == "Lr_BFS"){
+        cout<<"The recusive path is: Lr_BFS"<<endl;
         for(int i = 0;i<path_b.size();i++){
             cout<<path_b[i]<<" ";
         }
+        cout<<endl;
     }
     else if (methodName == "Mr_DFS"){
+        cout<<"The recusive path is: Mr_DFS"<<endl;
         for(int i = 0;i<path_d.size();i++){
             cout<<path_d[i]<<" ";
         }
+        cout<<endl;
     }
     else if (methodName == "Mr_BFS"){
+        cout<<"The recusive path is: Mr_BFS"<<endl;
         for(int i = 0;i<path_m.size();i++){
             cout<<path_m[i]<<" ";
         }
+        cout<<endl;
     }
 }

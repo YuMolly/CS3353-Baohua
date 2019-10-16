@@ -11,11 +11,12 @@
 #include "Graph.hpp"
 using namespace std;
 
-int main(){
+int main(int argc, char** argv){
     Graph a;
-    a.loadGraph("graph.txt","weights.txt","positions.txt");
-    string x =  "1";//"1"
-    string y = "12";//"11"
+    a.loadGraph("largeGraph.txt","largeWeights.txt","largePositions.txt");
+    
+    string x =  argv[1];
+    string y =  argv[2];
     int scr,des;
     scr = stoi(x);
     des = stoi(y);
@@ -24,6 +25,9 @@ int main(){
     //a.Dijkstra(scr,des);
     a.A_star(scr, des);
     //a.Stats("Lr_DFS");
+    //a.Stats("Lr_BFS");
+    //a.Stats("Mr_DFS");
+    //a.Stats("Mr_BFS");
     //a.printcost();
     //a.printPosition();
 }

@@ -52,5 +52,8 @@ private:
     std::queue<int>q_c2;//Matrix_BFS_r queue contanier
     int size;
     float totalCost;
+    std::chrono::duration<double> time_span;
+    std::chrono::high_resolution_clock::time_point t1;
+    std::chrono::high_resolution_clock::time_point t2;
 };
 #endif /* searchAlgo_hpp */

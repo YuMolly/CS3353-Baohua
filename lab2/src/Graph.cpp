@@ -27,8 +27,8 @@ Graph::Graph(){
 
 Graph::~Graph(){
     delete adM;
-    delete adj;
-    delete search;
+    //delete adj;
+    //delete search;
 }
 
 void Graph::loadGraph(string filename,string weight,string position){
@@ -83,8 +83,7 @@ while(file){
     //for adjMatrix
     string temp,scr,des;
     int pos;
-    temp1 = new adjMatrix(depth);
-    adM = temp1;
+    adM = new adjMatrix(depth);
     for(int i = 0; i<depth;i++){
         scr = header[i];
         temp = child[i];//15,12...
@@ -188,11 +187,12 @@ void Graph::DFS(int scr,int des){
     temp2 = adM->getMatrix();
     matrixS = adM->getMatrixSize();
     int* columnSize = adM->columnSize();
-    vector<bool>v(temp1.size(),false);
+    vector<bool>v(temp1.size(),false);//SET
     search->SLr_DFS(&v,temp1, scr, des);
     search->SLi_DFS(temp1,scr, des);
-    //search->SMr_DFS(&v, temp2, matrixS,scr, des);
-    //search->SMi_DFS(temp2,columnSize,matrixS, scr, des);
+    vector<bool>v1(temp1.size(),false);//RESET
+    search->SMr_DFS(&v1, temp2, matrixS,scr, des);
+    search->SMi_DFS(temp2,columnSize,matrixS, scr, des);
 }
 
 void Graph::BFS(int scr,int des){
@@ -207,11 +207,12 @@ void Graph::BFS(int scr,int des){
     temp2 = adM->getMatrix();
     matrixS = adM->getMatrixSize();
     int* columnSize = adM->columnSize();
-    vector<bool>v(temp1.size(),false);
-    //search->SLr_BFS(&v,temp1,scr,des);
-    //search->SLi_BFS(temp1,scr, des);
-    //search->SMr_BFS(&v, temp2, matrixS,scr, des);
-    //search->SMi_BFS(temp2,columnSize,matrixS, scr, des);
+    vector<bool>v(temp1.size(),false);//SET
+    search->SLr_BFS(&v,temp1,scr,des);
+    search->SLi_BFS(temp1,scr, des);
+    vector<bool>v1(temp1.size(),false);//RESET
+    search->SMr_BFS(&v1, temp2, matrixS,scr, des);
+    search->SMi_BFS(temp2,columnSize,matrixS, scr, des);
 }
 
 void Graph::Dijkstra(int scr,int des){
@@ -225,9 +226,8 @@ void Graph::Dijkstra(int scr,int des){
     temp2 = adM->getMatrix();
     matrixS = adM->getMatrixSize();
     int* columnSize = adM->columnSize();
-    vector<bool>v(temp1.size(),false);
     search->SL_Dijkstra(&cost, temp1, scr, des);
-    //search->SM_Dijkstra(&cost,temp2,matrixS,scr,des);
+    search->SM_Dijkstra(&cost,temp2,matrixS,scr,des);
 }
 
 void Graph::A_star(int scr, int des){

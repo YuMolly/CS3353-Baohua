@@ -12,13 +12,12 @@
 using namespace std;
 
 adjMatrix::adjMatrix(int size){
-    int** temp = new int*[size];
-    column_Size[size];
+    matrix = new int*[size];
+    column_Size = new int[size];
     for(int i = 0; i < size; i++){
-        temp[i] = new int[size];
+        matrix[i] = new int[size];
         
     }
-    matrix = temp;
     for (int i = 0; i< size; i++){
         for(int j = 0;j<size;j++){
             matrix[i][j] = 0;
@@ -30,7 +29,11 @@ adjMatrix::adjMatrix(int size){
 }
 
 adjMatrix::~adjMatrix(){
-    delete matrix;
+    for(int i = 0; i < depth; i++){
+        delete[] matrix[i];
+    }
+    delete[] matrix;
+    delete [] column_Size;
 }
 
 void adjMatrix::addEdge(string scr, string des){

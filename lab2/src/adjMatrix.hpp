@@ -26,6 +26,6 @@ private:
     int** matrix;
     int depth;
     float totalCost;
-    int column_Size[100];
+    int* column_Size;
 };
 #endif /* adjMatrix_hpp */
