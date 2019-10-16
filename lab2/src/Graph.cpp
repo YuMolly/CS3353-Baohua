@@ -54,6 +54,8 @@ void Graph::loadGraph(string filename,string weight,string position){
         cout<<"The "<<position<<" file fail to open"<<endl;
     else
         cout<<"The "<<position<<" file can open successfully!"<<endl;
+   
+    cout<<endl;
     
     string a,h,head;
     vector<string> header;
@@ -133,14 +135,16 @@ while(file){
     w.close();
     //////////
     //////////
-    /*int x,y,z;
+    int x,y,z;
     int pos3,pos4,pos5;
+    int n3;
     string c;
     string node3,dem;
     while(p){
         while(getline(p,c)){
             pos3 = c.find(',');
             node3 = c.substr(0,pos3);
+            n3 = stoi(node3);
             dem = c.substr(pos3+1,c.length()-pos3+1);
             pos4 = dem.find(',');
             x = stoi(dem.substr(0,pos4));
@@ -148,19 +152,28 @@ while(file){
             pos5 = dem.find(',');
             y = stoi(dem.substr(0,pos5));
             z = stoi(dem.substr(pos5+1));
-            //cout<<"Node3 is: "<<node3<<endl;
-            //cout<<"x is: "<<x<<endl;
-            //cout<<"y is: "<<y<<endl;
-            //cout<<"z is: "<<z<<endl;
+            for(int i = node_position.size();i<n3;i++){
+                vector<int> t2;
+                node_position.push_back(t2);
+            }
+            for(int j = node_position[n3-1].size();j<3;j++){
+                node_position[n3-1].push_back(0);
+            }
+            node_position[n3-1][0] = x;
+            node_position[n3-1][1] = y;
+            node_position[n3-1][2] = z;
         }
         
     }
-    p.close();*/
+    p.close();
 }
 
 
 vector<vector<float>> Graph::getCost(){
     return cost;
+}
+vector<vector<int>> Graph::getPosition(){
+    return node_position;
 }
 
 void Graph::DFS(int scr,int des){
@@ -176,8 +189,8 @@ void Graph::DFS(int scr,int des){
     matrixS = adM->getMatrixSize();
     int* columnSize = adM->columnSize();
     vector<bool>v(temp1.size(),false);
-    //search->SLr_DFS(&v,temp1, scr, des);
-    //search->SLi_DFS(temp1,scr, des);
+    search->SLr_DFS(&v,temp1, scr, des);
+    search->SLi_DFS(temp1,scr, des);
     //search->SMr_DFS(&v, temp2, matrixS,scr, des);
     //search->SMi_DFS(temp2,columnSize,matrixS, scr, des);
 }
@@ -196,7 +209,7 @@ void Graph::BFS(int scr,int des){
     int* columnSize = adM->columnSize();
     vector<bool>v(temp1.size(),false);
     //search->SLr_BFS(&v,temp1,scr,des);
-    search->SLi_BFS(temp1,scr, des);//problem!
+    //search->SLi_BFS(temp1,scr, des);
     //search->SMr_BFS(&v, temp2, matrixS,scr, des);
     //search->SMi_BFS(temp2,columnSize,matrixS, scr, des);
 }
@@ -205,11 +218,34 @@ void Graph::Dijkstra(int scr,int des){
     searchAlgo*Nsearch;
     Nsearch = new searchAlgo(depth,scr);
     search = Nsearch;
-    vector<vector<int>> temp1;
+    vector<vector<int>> temp1;//get adjlist
+    int ** temp2;//get adjmatrix
+    int matrixS;//get matrix size
     temp1= adj->getList();
-    //search->SL_Dijkstra(&cost, temp1, scr, des);
-    //search->SM_Dijkstra(&cost,temp1,scr,des);
+    temp2 = adM->getMatrix();
+    matrixS = adM->getMatrixSize();
+    int* columnSize = adM->columnSize();
+    vector<bool>v(temp1.size(),false);
+    search->SL_Dijkstra(&cost, temp1, scr, des);
+    //search->SM_Dijkstra(&cost,temp2,matrixS,scr,des);
 }
+
+void Graph::A_star(int scr, int des){
+    searchAlgo*Nsearch;
+    Nsearch = new searchAlgo(depth,scr);
+    search = Nsearch;
+    vector<vector<int>> temp1;//get adjlist
+    int ** temp2;//get adjmatrix
+    int matrixS;//get matrix size
+    temp1= adj->getList();
+    temp2 = adM->getMatrix();
+    matrixS = adM->getMatrixSize();
+    int* columnSize = adM->columnSize();
+    vector<bool>v(temp1.size(),false);
+    //search->SL_A_star(&node_position,&cost,temp1,scr,des);
+    search->SM_A_star(&node_position,&cost,temp2,scr,des);
+}
+
 void Graph::Stats(string methodName){
     //adj->Stats();
     //adM->Stats();
@@ -220,8 +256,15 @@ void Graph::printcost(){
     for(int i = 0;i<cost.size();i++){
         
         for(int j=0;j<cost[i].size();j++){
-            cout<<"From node :"<<i;
-            cout<<" -> "<<j<<" cost is: "<< cost[i][j]<<endl;
+            cout<<"From node :"<<i+1;
+            cout<<" -> "<<j+1<<" cost is: "<< cost[i][j]<<endl;
         }
+    }
+}
+
+void Graph::printPosition(){
+    for(int i = 0;i<node_position.size();i++){
+        cout<<"The position for "<<i+1<<" is "<<"( "<<node_position[i][0]<<",";
+        cout<<node_position[i][1]<<","<<node_position[i][2]<<" )"<<endl;
     }
 }

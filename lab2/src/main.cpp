@@ -15,13 +15,15 @@ int main(){
     Graph a;
     a.loadGraph("graph.txt","weights.txt","positions.txt");
     string x =  "1";
-    string y = "6";
+    string y = "11";
     int scr,des;
     scr = stoi(x);
     des = stoi(y);
     //a.DFS(scr,des);
-    a.BFS(scr, des);
+    //a.BFS(scr, des);
     //a.Dijkstra(scr,des);
-    //a.Stats("Mr_BFS");
+    a.A_star(scr, des);
+    //a.Stats("Lr_DFS");
     //a.printcost();
+    //a.printPosition();
 }

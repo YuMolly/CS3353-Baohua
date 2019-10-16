@@ -30,12 +30,16 @@ public:
     void SMi_BFS(int**,int*,int,int,int);
     
     void SL_Dijkstra(std::vector<std::vector<float>>*,std::vector<std::vector<int>>,int,int);
-    void printSL_Dijkstra(std::vector<float>*,int );
-    void SM_Dijkstra(std::vector<std::vector<float>>*,std::vector<std::vector<int>>,int,int);
-    void SL_A_star(int,int);
-    void SM_A_star(int,int);
+    void SM_Dijkstra(std::vector<std::vector<float>>*,int**,int,int,int);
+    void printS_Dijkstra(std::vector<int>,std::vector<std::vector<float>>*, int ,int);
     
-
+    void SL_A_star(std::vector<std::vector<int>>*,std::vector<std::vector<float>>*,std::vector<std::vector<int>>,int,int);
+    void SM_A_star(std::vector<std::vector<int>>*,std::vector<std::vector<float>>*,int**,int,int);
+    
+    void printS_D_A(std::vector<int>,std::vector<std::vector<float>>*, int ,int);
+    //void printS_A(std::vector<int>,std::vector<std::vector<float>>*, int ,int);
+    
+    float costCal(std::vector<int>,std::vector<std::vector<float>>*);
     void Stats(std::string);
 private:
     std::vector<int>path_r;//LIST_DFS_r
@@ -47,5 +51,6 @@ private:
     std::queue<int>q_c1;//LIST_BFS_r queue contanier
     std::queue<int>q_c2;//Matrix_BFS_r queue contanier
     int size;
+    float totalCost;
 };
 #endif /* searchAlgo_hpp */

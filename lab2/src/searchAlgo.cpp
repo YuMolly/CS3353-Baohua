@@ -14,9 +14,11 @@
 #include <stack>
 #include <queue>
 #include <functional>
+#include <cmath>
 using namespace std;
 
 searchAlgo::searchAlgo(int x,int scr){
+    totalCost = 0.0;
     size = x;
     path_r.push_back(scr);//recusive for list on DFS
     path_d.push_back(scr);//recusive for matrix on DFS
@@ -326,52 +328,147 @@ void searchAlgo::SMi_BFS(int**adM,int* columns,int Msize,int scr,int des){
 }
 
 void searchAlgo::SL_Dijkstra(vector<vector<float>>* cost, vector<vector<int>> adj, int scr, int des){
-    cout<<"Dijkstra method on adjlist. From "<<scr<<" to "<<des<<endl;
+    cout<<"Dijkstra method on adjlist. From "<<scr<<" to "<<des;
+    vector<int>path;//record for the shortest path
     vector<float> distance;//to store cost
     int n = adj.size();
     for(int i = 0; i<n;i++){
         //intialize all scr to des are infinite
         distance.push_back(10000000);
     }
-    priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int, int>>> pq;
+    priority_queue<pair<int,float>> pq;
     
     pq.push(make_pair(scr, 0));
     distance[scr-1] = 0;
-    while(pq.empty() == false){
+    while((pq.empty() == false)&&(distance[des-1]> pq.top().second)){
         int parent = pq.top().first;
-        cout<<"MIN IS: "<<parent<<endl;//==scr
+        path.push_back(parent);
+        //cout<<"parent IS: "<<parent<<endl;//==scr
         pq.pop();
-        for(int i = 0; i<adj[parent].size();i++){
+        for(int i = 0; i<adj[parent-1].size();i++){
             int child = adj[parent-1][i];
-            float weights = (*cost)[parent-1][child-1];
-            if(distance[child] > distance[parent] + weights ){
-                distance[child] = distance[parent] + weights;
-                cout<<"distance child is: "<<distance[child]<<endl;
-                pq.push(make_pair(child, distance[child]));
+            float weights = (*cost)[parent-1][child-1];//get the cost from parent to child
+            if(distance[child-1] > distance[parent-1] + weights ){
+                distance[child-1] = distance[parent-1] + weights;
+                //cout<<"distance child is: "<<distance[child-1]<<endl;
+                pq.push(make_pair(child, distance[child-1]));
             }
         }
     }
-    printSL_Dijkstra(&distance,scr);
+    path.push_back(des);
+    printS_D_A(path,cost,scr,des);
 }
 
-void searchAlgo::printSL_Dijkstra(vector<float>*dist,int scr){
-    cout << "\nPrinting the shortest paths from node " << scr << ".\n";
-    for(int i = 0; i < (*dist).size(); i++)
-    {
-        cout << "The distance from node " << scr << " to node " << i << " is: " << (*dist)[i] << endl;
+void searchAlgo::SM_Dijkstra(vector<vector<float>>* cost,int** adM,int Msize,int scr, int des){
+    cout<<"Dijkstra method on adjMatrix. From "<<scr<<" to "<<des;
+    vector<int>path;//record for the shortest path
+    vector<float> distance;//to store cost
+    for(int i = 0; i<Msize;i++){//????what's the size for distance
+        //intialize all scr to des are infinite
+        distance.push_back(10000000);
     }
+    priority_queue<pair<int,float>> pq;
+    
+    pq.push(make_pair(scr, 0));
+    distance[scr-1] = 0;
+    while((pq.empty() == false)&&(distance[des-1]> pq.top().second)){
+        int parent = pq.top().first;
+        path.push_back(parent);
+        //cout<<"parent IS: "<<parent<<endl;//==scr
+        pq.pop();
+        for(int i = 0; i<Msize;i++){
+            int child = adM[parent-1][i];// 1 or 0
+            //cout<<"child is: "<<child<<endl;
+            //cout<<"i is:"<<i<<endl;
+            if(child!=0){
+                float weights = (*cost)[parent-1][i];//get the cost from parent to child
+                if(distance[i] > distance[parent-1] + weights ){
+                    distance[i] = distance[parent-1] + weights;
+                    //cout<<"distance child is: "<<distance[child-1]<<endl;
+                    pq.push(make_pair(i+1, distance[i]));
+                }
+            }
+        }
+    }
+    path.push_back(des);
+    printS_D_A(path,cost,scr,des);
 }
 
-void searchAlgo::SM_Dijkstra(vector<vector<float>>* cost, vector<vector<int>> adM,int scr, int des){
+void searchAlgo::SL_A_star(vector<vector<int>>* position,vector<vector<float>>* cost,vector<vector<int>> adj,int scr, int des){
+    cout<<"A* method on adjlist. From "<<scr<<" to "<<des;
+    vector<int>path;//record for the shortest path
+    vector<int> distance;//to store cost
+    int n = adj.size();
+    int dist;
+    int power = 2;
+    int x,x1;
+    int y,y1;
+    int z,z1;
+    x = (*position)[scr-1][0];
+    x1 =(*position)[des-1][0];
+    y = (*position)[scr-1][1];
+    y1 =(*position)[des-1][1];
+    z = (*position)[scr-1][2];
+    z1 =(*position)[des-1][2];
+    dist = pow((x1-x),power)+pow((y1-y),power)+pow((z1-z),power);//the distance from scr to des(max)
+    for(int i = 0; i<n;i++){
+        //intialize all scr to des are the max
+        distance.push_back(dist);
+    }
+    priority_queue<pair<int,int>> pq;
+    
+    pq.push(make_pair(scr,dist));
+    distance[scr-1] = dist;//for scr which has 'dist' distance to des
+    while((pq.empty() == false)&&(distance[scr-1]-distance[des-1] == 0)){
+        int parent = pq.top().first;
+        path.push_back(parent);
+        //cout<<"parent IS: "<<parent<<endl;//==scr
+        //cout<<"parent distance is: "<<endl;
+        pq.pop();
+        for(int i = 0; i<adj[parent-1].size();i++){
+            int child = adj[parent-1][i];
+            x = (*position)[child-1][0];
+            y = (*position)[child-1][1];
+            z = (*position)[child-1][2];
+            dist= pow((x1-x),power)+pow((y1-y),power)+pow((z1-z),power);
+            distance[child-1] = dist;
+            if(distance[child-1] < distance[parent-1]){
+                //cout<<"distance child is: "<<distance[child-1]<<endl;
+                pq.push(make_pair(child,distance[child-1]));
+            }
+        }
+    }
+    path.push_back(des);
+    printS_D_A(path,cost,scr,des);
+}
+
+void searchAlgo::SM_A_star(vector<vector<int>>* position,vector<vector<float>>* cost,int** adM,int scr, int des){
     
 }
 
-void searchAlgo::SL_A_star(int scr, int des){
+void searchAlgo::printS_D_A(vector<int>p,vector<vector<float>>* cost,int scr,int des){
+    cout << "\nPrinting the shortest paths from node " << scr << " to node "<< des<<endl;
+    cout << "The path is: ";
+    for(int i = 0; i < p.size(); i++)
+    {
+        cout <<p[i] <<" ";
+    }
+    cout<<endl;
+    costCal(p, cost);
     
 }
 
-void searchAlgo::SM_A_star(int scr, int des){
-    
+float searchAlgo::costCal(vector<int> path, vector<vector<float> > * cost){
+    int n,n1;
+    float totalCost;
+    for(int i = 0;i<path.size()-1;i++){
+        n = path[i];
+        n1 = path[i+1];
+        totalCost+=(*cost)[n-1][n1-1];
+    }
+    cout<<"The total cost is: "<<totalCost<<endl;
+    cout<<endl;
+    return totalCost;
 }
 
 void searchAlgo::Stats(string methodName){
