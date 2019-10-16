@@ -442,12 +442,69 @@ void searchAlgo::SL_A_star(vector<vector<int>>* position,vector<vector<float>>* 
     printS_D_A(path,cost,scr,des);
 }
 
-void searchAlgo::SM_A_star(vector<vector<int>>* position,vector<vector<float>>* cost,int** adM,int scr, int des){
+void searchAlgo::SM_A_star(vector<vector<int>>* position,vector<vector<float>>* cost,int** adM,int Msize,int scr, int des){
+    cout<<"A* method on adjMatrix. From "<<scr<<" to "<<des;
+    vector<int>path;//record for the shortest path
+    vector<int> distance;//to store cost
+    //vector<bool>vis;
+    //int n = Msize;
+    int dist;
+    int power = 2;
+    int x,x1;
+    int y,y1;
+    int z,z1;
+    //vis[scr-1] = true;
+    x = (*position)[scr-1][0];
+    y = (*position)[scr-1][1];
+    z = (*position)[scr-1][2];
+    x1 = (*position)[des-1][0];
+    y1 = (*position)[des-1][1];
+    z1 = (*position)[des-1][2];
+    dist= pow((x1-x),power)+pow((y1-y),power)+pow((z1-z),power);
+    //cout<<"The distance is: "<<dist<<endl;
+    for(int i = 0; i<Msize;i++){
+        //intialize all scr to des are the max
+        distance.push_back(10000000);
+    }
+    priority_queue<pair<int,int>> pq;
     
+    pq.push(make_pair(scr,dist));
+    distance[scr-1] = dist;//for scr which has 'dist' distance to des
+    while((pq.empty() == false)){
+        int parent = pq.top().first;
+        path.push_back(parent);
+        //cout<<"parent IS: "<<parent<<endl;//==scr
+        //cout<<"parent distance is: "<<endl;
+        pq.pop();
+        for(int i = 0; i<Msize;i++){
+            int child = adM[parent-1][i];//==1 or 0
+            if(child !=0){
+                x = (*position)[i][0];
+                y = (*position)[i][1];
+                z = (*position)[i][2];
+                dist= pow((x1-x),power)+pow((y1-y),power)+pow((z1-z),power);
+                distance[i] = dist;
+                //vis[i] = true;
+                if(des == i+1){
+                    for(int j = 0;j<=pq.size();j++){
+                        if(pq.empty()==false){
+                            pq.pop();
+                        }
+                    }
+                }
+                else if((distance[i] < pq.top().second)){
+                    //cout<<"distance child is: "<<distance[child-1]<<endl;
+                    pq.push(make_pair(i+1,distance[i]));
+                }
+            }
+        }
+    }
+    path.push_back(des);
+    printS_D_A(path,cost,scr,des);
 }
 
 void searchAlgo::printS_D_A(vector<int>p,vector<vector<float>>* cost,int scr,int des){
-    cout << "\nPrinting the shortest paths from node " << scr << " to node "<< des<<endl;
+    cout << "\nPrinting the path from node " << scr << " to node "<< des<<endl;
     cout << "The path is: ";
     for(int i = 0; i < p.size(); i++)
     {

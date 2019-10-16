@@ -34,7 +34,7 @@ public:
     void printS_Dijkstra(std::vector<int>,std::vector<std::vector<float>>*, int ,int);
     
     void SL_A_star(std::vector<std::vector<int>>*,std::vector<std::vector<float>>*,std::vector<std::vector<int>>,int,int);
-    void SM_A_star(std::vector<std::vector<int>>*,std::vector<std::vector<float>>*,int**,int,int);
+    void SM_A_star(std::vector<std::vector<int>>*,std::vector<std::vector<float>>*,int**,int,int,int);
     
     void printS_D_A(std::vector<int>,std::vector<std::vector<float>>*, int ,int);
     //void printS_A(std::vector<int>,std::vector<std::vector<float>>*, int ,int);

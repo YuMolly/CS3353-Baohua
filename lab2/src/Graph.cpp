@@ -242,8 +242,8 @@ void Graph::A_star(int scr, int des){
     matrixS = adM->getMatrixSize();
     int* columnSize = adM->columnSize();
     vector<bool>v(temp1.size(),false);
-    //search->SL_A_star(&node_position,&cost,temp1,scr,des);
-    search->SM_A_star(&node_position,&cost,temp2,scr,des);
+    search->SL_A_star(&node_position,&cost,temp1,scr,des);
+    search->SM_A_star(&node_position,&cost,temp2,matrixS,scr,des);
 }
 
 void Graph::Stats(string methodName){

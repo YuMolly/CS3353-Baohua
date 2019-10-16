@@ -14,8 +14,8 @@ using namespace std;
 int main(){
     Graph a;
     a.loadGraph("graph.txt","weights.txt","positions.txt");
-    string x =  "1";
-    string y = "11";
+    string x =  "1";//"1"
+    string y = "12";//"11"
     int scr,des;
     scr = stoi(x);
     des = stoi(y);
