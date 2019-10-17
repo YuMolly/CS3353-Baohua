@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "adjList.cpp"
-            timestampString = "592992936.113115"
+            timestampString = "593016819.87528"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "38"
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "adjList.cpp"
-            timestampString = "592992936.1132129"
+            timestampString = "593016819.875398"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "42"
@@ -58,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "adjList.cpp"
-            timestampString = "592992936.113268"
+            timestampString = "593016819.875451"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "adjList.cpp"
-            timestampString = "592992936.113318"
+            timestampString = "593016819.875497"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "26"
@@ -90,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "adjList.cpp"
-            timestampString = "592992936.113366"
+            timestampString = "593016819.875542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "21"
@@ -106,11 +106,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Graph.cpp"
-            timestampString = "592992936.113423"
+            timestampString = "593016819.875592"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "349"
-            endingLineNumber = "349"
+            startingLineNumber = "357"
+            endingLineNumber = "357"
             landmarkName = "Graph::Stats(string methodName)"
             landmarkType = "7">
          </BreakpointContent>
@@ -122,12 +122,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.11446"
+            timestampString = "593016819.8758759"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "142"
             endingLineNumber = "142"
-            landmarkName = "searchAlgo::SLi_DFS(vector&lt;vector&lt;int&gt;&gt; adj, vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;float&gt;&gt;* cost,int scr,int des)"
+            landmarkName = "searchAlgo::SLr_DFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;int&gt;&gt; adj, int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -138,7 +138,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.11499"
+            timestampString = "593016819.8764091"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "84"
@@ -154,7 +154,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.115456"
+            timestampString = "593016819.876887"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "86"
@@ -170,7 +170,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.1159101"
+            timestampString = "593016819.87735"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "87"
@@ -186,7 +186,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.1163501"
+            timestampString = "593016819.8778141"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "88"
@@ -202,7 +202,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.1167721"
+            timestampString = "593016819.878252"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "89"
@@ -218,7 +218,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.117196"
+            timestampString = "593016819.878687"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "90"
@@ -234,7 +234,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.117613"
+            timestampString = "593016819.879126"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "91"
@@ -250,7 +250,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.118052"
+            timestampString = "593016819.879562"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "96"
@@ -266,7 +266,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.118443"
+            timestampString = "593016819.879979"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "85"
@@ -282,12 +282,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.118837"
+            timestampString = "593016819.880391"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "69"
             endingLineNumber = "69"
-            landmarkName = "searchAlgo::getN_Path()"
+            landmarkName = "searchAlgo::SLi_DFS(vector&lt;vector&lt;int&gt;&gt; adj, vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;float&gt;&gt;* cost,int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -298,12 +298,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.1192271"
+            timestampString = "593016819.880797"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "74"
             endingLineNumber = "74"
-            landmarkName = "searchAlgo::getA()"
+            landmarkName = "searchAlgo::SLi_DFS(vector&lt;vector&lt;int&gt;&gt; adj, vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;float&gt;&gt;* cost,int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -314,12 +314,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.119628"
+            timestampString = "593016819.8811949"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "75"
             endingLineNumber = "75"
-            landmarkName = "searchAlgo::getA()"
+            landmarkName = "searchAlgo::SLi_DFS(vector&lt;vector&lt;int&gt;&gt; adj, vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;float&gt;&gt;* cost,int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -330,12 +330,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.120019"
+            timestampString = "593016819.881604"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "71"
             endingLineNumber = "71"
-            landmarkName = "searchAlgo::getN_e()"
+            landmarkName = "searchAlgo::SLi_DFS(vector&lt;vector&lt;int&gt;&gt; adj, vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;float&gt;&gt;* cost,int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -346,12 +346,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.120409"
+            timestampString = "593016819.882012"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "72"
             endingLineNumber = "72"
-            landmarkName = "searchAlgo::getN_e()"
+            landmarkName = "searchAlgo::SLi_DFS(vector&lt;vector&lt;int&gt;&gt; adj, vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;float&gt;&gt;* cost,int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -362,75 +362,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.120806"
+            timestampString = "593016819.882412"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "280"
-            endingLineNumber = "280"
-            landmarkName = "searchAlgo::SLr_BFS(vector&lt;bool&gt; *visited,vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;int&gt;&gt;adj,int scr,int des)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "searchAlgo.cpp"
-            timestampString = "592992936.121164"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "284"
-            endingLineNumber = "284"
-            landmarkName = "searchAlgo::SLr_BFS(vector&lt;bool&gt; *visited,vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;int&gt;&gt;adj,int scr,int des)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "searchAlgo.cpp"
-            timestampString = "592992936.121523"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "286"
-            endingLineNumber = "286"
-            landmarkName = "searchAlgo::SLr_BFS(vector&lt;bool&gt; *visited,vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;int&gt;&gt;adj,int scr,int des)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "searchAlgo.cpp"
-            timestampString = "592992936.121874"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "290"
-            endingLineNumber = "290"
-            landmarkName = "searchAlgo::SLr_BFS(vector&lt;bool&gt; *visited,vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;int&gt;&gt;adj,int scr,int des)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "searchAlgo.cpp"
-            timestampString = "592992936.1222349"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "297"
-            endingLineNumber = "297"
+            startingLineNumber = "281"
+            endingLineNumber = "281"
             landmarkName = "searchAlgo::SLi_BFS(vector&lt;vector&lt;int&gt;&gt;adj,vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;float&gt;&gt;*cost,int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
@@ -442,7 +378,55 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.122589"
+            timestampString = "593016819.882769"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "285"
+            endingLineNumber = "285"
+            landmarkName = "searchAlgo::SLi_BFS(vector&lt;vector&lt;int&gt;&gt;adj,vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;float&gt;&gt;*cost,int scr,int des)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "searchAlgo.cpp"
+            timestampString = "593016819.883127"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "287"
+            endingLineNumber = "287"
+            landmarkName = "searchAlgo::SLi_BFS(vector&lt;vector&lt;int&gt;&gt;adj,vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;float&gt;&gt;*cost,int scr,int des)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "searchAlgo.cpp"
+            timestampString = "593016819.883497"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "291"
+            endingLineNumber = "291"
+            landmarkName = "searchAlgo::SLi_BFS(vector&lt;vector&lt;int&gt;&gt;adj,vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;float&gt;&gt;*cost,int scr,int des)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "searchAlgo.cpp"
+            timestampString = "593016819.884097"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "298"
@@ -458,12 +442,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.122983"
+            timestampString = "593016819.884505"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "241"
-            endingLineNumber = "241"
-            landmarkName = "searchAlgo::SMi_DFS(int** adM,vector&lt;vector&lt;int&gt;&gt; *position,vector&lt;vector&lt;float&gt;&gt; *cost,int* columnS,int Msize,int scr,int des)"
+            startingLineNumber = "299"
+            endingLineNumber = "299"
+            landmarkName = "searchAlgo::SLi_BFS(vector&lt;vector&lt;int&gt;&gt;adj,vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;float&gt;&gt;*cost,int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -474,91 +458,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.123322"
+            timestampString = "593016819.884884"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "249"
-            endingLineNumber = "249"
-            landmarkName = "searchAlgo::SMi_DFS(int** adM,vector&lt;vector&lt;int&gt;&gt; *position,vector&lt;vector&lt;float&gt;&gt; *cost,int* columnS,int Msize,int scr,int des)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "searchAlgo.cpp"
-            timestampString = "592992936.123866"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "250"
-            endingLineNumber = "250"
-            landmarkName = "searchAlgo::SMi_DFS(int** adM,vector&lt;vector&lt;int&gt;&gt; *position,vector&lt;vector&lt;float&gt;&gt; *cost,int* columnS,int Msize,int scr,int des)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "searchAlgo.cpp"
-            timestampString = "592992936.124238"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "251"
-            endingLineNumber = "251"
-            landmarkName = "searchAlgo::SMi_DFS(int** adM,vector&lt;vector&lt;int&gt;&gt; *position,vector&lt;vector&lt;float&gt;&gt; *cost,int* columnS,int Msize,int scr,int des)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "searchAlgo.cpp"
-            timestampString = "592992936.124559"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "253"
-            endingLineNumber = "253"
-            landmarkName = "searchAlgo::SMi_DFS(int** adM,vector&lt;vector&lt;int&gt;&gt; *position,vector&lt;vector&lt;float&gt;&gt; *cost,int* columnS,int Msize,int scr,int des)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "searchAlgo.cpp"
-            timestampString = "592992936.124881"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "260"
-            endingLineNumber = "260"
-            landmarkName = "searchAlgo::SMi_DFS(int** adM,vector&lt;vector&lt;int&gt;&gt; *position,vector&lt;vector&lt;float&gt;&gt; *cost,int* columnS,int Msize,int scr,int des)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "searchAlgo.cpp"
-            timestampString = "592992936.125203"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "265"
-            endingLineNumber = "265"
+            startingLineNumber = "242"
+            endingLineNumber = "242"
             landmarkName = "searchAlgo::SLr_BFS(vector&lt;bool&gt; *visited,vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;int&gt;&gt;adj,int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
@@ -570,12 +474,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.125527"
+            timestampString = "593016819.88518"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "254"
-            endingLineNumber = "254"
-            landmarkName = "searchAlgo::SMi_DFS(int** adM,vector&lt;vector&lt;int&gt;&gt; *position,vector&lt;vector&lt;float&gt;&gt; *cost,int* columnS,int Msize,int scr,int des)"
+            startingLineNumber = "250"
+            endingLineNumber = "250"
+            landmarkName = "searchAlgo::SLr_BFS(vector&lt;bool&gt; *visited,vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;int&gt;&gt;adj,int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -586,12 +490,108 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.125861"
+            timestampString = "593016819.885507"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "251"
+            endingLineNumber = "251"
+            landmarkName = "searchAlgo::SLr_BFS(vector&lt;bool&gt; *visited,vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;int&gt;&gt;adj,int scr,int des)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "searchAlgo.cpp"
+            timestampString = "593016819.885832"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "252"
+            endingLineNumber = "252"
+            landmarkName = "searchAlgo::SLr_BFS(vector&lt;bool&gt; *visited,vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;int&gt;&gt;adj,int scr,int des)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "searchAlgo.cpp"
+            timestampString = "593016819.8861541"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "254"
+            endingLineNumber = "254"
+            landmarkName = "searchAlgo::SLr_BFS(vector&lt;bool&gt; *visited,vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;int&gt;&gt;adj,int scr,int des)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "searchAlgo.cpp"
+            timestampString = "593016819.886481"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "261"
+            endingLineNumber = "261"
+            landmarkName = "searchAlgo::SLr_BFS(vector&lt;bool&gt; *visited,vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;int&gt;&gt;adj,int scr,int des)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "searchAlgo.cpp"
+            timestampString = "593016819.886804"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "266"
+            endingLineNumber = "266"
+            landmarkName = "searchAlgo::SLr_BFS(vector&lt;bool&gt; *visited,vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;int&gt;&gt;adj,int scr,int des)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "searchAlgo.cpp"
+            timestampString = "593016819.887122"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "255"
             endingLineNumber = "255"
-            landmarkName = "searchAlgo::SMi_DFS(int** adM,vector&lt;vector&lt;int&gt;&gt; *position,vector&lt;vector&lt;float&gt;&gt; *cost,int* columnS,int Msize,int scr,int des)"
+            landmarkName = "searchAlgo::SLr_BFS(vector&lt;bool&gt; *visited,vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;int&gt;&gt;adj,int scr,int des)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "searchAlgo.cpp"
+            timestampString = "593016819.8874331"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "256"
+            endingLineNumber = "256"
+            landmarkName = "searchAlgo::SLr_BFS(vector&lt;bool&gt; *visited,vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;int&gt;&gt;adj,int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -602,7 +602,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Graph.cpp"
-            timestampString = "592992936.126243"
+            timestampString = "593016819.887756"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "132"
@@ -617,29 +617,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Graph.cpp"
-            timestampString = "592992936.1273561"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "213"
-            endingLineNumber = "213"
-            landmarkName = "Graph::DFS(int scr,int des)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.128354"
+            timestampString = "593016819.888021"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "146"
             endingLineNumber = "146"
-            landmarkName = "searchAlgo::SLr_DFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;int&gt;&gt; adj, int scr,int des)"
+            landmarkName = "searchAlgo::SMr_DFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position, int** adM,int Msize,int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -650,12 +634,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.128736"
+            timestampString = "593016819.8883229"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "150"
             endingLineNumber = "150"
-            landmarkName = "searchAlgo::SLr_DFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;int&gt;&gt; adj, int scr,int des)"
+            landmarkName = "searchAlgo::SMr_DFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position, int** adM,int Msize,int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -666,12 +650,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.129068"
+            timestampString = "593016819.88863"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "152"
             endingLineNumber = "152"
-            landmarkName = "searchAlgo::SLr_DFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;int&gt;&gt; adj, int scr,int des)"
+            landmarkName = "searchAlgo::SMr_DFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position, int** adM,int Msize,int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -682,12 +666,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.129369"
+            timestampString = "593016819.88896"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "153"
             endingLineNumber = "153"
-            landmarkName = "searchAlgo::SLr_DFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;int&gt;&gt; adj, int scr,int des)"
+            landmarkName = "searchAlgo::SMr_DFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position, int** adM,int Msize,int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -698,12 +682,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.129669"
+            timestampString = "593016819.889287"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "155"
             endingLineNumber = "155"
-            landmarkName = "searchAlgo::SLr_DFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;int&gt;&gt; adj, int scr,int des)"
+            landmarkName = "searchAlgo::SMr_DFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position, int** adM,int Msize,int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -714,12 +698,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.129972"
+            timestampString = "593016819.889617"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "156"
             endingLineNumber = "156"
-            landmarkName = "searchAlgo::SLr_DFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;int&gt;&gt; adj, int scr,int des)"
+            landmarkName = "searchAlgo::SMr_DFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position, int** adM,int Msize,int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -730,12 +714,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.130265"
+            timestampString = "593016819.88993"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "157"
             endingLineNumber = "157"
-            landmarkName = "searchAlgo::SLr_DFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;int&gt;&gt; adj, int scr,int des)"
+            landmarkName = "searchAlgo::SMr_DFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position, int** adM,int Msize,int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -746,12 +730,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.13055"
+            timestampString = "593016819.890241"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "158"
             endingLineNumber = "158"
-            landmarkName = "searchAlgo::SLr_DFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;int&gt;&gt; adj, int scr,int des)"
+            landmarkName = "searchAlgo::SMr_DFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position, int** adM,int Msize,int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -762,11 +746,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Graph.cpp"
-            timestampString = "592992936.130839"
+            timestampString = "593016819.890563"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "219"
-            endingLineNumber = "219"
+            startingLineNumber = "223"
+            endingLineNumber = "223"
             landmarkName = "Graph::DFS(int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
@@ -778,12 +762,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.131657"
+            timestampString = "593016819.890764"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "178"
             endingLineNumber = "178"
-            landmarkName = "searchAlgo::SMr_DFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position, int** adM,int Msize,int scr,int des)"
+            landmarkName = "searchAlgo::SMi_DFS(int** adM,vector&lt;vector&lt;int&gt;&gt; *position,vector&lt;vector&lt;float&gt;&gt; *cost,int* columnS,int Msize,int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -794,12 +778,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.131945"
+            timestampString = "593016819.891113"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "179"
             endingLineNumber = "179"
-            landmarkName = "searchAlgo::SMr_DFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position, int** adM,int Msize,int scr,int des)"
+            landmarkName = "searchAlgo::SMi_DFS(int** adM,vector&lt;vector&lt;int&gt;&gt; *position,vector&lt;vector&lt;float&gt;&gt; *cost,int* columnS,int Msize,int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -810,12 +794,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.132224"
+            timestampString = "593016819.8914419"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "180"
             endingLineNumber = "180"
-            landmarkName = "searchAlgo::SMr_DFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position, int** adM,int Msize,int scr,int des)"
+            landmarkName = "searchAlgo::SMi_DFS(int** adM,vector&lt;vector&lt;int&gt;&gt; *position,vector&lt;vector&lt;float&gt;&gt; *cost,int* columnS,int Msize,int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -826,12 +810,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.132507"
+            timestampString = "593016819.891737"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "181"
             endingLineNumber = "181"
-            landmarkName = "searchAlgo::SMr_DFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position, int** adM,int Msize,int scr,int des)"
+            landmarkName = "searchAlgo::SMi_DFS(int** adM,vector&lt;vector&lt;int&gt;&gt; *position,vector&lt;vector&lt;float&gt;&gt; *cost,int* columnS,int Msize,int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -842,12 +826,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.1327879"
+            timestampString = "593016819.892028"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "182"
             endingLineNumber = "182"
-            landmarkName = "searchAlgo::SMr_DFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position, int** adM,int Msize,int scr,int des)"
+            landmarkName = "searchAlgo::SMi_DFS(int** adM,vector&lt;vector&lt;int&gt;&gt; *position,vector&lt;vector&lt;float&gt;&gt; *cost,int* columnS,int Msize,int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -858,12 +842,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.133073"
+            timestampString = "593016819.8923171"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "183"
             endingLineNumber = "183"
-            landmarkName = "searchAlgo::SMr_DFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position, int** adM,int Msize,int scr,int des)"
+            landmarkName = "searchAlgo::SMi_DFS(int** adM,vector&lt;vector&lt;int&gt;&gt; *position,vector&lt;vector&lt;float&gt;&gt; *cost,int* columnS,int Msize,int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -874,12 +858,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.133348"
+            timestampString = "593016819.8926001"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "184"
             endingLineNumber = "184"
-            landmarkName = "searchAlgo::SMr_DFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position, int** adM,int Msize,int scr,int des)"
+            landmarkName = "searchAlgo::SMi_DFS(int** adM,vector&lt;vector&lt;int&gt;&gt; *position,vector&lt;vector&lt;float&gt;&gt; *cost,int* columnS,int Msize,int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -890,7 +874,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.133618"
+            timestampString = "593016819.8928781"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "196"
@@ -906,7 +890,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.133891"
+            timestampString = "593016819.893151"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "197"
@@ -922,7 +906,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.134159"
+            timestampString = "593016819.8934211"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "203"
@@ -938,7 +922,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.134426"
+            timestampString = "593016819.893688"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "211"
@@ -954,12 +938,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.134696"
+            timestampString = "593016819.893961"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "188"
             endingLineNumber = "188"
-            landmarkName = "searchAlgo::SMr_DFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position, int** adM,int Msize,int scr,int des)"
+            landmarkName = "searchAlgo::SMi_DFS(int** adM,vector&lt;vector&lt;int&gt;&gt; *position,vector&lt;vector&lt;float&gt;&gt; *cost,int* columnS,int Msize,int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -970,7 +954,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.134958"
+            timestampString = "593016819.894227"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "190"
@@ -986,7 +970,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.135219"
+            timestampString = "593016819.894492"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "192"
@@ -1002,7 +986,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.135481"
+            timestampString = "593016819.894755"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "198"
@@ -1018,7 +1002,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.135729"
+            timestampString = "593016819.895005"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "199"
@@ -1033,76 +1017,12 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Graph.cpp"
-            timestampString = "592992936.135977"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "261"
-            endingLineNumber = "261"
-            landmarkName = "Graph::BFS(int scr,int des)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.136686"
+            timestampString = "593016819.895251"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "315"
-            endingLineNumber = "315"
-            landmarkName = "searchAlgo::SLi_BFS(vector&lt;vector&lt;int&gt;&gt;adj,vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;float&gt;&gt;*cost,int scr,int des)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "searchAlgo.cpp"
-            timestampString = "592992936.13693"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "319"
-            endingLineNumber = "319"
-            landmarkName = "searchAlgo::SLi_BFS(vector&lt;vector&lt;int&gt;&gt;adj,vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;float&gt;&gt;*cost,int scr,int des)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "searchAlgo.cpp"
-            timestampString = "592992936.137167"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "323"
-            endingLineNumber = "323"
-            landmarkName = "searchAlgo::SLi_BFS(vector&lt;vector&lt;int&gt;&gt;adj,vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;float&gt;&gt;*cost,int scr,int des)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "searchAlgo.cpp"
-            timestampString = "592992936.137404"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "339"
-            endingLineNumber = "339"
+            startingLineNumber = "318"
+            endingLineNumber = "318"
             landmarkName = "searchAlgo::SMr_BFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position,int**adM,int Msize, int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1114,11 +1034,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.137638"
+            timestampString = "593016819.895489"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "338"
-            endingLineNumber = "338"
+            startingLineNumber = "322"
+            endingLineNumber = "322"
             landmarkName = "searchAlgo::SMr_BFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position,int**adM,int Msize, int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1130,7 +1050,39 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.137868"
+            timestampString = "593016819.895726"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "326"
+            endingLineNumber = "326"
+            landmarkName = "searchAlgo::SMr_BFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position,int**adM,int Msize, int scr,int des)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "searchAlgo.cpp"
+            timestampString = "593016819.895963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "342"
+            endingLineNumber = "342"
+            landmarkName = "searchAlgo::SMr_BFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position,int**adM,int Msize, int scr,int des)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "searchAlgo.cpp"
+            timestampString = "593016819.896196"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "341"
@@ -1146,12 +1098,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.138101"
+            timestampString = "593016819.896433"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "324"
-            endingLineNumber = "324"
-            landmarkName = "searchAlgo::SLi_BFS(vector&lt;vector&lt;int&gt;&gt;adj,vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;float&gt;&gt;*cost,int scr,int des)"
+            startingLineNumber = "344"
+            endingLineNumber = "344"
+            landmarkName = "searchAlgo::SMr_BFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position,int**adM,int Msize, int scr,int des)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "searchAlgo.cpp"
+            timestampString = "593016819.8966759"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "327"
+            endingLineNumber = "327"
+            landmarkName = "searchAlgo::SMr_BFS(vector&lt;bool&gt;*visited, vector&lt;vector&lt;int&gt;&gt;* position,int**adM,int Msize, int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1162,11 +1130,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Graph.cpp"
-            timestampString = "592992936.1383311"
+            timestampString = "593016819.896917"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "255"
-            endingLineNumber = "255"
+            startingLineNumber = "269"
+            endingLineNumber = "269"
             landmarkName = "Graph::BFS(int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1178,11 +1146,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Graph.cpp"
-            timestampString = "592992936.1389771"
+            timestampString = "593016819.897078"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "230"
-            endingLineNumber = "230"
+            startingLineNumber = "234"
+            endingLineNumber = "234"
             landmarkName = "Graph::BFS(int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1194,12 +1162,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.139707"
+            timestampString = "593016819.897228"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "390"
-            endingLineNumber = "390"
-            landmarkName = "searchAlgo::SMi_BFS(int**adM,vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;float&gt;&gt;*cost,int* columns,int Msize,int scr,int des)"
+            startingLineNumber = "393"
+            endingLineNumber = "393"
+            landmarkName = "searchAlgo::SL_Dijkstra(vector&lt;vector&lt;float&gt;&gt;* cost, vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;int&gt;&gt; adj, int scr, int des)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1210,7 +1178,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Graph.cpp"
-            timestampString = "592992936.139962"
+            timestampString = "593016819.897438"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "156"
@@ -1226,7 +1194,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Graph.cpp"
-            timestampString = "592992936.1405981"
+            timestampString = "593016819.897579"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "160"
@@ -1242,11 +1210,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.141311"
+            timestampString = "593016819.89772"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "559"
-            endingLineNumber = "559"
+            startingLineNumber = "562"
+            endingLineNumber = "562"
             landmarkName = "searchAlgo::SM_A_star(vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;float&gt;&gt;* cost,int** adM,int Msize,int scr, int des)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1258,11 +1226,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.1415499"
+            timestampString = "593016819.897994"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "553"
-            endingLineNumber = "553"
+            startingLineNumber = "556"
+            endingLineNumber = "556"
             landmarkName = "searchAlgo::SM_A_star(vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;float&gt;&gt;* cost,int** adM,int Msize,int scr, int des)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1274,11 +1242,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.141777"
+            timestampString = "593016819.898212"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "552"
-            endingLineNumber = "552"
+            startingLineNumber = "555"
+            endingLineNumber = "555"
             landmarkName = "searchAlgo::SM_A_star(vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;float&gt;&gt;* cost,int** adM,int Msize,int scr, int des)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1290,11 +1258,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.14201"
+            timestampString = "593016819.898419"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "564"
-            endingLineNumber = "564"
+            startingLineNumber = "567"
+            endingLineNumber = "567"
             landmarkName = "searchAlgo::SM_A_star(vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;float&gt;&gt;* cost,int** adM,int Msize,int scr, int des)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1306,11 +1274,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.142234"
+            timestampString = "593016819.8986239"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "565"
-            endingLineNumber = "565"
+            startingLineNumber = "568"
+            endingLineNumber = "568"
             landmarkName = "searchAlgo::SM_A_star(vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;float&gt;&gt;* cost,int** adM,int Msize,int scr, int des)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1322,11 +1290,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Graph.cpp"
-            timestampString = "592992936.142465"
+            timestampString = "593016819.898826"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "338"
-            endingLineNumber = "338"
+            startingLineNumber = "346"
+            endingLineNumber = "346"
             landmarkName = "Graph::A_star(int scr, int des)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1338,11 +1306,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.143182"
+            timestampString = "593016819.898963"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "558"
-            endingLineNumber = "558"
+            startingLineNumber = "561"
+            endingLineNumber = "561"
             landmarkName = "searchAlgo::SM_A_star(vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;float&gt;&gt;* cost,int** adM,int Msize,int scr, int des)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1354,11 +1322,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.143389"
+            timestampString = "593016819.8991539"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "581"
-            endingLineNumber = "581"
+            startingLineNumber = "584"
+            endingLineNumber = "584"
             landmarkName = "searchAlgo::SM_A_star(vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;float&gt;&gt;* cost,int** adM,int Msize,int scr, int des)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1370,7 +1338,23 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.143595"
+            timestampString = "593016819.899344"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "496"
+            endingLineNumber = "496"
+            landmarkName = "searchAlgo::SL_A_star(vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;float&gt;&gt;* cost,vector&lt;vector&lt;int&gt;&gt; adj,int scr, int des)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "searchAlgo.cpp"
+            timestampString = "593016819.8995"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "493"
@@ -1385,44 +1369,12 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "searchAlgo.cpp"
-            timestampString = "592992936.143756"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "490"
-            endingLineNumber = "490"
-            landmarkName = "searchAlgo::SL_A_star(vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;float&gt;&gt;* cost,vector&lt;vector&lt;int&gt;&gt; adj,int scr, int des)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "Graph.cpp"
-            timestampString = "592992936.1439151"
+            timestampString = "593016819.899652"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "252"
-            endingLineNumber = "252"
-            landmarkName = "Graph::BFS(int scr,int des)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Graph.cpp"
-            timestampString = "592992936.1444401"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "264"
-            endingLineNumber = "264"
+            startingLineNumber = "258"
+            endingLineNumber = "258"
             landmarkName = "Graph::BFS(int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1434,12 +1386,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.144888"
+            timestampString = "593016819.899738"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "635"
-            endingLineNumber = "635"
-            landmarkName = "searchAlgo::Fn(std::vector&lt;int&gt;p, std::vector&lt;std::vector&lt;int&gt; &gt; *position, std::vector&lt;std::vector&lt;float&gt; &gt; *cost,int size)"
+            startingLineNumber = "641"
+            endingLineNumber = "641"
+            landmarkName = "searchAlgo::costCal(vector&lt;int&gt; path,vector&lt;vector&lt;int&gt;&gt;* position, vector&lt;vector&lt;float&gt; &gt; * cost,string method_Name)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1450,11 +1402,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.145016"
+            timestampString = "593016819.899858"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "703"
-            endingLineNumber = "703"
+            startingLineNumber = "716"
+            endingLineNumber = "716"
             landmarkName = "searchAlgo::Stats(string methodName,vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;float&gt;&gt;* cost)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1466,11 +1418,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Graph.cpp"
-            timestampString = "592992936.145141"
+            timestampString = "593016819.899977"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "231"
-            endingLineNumber = "231"
+            startingLineNumber = "235"
+            endingLineNumber = "235"
             landmarkName = "Graph::BFS(int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1482,12 +1434,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.1455539"
+            timestampString = "593016819.9000601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "239"
-            endingLineNumber = "239"
-            landmarkName = "searchAlgo::SMi_DFS(int** adM,vector&lt;vector&lt;int&gt;&gt; *position,vector&lt;vector&lt;float&gt;&gt; *cost,int* columnS,int Msize,int scr,int des)"
+            startingLineNumber = "240"
+            endingLineNumber = "240"
+            landmarkName = "searchAlgo::SLr_BFS(vector&lt;bool&gt; *visited,vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;int&gt;&gt;adj,int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1498,11 +1450,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.145673"
+            timestampString = "593016819.900174"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "266"
-            endingLineNumber = "266"
+            startingLineNumber = "267"
+            endingLineNumber = "267"
             landmarkName = "searchAlgo::SLr_BFS(vector&lt;bool&gt; *visited,vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;int&gt;&gt;adj,int scr,int des)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1514,12 +1466,60 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.145776"
+            timestampString = "593016819.900278"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "268"
-            endingLineNumber = "268"
+            startingLineNumber = "269"
+            endingLineNumber = "269"
             landmarkName = "searchAlgo::SLr_BFS(vector&lt;bool&gt; *visited,vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;int&gt;&gt;adj,int scr,int des)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "searchAlgo.cpp"
+            timestampString = "593016819.900383"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "665"
+            endingLineNumber = "665"
+            landmarkName = "searchAlgo::costCal(vector&lt;int&gt; path,vector&lt;vector&lt;int&gt;&gt;* position, vector&lt;vector&lt;float&gt; &gt; * cost,string method_Name)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "searchAlgo.cpp"
+            timestampString = "593016819.900463"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "670"
+            endingLineNumber = "670"
+            landmarkName = "searchAlgo::costCal(vector&lt;int&gt; path,vector&lt;vector&lt;int&gt;&gt;* position, vector&lt;vector&lt;float&gt; &gt; * cost,string method_Name)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "searchAlgo.cpp"
+            timestampString = "593016819.900543"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "675"
+            endingLineNumber = "675"
+            landmarkName = "searchAlgo::costCal(vector&lt;int&gt; path,vector&lt;vector&lt;int&gt;&gt;* position, vector&lt;vector&lt;float&gt; &gt; * cost,string method_Name)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1530,61 +1530,269 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.145879"
+            timestampString = "593016819.900622"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "658"
-            endingLineNumber = "658"
-            landmarkName = "searchAlgo::costCal(vector&lt;int&gt; path,vector&lt;vector&lt;int&gt;&gt;* position, vector&lt;vector&lt;float&gt; &gt; * cost,string method_Name)"
+            startingLineNumber = "755"
+            endingLineNumber = "755"
+            landmarkName = "searchAlgo::averageTime()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.145956"
+            timestampString = "593016819.900699"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "663"
-            endingLineNumber = "663"
-            landmarkName = "searchAlgo::costCal(vector&lt;int&gt; path,vector&lt;vector&lt;int&gt;&gt;* position, vector&lt;vector&lt;float&gt; &gt; * cost,string method_Name)"
+            startingLineNumber = "834"
+            endingLineNumber = "834"
+            landmarkName = "searchAlgo::averageOthers()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "searchAlgo.cpp"
-            timestampString = "592992936.146032"
+            timestampString = "593016819.900766"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "666"
-            endingLineNumber = "666"
-            landmarkName = "searchAlgo::costCal(vector&lt;int&gt; path,vector&lt;vector&lt;int&gt;&gt;* position, vector&lt;vector&lt;float&gt; &gt; * cost,string method_Name)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "searchAlgo.cpp"
-            timestampString = "592992936.146108"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "738"
-            endingLineNumber = "738"
+            startingLineNumber = "686"
+            endingLineNumber = "686"
             landmarkName = "searchAlgo::Stats(string methodName,vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;float&gt;&gt;* cost)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "searchAlgo.cpp"
+            timestampString = "593016819.900831"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "640"
+            endingLineNumber = "640"
+            landmarkName = "searchAlgo::costCal(vector&lt;int&gt; path,vector&lt;vector&lt;int&gt;&gt;* position, vector&lt;vector&lt;float&gt; &gt; * cost,string method_Name)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "searchAlgo.cpp"
+            timestampString = "593016819.900893"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "642"
+            endingLineNumber = "642"
+            landmarkName = "searchAlgo::costCal(vector&lt;int&gt; path,vector&lt;vector&lt;int&gt;&gt;* position, vector&lt;vector&lt;float&gt; &gt; * cost,string method_Name)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "searchAlgo.cpp"
+            timestampString = "593016819.900957"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "687"
+            endingLineNumber = "687"
+            landmarkName = "searchAlgo::Stats(string methodName,vector&lt;vector&lt;int&gt;&gt;* position,vector&lt;vector&lt;float&gt;&gt;* cost)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "searchAlgo.cpp"
+            timestampString = "593016819.901022"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "833"
+            endingLineNumber = "833"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Graph.cpp"
+            timestampString = "593016819.901085"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "356"
+            endingLineNumber = "356"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "searchAlgo.cpp"
+            timestampString = "593016819.901136"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "832"
+            endingLineNumber = "832"
+            landmarkName = "searchAlgo::averageTime()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "main.cpp"
+            timestampString = "593016819.901199"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "main(int argc, char** argv)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "main.cpp"
+            timestampString = "593016819.9016"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "main(int argc, char** argv)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "main.cpp"
+            timestampString = "593016819.901867"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "main(int argc, char** argv)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "main.cpp"
+            timestampString = "593016819.9020979"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "main(int argc, char** argv)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "main.cpp"
+            timestampString = "593016819.9023269"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "main(int argc, char** argv)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "main.cpp"
+            timestampString = "593016819.902558"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "main(int argc, char** argv)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "main.cpp"
+            timestampString = "593016819.902786"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "main(int argc, char** argv)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "main.cpp"
+            timestampString = "593016819.903005"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "main(int argc, char** argv)"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

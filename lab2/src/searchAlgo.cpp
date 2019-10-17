@@ -21,7 +21,7 @@ using namespace std::chrono;
 
 searchAlgo::searchAlgo(int depth,int scr){
     totalCost = 0.0;
-    //size = x;
+    size = depth;
     path_r.push_back(scr);//recusive for list on DFS
     path_d.push_back(scr);//recusive for matrix on DFS
     explored.push_back(scr);//recusive record for list on BFS
@@ -97,7 +97,7 @@ void searchAlgo::SLi_DFS(vector<vector<int>> adj, vector<vector<int>>* position,
             }
     }
     
-    output<<"The adjlist in DFS method ";
+    output<<"The iterative path for adjlist in DFS method is: ";
     cout<<"The iterative path for adjlist in DFS method is: ";
     stack<int>s;
     vector<int>retured_path;
@@ -216,7 +216,8 @@ void searchAlgo::SMi_DFS(int** adM,vector<vector<int>> *position,vector<vector<f
     }
     
     cout<<"The iterative path for adjMatrix in DFS method is: ";
-    output<<"The adjMatrix in DFS method ";
+    output<<"The iterative path for adjMatrix in DFS method is: ";
+    
     stack<int>s;
     vector<int>retured_path;
     int t;
@@ -298,12 +299,14 @@ void searchAlgo::SLi_BFS(vector<vector<int>>adj,vector<vector<int>>* position,ve
         scr = path.front();
     }
     p.push_back(des);
-    cout<<"The iterative path for adjMatrix in BFS is: ";
-    output<<"The adjMatrix in BFS ";
+    cout<<"The iterative path for adjList in BFS is: ";
+    output<<"The iterative path for adjList in BFS is: ";
+    //output<<"The adjMatrix in BFS ";
     for(int j = 0;j<p.size();j++){
         cout<<p[j]<<" ";
     }
     cout<<endl;
+    output.close();
     string methodName = "The method is adjList in BFS of iterative method.";
     costCal(p,position, cost,methodName);
 }
@@ -591,16 +594,19 @@ void searchAlgo::SM_A_star(vector<vector<int>>* position,vector<vector<float>>* 
 }
 
 void searchAlgo::printS_D_A(vector<int>p,vector<vector<int>>* position,vector<vector<float>>* cost,int scr,int des,string method_Name){
-    fstream output;
-    output.open("OutputFile.txt",fstream::app);
+    //fstream output;
+    //output.open("OutputFile.txt",fstream::app);
     for(int i = 0; i < p.size(); i++)
     {
         cout <<p[i] <<" ";
     }
     cout<<endl;
     cout<<"The total nodes explored in path is: "<<p.size()<<endl;
-    output<<"The total nodes explored in path is: "<<p.size()<<endl;
-    output.close();
+    //output<<method_Name;
+    //output<<"The total nodes explored in path is: "<<p.size()<<endl;
+    //Nodes_in_path.push_back(make_pair(method_Name, pSize));
+    Nodes_explored.push_back(make_pair(method_Name, p.size()));
+    //output.close();
     costCal(p, position,cost,method_Name);
     
 }
@@ -654,6 +660,7 @@ void searchAlgo::costCal(vector<int> path,vector<vector<int>>* position, vector<
         dist += pow((x1-x),power)+pow((y1-y),power)+pow((z1-z),power);
     }
     output<<endl;
+    output<<method_Name<<endl;
     output<<"The total cost is: "<<totalCost<<endl;
     avr_cost.push_back(make_pair(method_Name, totalCost));
     //std::cout << "??????????????????????";
@@ -661,6 +668,8 @@ void searchAlgo::costCal(vector<int> path,vector<vector<int>>* position, vector<
     int pSize = path.size();
     output<<"The total nodes in returned path is: "<<path.size()<<endl;
     Nodes_in_path.push_back(make_pair(method_Name, pSize));
+    output<<"The total nodes explored in path is: "<<path.size()<<endl;
+    Nodes_explored.push_back(make_pair(method_Name, pSize));
     
     output<<"The total distance is: "<<dist<<endl;
     Dist.push_back(make_pair(method_Name, dist));
@@ -685,7 +694,9 @@ void searchAlgo::Stats(string methodName,vector<vector<int>>* position,vector<ve
        }
         cout<<endl;
         cout<<"The total nodes explored in path is: "<<path_r.size()<<endl;
-        output<<"The total nodes explored in path is: "<<path_r.size()<<endl;
+        output<<methodName1<<endl;
+        output<<"The total nodes explored in path is: "<<path_r.size();
+        Nodes_explored.push_back(make_pair(methodName1, path_r.size()));
         output.close();
         costCal(path_r, position,cost,methodName1);
 
@@ -699,7 +710,9 @@ void searchAlgo::Stats(string methodName,vector<vector<int>>* position,vector<ve
         }
         cout<<endl;
         cout<<"The total nodes explored in path is: "<<explored.size()<<endl;
-        output<<"The total nodes explored in path is: "<<explored.size()<<endl;
+        output<<methodName2<<endl;
+        output<<"The total nodes explored in path is: "<<explored.size();
+        Nodes_explored.push_back(make_pair(methodName2, explored.size()));
         output.close();
         costCal(path_b,position ,cost,methodName2);
     }
@@ -712,7 +725,9 @@ void searchAlgo::Stats(string methodName,vector<vector<int>>* position,vector<ve
         }
         cout<<endl;
         cout<<"The total nodes explored in path is: "<<path_d.size()<<endl;
-        output<<"The total nodes explored in path is: "<<path_d.size()<<endl;
+        output<<methodName3<<endl;
+        output<<"The total nodes explored in path is: "<<path_d.size();
+        Nodes_explored.push_back(make_pair(methodName3, path_d.size()));
         output.close();
         costCal(path_d, position,cost,methodName3);
     }
@@ -725,7 +740,9 @@ void searchAlgo::Stats(string methodName,vector<vector<int>>* position,vector<ve
         }
         cout<<endl;
         cout<<"The total nodes explored in path is: "<<explored1.size()<<endl;
-        output<<"The total nodes explored in path is: "<<explored1.size()<<endl;
+        output<<methodName4<<endl;
+        output<<"The total nodes explored in path is: "<<explored1.size();
+        Nodes_explored.push_back(make_pair(methodName4, explored1.size()));
         output.close();
         costCal(path_m, position,cost,methodName4);
     }
@@ -857,6 +874,20 @@ void searchAlgo::averageOthers(){
     string functionName__12 = Nodes_in_path[11].first;
     
     ////////////////////////////////////////////////
+    string functionName___1 = Nodes_explored[0].first;
+    string functionName___2 = Nodes_explored[1].first;
+    string functionName___3 = Nodes_explored[2].first;
+    string functionName___4 = Nodes_explored[3].first;
+    string functionName___5 = Nodes_explored[4].first;
+    string functionName___6 = Nodes_explored[5].first;
+    string functionName___7 = Nodes_explored[6].first;
+    string functionName___8 = Nodes_explored[7].first;
+    string functionName___9 = Nodes_explored[8].first;
+    string functionName___10 = Nodes_explored[9].first;
+    string functionName___11 = Nodes_explored[10].first;
+    string functionName___12 = Nodes_explored[11].first;
+    ///////////////////////////////////////////////////////
+    
     float totalCost1 = 0.0;
     float totalCost2 = 0.0;
     float totalCost3 = 0.0;
@@ -897,6 +928,19 @@ void searchAlgo::averageOthers(){
     int totalDist12 = 0;
     //////////////////////////
     
+    int totalNode_1 = 0;
+    int totalNode_2 = 0;
+    int totalNode_3 = 0;
+    int totalNode_4 = 0;
+    int totalNode_5 = 0;
+    int totalNode_6 = 0;
+    int totalNode_7 = 0;
+    int totalNode_8 = 0;
+    int totalNode_9 = 0;
+    int totalNode_10 = 0;
+    int totalNode_11 = 0;
+    int totalNode_12 = 0;
+    ////////////////////////////////////////
     for(int i =0;i<avr_cost.size();i++){
         if(functionName1 == avr_cost[i].first){
             totalCost1 += avr_cost[i].second;
@@ -1054,5 +1098,59 @@ void searchAlgo::averageOthers(){
     cout<<functionName__10<<". The average number of Nodes in each path is: "<<totalNode10/100<<endl;
     cout<<functionName__11<<". The average number of Nodes in each path is: "<<totalNode11/100<<endl;
     cout<<functionName__12<<". The average number of Nodes in each path is: "<<totalNode12/100<<endl;
+    
+    for(int h =0;h<Nodes_explored.size();h++){
+        if(functionName___1 == Nodes_explored[h].first){
+            totalNode_1 += Nodes_explored[h].second;
+        }
+        else if(functionName___2 == Nodes_explored[h].first){
+            totalNode_2 += Nodes_explored[h].second;
+        }
+        else if(functionName___2 == Nodes_explored[h].first){
+            totalNode_2 += Nodes_explored[h].second;
+        }
+        else if(functionName___3 == Nodes_explored[h].first){
+            totalNode_3 += Nodes_explored[h].second;
+        }
+        else if(functionName___4 == Nodes_explored[h].first){
+            totalNode_4 += Nodes_explored[h].second;
+        }
+        else if(functionName___5 == Nodes_explored[h].first){
+            totalNode_5 += Nodes_explored[h].second;
+        }
+        else if(functionName___6 == Nodes_explored[h].first){
+            totalNode_6 += Nodes_explored[h].second;
+        }
+        else if(functionName___7 == Nodes_explored[h].first){
+            totalNode_7 += Nodes_explored[h].second;
+        }
+        else if(functionName___8 == Nodes_explored[h].first){
+            totalNode_8 += Nodes_explored[h].second;
+        }
+        else if(functionName___9 == Nodes_explored[h].first){
+            totalNode_9 += Nodes_explored[h].second;
+        }
+        else if(functionName___10 == Nodes_explored[h].first){
+            totalNode_10 += Nodes_explored[h].second;
+        }
+        else if(functionName___11 == Nodes_explored[h].first){
+            totalNode_11 += Nodes_explored[h].second;
+        }
+        else if(functionName___12 == Nodes_explored[h].first){
+            totalNode_12 += Nodes_explored[h].second;
+        }
+    }
+    cout<<functionName___1<<". The average number of Nodes explored in each path is: "<<totalNode_1/100<<endl;
+    cout<<functionName___2<<". The average number of Nodes explored in each path is: "<<totalNode_2/100<<endl;
+    cout<<functionName___3<<". The average number of Nodes explored in each path is: "<<totalNode_3/100<<endl;
+    cout<<functionName___4<<". The average number of Nodes explored in each path is: "<<totalNode_4/100<<endl;
+    cout<<functionName___5<<". The average number of Nodes explored in each path is: "<<totalNode_5/100<<endl;
+    cout<<functionName___6<<". The average number of Nodes explored in each path is: "<<totalNode_6/100<<endl;
+    cout<<functionName___7<<". The average number of Nodes explored in each path is: "<<totalNode_7/100<<endl;
+    cout<<functionName___8<<". The average number of Nodes explored in each path is: "<<totalNode_8/100<<endl;
+    cout<<functionName___9<<". The average number of Nodes explored in each path is: "<<totalNode_9/100<<endl;
+    cout<<functionName___10<<". The average number of Nodes explored in each path is: "<<totalNode_10/100<<endl;
+    cout<<functionName___11<<". The average number of Nodes explored in each path is: "<<totalNode_11/100<<endl;
+    cout<<functionName___12<<". The average number of Nodes explored in each path is: "<<totalNode_12/100<<endl;
     
 }

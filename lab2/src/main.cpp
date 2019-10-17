@@ -15,27 +15,30 @@ using namespace std;
 int main(int argc, char** argv){
     Graph a;
     
-    a.loadGraph("graph.txt","weights.txt","positions.txt");
+    a.loadGraph("largeGraph.txt","largeWeights.txt","largePositions.txt");
     
     //for test
-    for(int i = 0;i<10;i++){//run 100 times
+    for(int i = 0;i<100;i++){//run 100 times
         srand(time(NULL));
-        int scr = rand()%16+1;
-        int des = rand()%16+1;
+        int scr = rand()%2500+1;
+        int des = rand()%2500+1;
         a.DFS(scr,des);
+        
         a.BFS(scr, des);
+               
         a.Stats("Lr_DFS");
         a.Stats("Lr_BFS");
         a.Stats("Mr_DFS");
         a.Stats("Mr_BFS");
         a.Dijkstra(scr,des);
         a.A_star(scr, des);
+        
         //a.printTime();
         a.sentTime();
-        a.AVG();
+        //a.AVG();
     }
     
-    //a.AVG();
+    a.AVG();
     /*string x =  argv[1];
     string y =  argv[2];
     int scr = stoi(x);

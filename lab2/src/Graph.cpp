@@ -196,14 +196,10 @@ void Graph::DFS(int scr,int des){
     search->setN_Path(Nodes_in_path);
     search->setD(Dist);
     search->setN_e(Nodes_explored);
-    t_1 = high_resolution_clock::now();
-    search->SLi_DFS(temp1,&node_position, &cost,scr, des);//iterative
-    t_2 = high_resolution_clock::now();
-    time_span_1 = duration_cast<duration<double>>(t_2 - t_1);
-    time.push_back(make_pair("The method is adjList in DFS of iterative method", time_span_1.count()));
     
     t_1 = high_resolution_clock::now();
     search->SLr_DFS(&v,&node_position,temp1, scr, des);//recusive
+    //Stats("Lr_DFS");
     t_2 = high_resolution_clock::now();
     time_span_1 = duration_cast<duration<double>>(t_2 - t_1);
     time.push_back(make_pair("The method is adjList in DFS of recusive method", time_span_1.count()));
@@ -211,9 +207,17 @@ void Graph::DFS(int scr,int des){
     vector<bool>v1(temp1.size(),false);//RESET
     t_1 = high_resolution_clock::now();
     search->SMr_DFS(&v1, &node_position, temp2, matrixS,scr, des);//recusive
+    //Stats("Mr_DFS");
     t_2 = high_resolution_clock::now();
     time_span_1 = duration_cast<duration<double>>(t_2- t_1);
     time.push_back(make_pair("The method is adjMatrix in DFS of recusive method", time_span_1.count()));
+    
+    t_1 = high_resolution_clock::now();
+    search->SLi_DFS(temp1,&node_position, &cost,scr, des);//iterative
+    t_2 = high_resolution_clock::now();
+    time_span_1 = duration_cast<duration<double>>(t_2 - t_1);
+    time.push_back(make_pair("The method is adjList in DFS of iterative method", time_span_1.count()));
+    
     
     t_1 = high_resolution_clock::now();
     search->SMi_DFS(temp2,&node_position,&cost,columnSize,matrixS, scr, des);//iterative
@@ -245,23 +249,27 @@ void Graph::BFS(int scr,int des){
     search->setN_Path(Nodes_in_path);
     search->setD(Dist);
     search->setN_e(Nodes_explored);
+    
     search->SLr_BFS(&v,&node_position,temp1,scr,des);//recusive
+    //Stats("Lr_BFS");
     t_1 = high_resolution_clock::now();
     t_2 = high_resolution_clock::now();
     time_span_1 = duration_cast<duration<double>>(t_2 - t_1);
     time.push_back(make_pair("The method is adjList in BFS of recusive method", time_span_1.count()));
+    
+    vector<bool>v1(temp1.size(),false);//RESET
+    t_1 = high_resolution_clock::now();
+    search->SMr_BFS(&v1, &node_position,temp2, matrixS,scr, des);//recusive
+    //Stats("Mr_BFS");
+    t_2 = high_resolution_clock::now();
+    time_span_1 = duration_cast<duration<double>>(t_2 - t_1);
+    time.push_back(make_pair("The method is adjMatrix in BFS of recusive method", time_span_1.count()));
     
     t_1 = high_resolution_clock::now();
     search->SLi_BFS(temp1,&node_position,&cost,scr, des);//iterative
     time_span_1 = duration_cast<duration<double>>(t_2 - t_1);
     time.push_back(make_pair("The method is adjList in BFS of iterative method", time_span_1.count()));
     
-    vector<bool>v1(temp1.size(),false);//RESET
-    t_1 = high_resolution_clock::now();
-    search->SMr_BFS(&v1, &node_position,temp2, matrixS,scr, des);//recusive
-    t_2 = high_resolution_clock::now();
-    time_span_1 = duration_cast<duration<double>>(t_2 - t_1);
-    time.push_back(make_pair("The method is adjMatrix in BFS of recusive method", time_span_1.count()));
     
     t_1 = high_resolution_clock::now();
     search->SMi_BFS(temp2,&node_position,&cost,columnSize,matrixS, scr, des);//iterative
@@ -348,6 +356,7 @@ void Graph::A_star(int scr, int des){
 
 void Graph::Stats(string methodName){
     search->Stats(methodName,&node_position,&cost);
+
 }
 
 void Graph::printTime(){

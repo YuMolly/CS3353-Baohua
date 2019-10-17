@@ -74,5 +74,6 @@ private:
     std::vector<std::pair<std::string, int>> Dist;
     std::vector<std::pair<std::string, float>> avr_cost;
     std::vector<std::pair<std::string, double>>* time;
+    
 };
 #endif /* searchAlgo_hpp */
