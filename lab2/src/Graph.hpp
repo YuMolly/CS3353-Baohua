@@ -30,6 +30,8 @@ public:
     void printcost();
     void printTime();
     void printPosition();
+    void sentTime();
+    void AVG();
 private:
     int depth;//size for create adjlist and matrix
     int wei;//size for cost

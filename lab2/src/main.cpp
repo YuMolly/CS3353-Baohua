@@ -31,6 +31,8 @@ int main(int argc, char** argv){
         a.Dijkstra(scr,des);
         a.A_star(scr, des);
         a.printTime();
+        a.sentTime();
+        a.AVG();
     }
     
     /*string x =  argv[1];

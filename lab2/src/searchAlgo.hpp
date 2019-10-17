@@ -15,7 +15,7 @@
 #include <queue>
 #include <vector>
 //#include "adjList.hpp"
-#include "adjMatrix.hpp"
+//#include "adjMatrix.hpp"
 class searchAlgo{
 public:
     searchAlgo(int,int);
@@ -36,13 +36,18 @@ public:
     void SL_A_star(std::vector<std::vector<int>>*,std::vector<std::vector<float>>*,std::vector<std::vector<int>>,int,int);
     void SM_A_star(std::vector<std::vector<int>>*,std::vector<std::vector<float>>*,int**,int,int,int);
     
-    void printS_D_A(std::vector<int>,std::vector<std::vector<int>>*,std::vector<std::vector<float>>*, int ,int);
-    //void printS_A(std::vector<int>,std::vector<std::vector<float>>*, int ,int);
+    void printS_D_A(std::vector<int>,std::vector<std::vector<int>>*,std::vector<std::vector<float>>*, int ,int,std::string);
     
-    float costCal(std::vector<int>,std::vector<std::vector<int>>*,std::vector<std::vector<float>>*);
+    
+    void costCal(std::vector<int>,std::vector<std::vector<int>>*,std::vector<std::vector<float>>*,std::string);
     void Fn(std::vector<int>,std::vector<std::vector<int>>*,std::vector<std::vector<float>>*,int);
-    //int distanceCal(std::vector<int>);
+
     void Stats(std::string,std::vector<std::vector<int>>*,std::vector<std::vector<float>>* );
+    void setTime( std::vector<std::pair<std::string, double>>*);
+    void averageTime();
+    
+    void averageExplored();
+    void averageOthers(float,int,int,std::string);
 private:
     std::vector<int>path_r;//LIST_DFS_r
     std::vector<int>path_b;//LIST_BFS_r
@@ -54,8 +59,10 @@ private:
     std::queue<int>q_c2;//Matrix_BFS_r queue contanier
     int size;
     float totalCost;
-    std::chrono::duration<double> time_span;
-    std::chrono::high_resolution_clock::time_point t1;
-    std::chrono::high_resolution_clock::time_point t2;
+    std::vector<std::pair<std::string, int>> Nodes_in_path;
+    std::vector<std::pair<std::string, int>> Nodes_explored;
+    std::vector<std::pair<std::string, int>> Dist;
+    std::vector<std::pair<std::string, float>> avr_cost;
+    std::vector<std::pair<std::string, double>>* time;
 };
 #endif /* searchAlgo_hpp */

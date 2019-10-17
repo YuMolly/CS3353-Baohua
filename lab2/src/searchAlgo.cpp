@@ -91,7 +91,8 @@ void searchAlgo::SLi_DFS(vector<vector<int>> adj, vector<vector<int>>* position,
     }
     cout<<endl;
     output.close();
-    costCal(retured_path,position, cost);
+    string methodName = "The method is adjList in DFS of iterative method";
+    costCal(retured_path,position, cost,methodName);
 }
 
 void searchAlgo::SLr_DFS(vector<bool>*visited, vector<vector<int>>* position,vector<vector<int>> adj, int scr,int des){
@@ -208,7 +209,8 @@ void searchAlgo::SMi_DFS(int** adM,vector<vector<int>> *position,vector<vector<f
     }
     cout<<endl;
     output.close();
-    costCal(retured_path, position,cost);
+    string methodName = "The method is adjMatrix in DFS of iterative method.";
+    costCal(retured_path, position,cost,methodName);
 }
 
 void searchAlgo::SLr_BFS(vector<bool> *visited,vector<vector<int>>* position,vector<vector<int>>adj,int scr,int des){
@@ -279,7 +281,8 @@ void searchAlgo::SLi_BFS(vector<vector<int>>adj,vector<vector<int>>* position,ve
         cout<<p[j]<<" ";
     }
     cout<<endl;
-    costCal(p,position, cost);
+    string methodName = "The method is adjList in BFS of iterative method.";
+    costCal(p,position, cost,methodName);
 }
 
 void searchAlgo::SMr_BFS(vector<bool>*visited, vector<vector<int>>* position,int**adM,int Msize, int scr,int des){
@@ -357,7 +360,8 @@ void searchAlgo::SMi_BFS(int**adM,vector<vector<int>>* position,vector<vector<fl
     }
     cout<<endl;
     output.close();
-    costCal(p,position, cost);
+    string methodName = "The method is adjMatrix in BFS of iterative method.";
+    costCal(p,position, cost,methodName);
 }
 
 void searchAlgo::SL_Dijkstra(vector<vector<float>>* cost, vector<vector<int>>* position,vector<vector<int>> adj, int scr, int des){
@@ -390,7 +394,8 @@ void searchAlgo::SL_Dijkstra(vector<vector<float>>* cost, vector<vector<int>>* p
         }
     }
     path.push_back(des);
-    printS_D_A(path,position,cost,scr,des);
+    string methodName = "The method is adList in Dijkstra method.";
+    printS_D_A(path,position,cost,scr,des,methodName);
     
 }
 
@@ -428,7 +433,8 @@ void searchAlgo::SM_Dijkstra(vector<vector<float>>* cost,vector<vector<int>>* po
         cout<<".";
     }
     path.push_back(des);
-    printS_D_A(path,position,cost,scr,des);
+    string methodName = "The method is adLMatrix in Dijkstra method.";
+    printS_D_A(path,position,cost,scr,des,methodName);
     Fn(path, position, cost,Msize);
 }
 
@@ -482,7 +488,8 @@ void searchAlgo::SL_A_star(vector<vector<int>>* position,vector<vector<float>>* 
         cout<<".";
     }
     path.push_back(des);
-    printS_D_A(path,position,cost,scr,des);
+    string methodName = "The method is adList in A* method.";
+    printS_D_A(path,position,cost,scr,des,methodName);
     fstream output;
     output.open("OutputFile.txt",fstream::app);
     output<<"Print F(n) for A* method in adjList:";
@@ -550,7 +557,8 @@ void searchAlgo::SM_A_star(vector<vector<int>>* position,vector<vector<float>>* 
         cout<<".";
     }
     path.push_back(des);
-    printS_D_A(path,position,cost,scr,des);
+    string methodName = "The method is dMatrix in A* method.";
+    printS_D_A(path,position,cost,scr,des,methodName);
     //cout<<"Print F(n) for A* method in adjMatrix:";
     fstream output;
     output.open("OutputFile.txt",fstream::app);
@@ -559,7 +567,7 @@ void searchAlgo::SM_A_star(vector<vector<int>>* position,vector<vector<float>>* 
     Fn(path, position, cost,Msize);
 }
 
-void searchAlgo::printS_D_A(vector<int>p,vector<vector<int>>* position,vector<vector<float>>* cost,int scr,int des){
+void searchAlgo::printS_D_A(vector<int>p,vector<vector<int>>* position,vector<vector<float>>* cost,int scr,int des,string method_Name){
     fstream output;
     output.open("OutputFile.txt",fstream::app);
     for(int i = 0; i < p.size(); i++)
@@ -570,7 +578,7 @@ void searchAlgo::printS_D_A(vector<int>p,vector<vector<int>>* position,vector<ve
     cout<<"The total nodes explored in path is: "<<p.size()<<endl;
     output<<"The total nodes explored in path is: "<<p.size()<<endl;
     output.close();
-    costCal(p, position,cost);
+    costCal(p, position,cost,method_Name);
     
 }
 
@@ -600,7 +608,7 @@ void searchAlgo::Fn(std::vector<int>p, std::vector<std::vector<int> > *position,
     output.close();
 }
 
-float searchAlgo::costCal(vector<int> path,vector<vector<int>>* position, vector<vector<float> > * cost){
+void searchAlgo::costCal(vector<int> path,vector<vector<int>>* position, vector<vector<float> > * cost,string method_Name){
     fstream output;
     output.open("OutputFile.txt",fstream::app);
     int n,n1=0;
@@ -624,6 +632,7 @@ float searchAlgo::costCal(vector<int> path,vector<vector<int>>* position, vector
     }
     output<<endl;
     output<<"The total cost is: "<<totalCost<<endl;
+    int pSize = path.size();
     output<<"The total nodes in returned path is: "<<path.size()<<endl;
     output<<"The total distance is: "<<dist<<endl;
     cout<<"The total cost is: "<<totalCost<<endl;
@@ -633,13 +642,14 @@ float searchAlgo::costCal(vector<int> path,vector<vector<int>>* position, vector
     cout<<endl;
     output<<endl;
     output.close();
-    return totalCost;
+    averageOthers(totalCost,pSize,dist,method_Name);
 }
 
 void searchAlgo::Stats(string methodName,vector<vector<int>>* position,vector<vector<float>>* cost){
     fstream output;
     output.open("OutputFile.txt",fstream::app);
     if(methodName == "Lr_DFS"){
+        string methodName1 = "The method is adjList in DFS of recusive method.";
         cout<<"The recusive path for adjList in DFS is: ";
         for(int i = 0;i<path_r.size();i++){
         cout<<path_r[i]<<" ";
@@ -648,11 +658,12 @@ void searchAlgo::Stats(string methodName,vector<vector<int>>* position,vector<ve
         cout<<"The total nodes explored in path is: "<<path_r.size()<<endl;
         output<<"The total nodes explored in path is: "<<path_r.size()<<endl;
         output.close();
-        costCal(path_r, position,cost);
+        costCal(path_r, position,cost,methodName1);
 
     }
     else if (methodName == "Lr_BFS"){
         output.open("OutputFile.txt",fstream::app);
+        string methodName2 = "The method is adjList in BFS of recusive method.";
         cout<<"The recusive path for adjList in BFS is: ";
         for(int i = 0;i<path_b.size();i++){
             cout<<path_b[i]<<" ";
@@ -661,10 +672,11 @@ void searchAlgo::Stats(string methodName,vector<vector<int>>* position,vector<ve
         cout<<"The total nodes explored in path is: "<<explored.size()<<endl;
         output<<"The total nodes explored in path is: "<<explored.size()<<endl;
         output.close();
-        costCal(path_b,position ,cost);
+        costCal(path_b,position ,cost,methodName2);
     }
     else if (methodName == "Mr_DFS"){
         output.open("OutputFile.txt",fstream::app);
+        string methodName3 = "The method is adjMatrix in DFS of recusive method.";
         cout<<"The recusive path for adjMartix in DFS is: ";
         for(int i = 0;i<path_d.size();i++){
             cout<<path_d[i]<<" ";
@@ -673,10 +685,11 @@ void searchAlgo::Stats(string methodName,vector<vector<int>>* position,vector<ve
         cout<<"The total nodes explored in path is: "<<path_d.size()<<endl;
         output<<"The total nodes explored in path is: "<<path_d.size()<<endl;
         output.close();
-        costCal(path_d, position,cost);
+        costCal(path_d, position,cost,methodName3);
     }
     else if (methodName == "Mr_BFS"){
         output.open("OutputFile.txt",fstream::app);
+        string methodName4 = "The method is adjMatrix in BFS of recusive method.";
         cout<<"The recusive path for adjMartix in BFS is: ";
         for(int i = 0;i<path_m.size();i++){
             cout<<path_m[i]<<" ";
@@ -685,6 +698,93 @@ void searchAlgo::Stats(string methodName,vector<vector<int>>* position,vector<ve
         cout<<"The total nodes explored in path is: "<<explored1.size()<<endl;
         output<<"The total nodes explored in path is: "<<explored1.size()<<endl;
         output.close();
-        costCal(path_m, position,cost);
+        costCal(path_m, position,cost,methodName4);
     }
+}
+
+void searchAlgo::setTime( vector<pair<string, double>> *t){
+    time = t;
+}
+
+void searchAlgo::averageTime(){
+    string functionName1 = (*time)[0].first;
+    string functionName2 = (*time)[1].first;
+    string functionName3 = (*time)[2].first;
+    string functionName4 = (*time)[3].first;
+    string functionName5 = (*time)[4].first;
+    string functionName6 = (*time)[5].first;
+    string functionName7 = (*time)[6].first;
+    string functionName8 = (*time)[7].first;
+    string functionName9 = (*time)[8].first;
+    string functionName10 = (*time)[9].first;
+    string functionName11 = (*time)[10].first;
+    string functionName12 = (*time)[11].first;
+    float avrTime1 = 0.0;
+    float avrTime2 = 0.0;
+    float avrTime3 = 0.0;
+    float avrTime4 = 0.0;
+    float avrTime5 = 0.0;
+    float avrTime6 = 0.0;
+    float avrTime7 = 0.0;
+    float avrTime8 = 0.0;
+    float avrTime9 = 0.0;
+    float avrTime10 = 0.0;
+    float avrTime11 = 0.0;
+    float avrTime12 = 0.0;
+    
+    for(int i = 0;i< time->size();i++){
+        if(functionName1 == (*time)[i].first){
+            avrTime1 += (*time)[i].second;
+        }
+        else if(functionName2 == (*time)[i].first){
+            avrTime2 += (*time)[i].second;
+        }
+        else if(functionName3 == (*time)[i].first){
+            avrTime3 += (*time)[i].second;
+        }
+        else if(functionName4 == (*time)[i].first){
+            avrTime4 += (*time)[i].second;
+        }
+        else if(functionName5 == (*time)[i].first){
+            avrTime5 += (*time)[i].second;
+        }
+        else if(functionName6 == (*time)[i].first){
+            avrTime6 += (*time)[i].second;
+        }
+        else if(functionName7 == (*time)[i].first){
+            avrTime7 += (*time)[i].second;
+        }
+        else if(functionName8== (*time)[i].first){
+            avrTime8 += (*time)[i].second;
+        }
+        else if(functionName9 == (*time)[i].first){
+            avrTime9 += (*time)[i].second;
+        }
+        else if(functionName10 == (*time)[i].first){
+            avrTime10 += (*time)[i].second;
+        }
+        else if(functionName11 == (*time)[i].first){
+            avrTime11 += (*time)[i].second;
+        }
+        else if(functionName12 == (*time)[i].first){
+            avrTime12 += (*time)[i].second;
+        }
+    }
+    cout<<functionName1<<". The average execution time is: "<<avrTime1/100<<"s"<<endl;
+    cout<<functionName2<<". The average execution time is: "<<avrTime2/100<<"s"<<endl;
+    cout<<functionName3<<". The average execution time is: "<<avrTime3/100<<"s"<<endl;
+    cout<<functionName4<<". The average execution time is: "<<avrTime4/100<<"s"<<endl;
+    cout<<functionName5<<". The average execution time is: "<<avrTime5/100<<"s"<<endl;
+    cout<<functionName6<<". The average execution time is: "<<avrTime6/100<<"s"<<endl;
+    cout<<functionName7<<". The average execution time is: "<<avrTime7/100<<"s"<<endl;
+    cout<<functionName8<<". The average execution time is: "<<avrTime8/100<<"s"<<endl;
+    cout<<functionName9<<". The average execution time is: "<<avrTime9/100<<"s"<<endl;
+    cout<<functionName10<<". The average execution time is: "<<avrTime10/100<<"s"<<endl;
+    cout<<functionName11<<". The average execution time is: "<<avrTime11/100<<"s"<<endl;
+    cout<<functionName12<<". The average execution time is: "<<avrTime12/100<<"s"<<endl;
+    
+}
+
+void searchAlgo::averageOthers(float total_cost,int total_nodes,int total_dist,string method){
+    
 }
