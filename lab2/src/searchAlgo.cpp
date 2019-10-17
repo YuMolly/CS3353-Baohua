@@ -400,12 +400,12 @@ void searchAlgo::SL_Dijkstra(vector<vector<float>>* cost, vector<vector<int>>* p
         //intialize all scr to des are infinite
         distance.push_back(10000000);
     }
-    priority_queue<pair<int,float>> pq;
+    priority_queue<pair<int,float>,vector< pair<int, float> >, greater<pair<int, float> >> pq;
     
-    pq.push(make_pair(scr, 0));
+    pq.push(make_pair(0,scr));
     distance[scr-1] = 0;
     while((pq.empty() == false)&&(distance[des-1]> pq.top().second)){
-        int parent = pq.top().first;
+        int parent = pq.top().second;
         path.push_back(parent);
         //cout<<"parent IS: "<<parent<<endl;//==scr
         pq.pop();
@@ -415,7 +415,7 @@ void searchAlgo::SL_Dijkstra(vector<vector<float>>* cost, vector<vector<int>>* p
             if(distance[child-1] > distance[parent-1] + weights ){
                 distance[child-1] = distance[parent-1] + weights;
                 //cout<<"distance child is: "<<distance[child-1]<<endl;
-                pq.push(make_pair(child, distance[child-1]));
+                pq.push(make_pair(distance[child-1],child));
             }
         }
     }
@@ -430,16 +430,16 @@ void searchAlgo::SM_Dijkstra(vector<vector<float>>* cost,vector<vector<int>>* po
     //cout<<"Dijkstra method on adjMatrix. From "<<scr<<" to "<<des;
     vector<int>path;//record for the shortest path
     vector<float> distance;//to store cost
-    for(int i = 0; i<Msize;i++){//????what's the size for distance
+    for(int i = 0; i<Msize;i++){//
         //intialize all scr to des are infinite
         distance.push_back(10000000);
     }
-    priority_queue<pair<int,float>> pq;
+    priority_queue<pair<int,float>,vector< pair<int, float> >, greater<pair<int, float> >> pq;
     
-    pq.push(make_pair(scr, 0));
+    pq.push(make_pair(0,scr));
     distance[scr-1] = 0;
     while((pq.empty() == false)&&(distance[des-1]> pq.top().second)){
-        int parent = pq.top().first;
+        int parent = pq.top().second;
         path.push_back(parent);
         //cout<<"parent IS: "<<parent<<endl;//==scr
         pq.pop();
@@ -452,16 +452,15 @@ void searchAlgo::SM_Dijkstra(vector<vector<float>>* cost,vector<vector<int>>* po
                 if(distance[i] > distance[parent-1] + weights ){
                     distance[i] = distance[parent-1] + weights;
                     //cout<<"distance child is: "<<distance[child-1]<<endl;
-                    pq.push(make_pair(i+1, distance[i]));
+                    pq.push(make_pair( distance[i],i+1));
                 }
             }
         }
-        cout<<".";
     }
     path.push_back(des);
     string methodName = "The method is adLMatrix in Dijkstra method.";
     printS_D_A(path,position,cost,scr,des,methodName);
-    Fn(path, position, cost,Msize);
+    
 }
 
 void searchAlgo::SL_A_star(vector<vector<int>>* position,vector<vector<float>>* cost,vector<vector<int>> adj,int scr, int des){
@@ -489,15 +488,15 @@ void searchAlgo::SL_A_star(vector<vector<int>>* position,vector<vector<float>>* 
     }
     priority_queue<pair<int,int>,vector< pair<int, int> >, greater<pair<int, int>> > pq;
     
-    pq.push(make_pair(scr,dist));
+    pq.push(make_pair(dist,scr));
     distance[scr-1] = dist;//for scr which has 'dist' distance to des
     while((pq.empty() == false)){
-        int parent = pq.top().first;
+        int parent = pq.top().second;
         path.push_back(parent);
         //cout<<"parent IS: "<<parent<<endl;//==scr
         //cout<<"parent distance is: "<<endl;
         pq.pop();
-        for(int i = 1; i<adj[parent-1].size();i++){
+        for(int i = 0; i<adj[parent-1].size();i++){
             int child = adj[parent-1][i];
             x = (*position)[child-1][0];
             y = (*position)[child-1][1];
@@ -508,10 +507,9 @@ void searchAlgo::SL_A_star(vector<vector<int>>* position,vector<vector<float>>* 
             if(distance[child-1] == 1000000){
                 distance[child-1] = dist;
                 //cout<<"distance child is: "<<distance[child-1]<<endl;
-                pq.push(make_pair(child,distance[child-1]));
+                pq.push(make_pair(distance[child-1],child));
             }
         }
-        cout<<".";
     }
     path.push_back(des);
     string methodName = "The method is adList in A* method.";
@@ -526,7 +524,7 @@ void searchAlgo::SL_A_star(vector<vector<int>>* position,vector<vector<float>>* 
 void searchAlgo::SM_A_star(vector<vector<int>>* position,vector<vector<float>>* cost,int** adM,int Msize,int scr, int des){
     cout<<"The path for adjMatrix in A* is: ";
     //cout<<"A* method on adjMatrix. From "<<scr<<" to "<<des;
-    vector<int>path;//record for the shortest path
+    vector<int>path_1;//record for the shortest path
     vector<int> distance;//to store cost
     //vector<bool>vis;
     //int n = Msize;
@@ -546,51 +544,50 @@ void searchAlgo::SM_A_star(vector<vector<int>>* position,vector<vector<float>>* 
     //cout<<"The distance is: "<<dist<<endl;
     for(int i = 0; i<Msize;i++){
         //intialize all scr to des are the max
-        distance.push_back(10000000);
+        distance.push_back(1000000);
     }
     priority_queue<pair<int,int>,vector< pair<int, int> >, greater<pair<int, int> >> pq;
     
-    pq.push(make_pair(scr,dist));
+    pq.push(make_pair(dist,scr));
     distance[scr-1] = dist;//for scr which has 'dist' distance to des
     while((pq.empty() == false)){
-        int parent = pq.top().first;
-        path.push_back(parent);
+        int parent = pq.top().second;
+        path_1.push_back(parent);
         //cout<<"parent IS: "<<parent<<endl;//==scr
         //cout<<"parent distance is: "<<endl;
         pq.pop();
         for(int i = 0; i<Msize;i++){
             int child = adM[parent-1][i];//==1 or 0
-            if(child !=0){
+            if(child !=0 && distance[i] != 1000000){
                 x = (*position)[i][0];
                 y = (*position)[i][1];
                 z = (*position)[i][2];
                 dist= pow((x1-x),power)+pow((y1-y),power)+pow((z1-z),power);
                 distance[i] = dist;
+                pq.push(make_pair(dist, i + 1));
                 //vis[i] = true;
                 if(des == i+1){
-                    for(int j = 0;j<=pq.size();j++){
-                        if(pq.empty()==false){
+                    while(pq.empty()==false){
                             pq.pop();
-                        }
                     }
                 }
-                else if((distance[i] < pq.top().second)){
-                    //cout<<"distance child is: "<<distance[child-1]<<endl;
-                    pq.push(make_pair(i+1,distance[i]));
-                }
+//                else if((distance[i] < pq.top().first)){
+//                    //cout<<"distance child is: "<<distance[child-1]<<endl;
+//                    pq.push(make_pair(distance[i],i+1));
+//                }
             }
         }
-        cout<<".";
+
     }
-    path.push_back(des);
+    path_1.push_back(des);
     string methodName = "The method is dMatrix in A* method.";
-    printS_D_A(path,position,cost,scr,des,methodName);
+    printS_D_A(path_1,position,cost,scr,des,methodName);
     //cout<<"Print F(n) for A* method in adjMatrix:";
     fstream output;
     output.open("OutputFile.txt",fstream::app);
     output<<"Print F(n) for A* method in adjList:";
     output.close();
-    Fn(path, position, cost,Msize);
+    Fn(path_1, position, cost,Msize);
 }
 
 void searchAlgo::printS_D_A(vector<int>p,vector<vector<int>>* position,vector<vector<float>>* cost,int scr,int des,string method_Name){
@@ -647,10 +644,14 @@ void searchAlgo::costCal(vector<int> path,vector<vector<int>>* position, vector<
     int x,x1;
     int y,y1;
     int z,z1;
-    for(int i = 0;i<path.size()-1;i++){
-        n = path[i];
-        n1 = path[i+1];
-        totalCost+=(*cost)[n-1][n1-1];
+    for(int i = 0;i<(*cost).size()-1;i++){
+        for(int j = 0;j<(*cost)[i].size();j++){
+            totalCost+=(*cost)[i][j];
+        }
+        
+        //totalCost+=(*cost)[i][n1];
+    }
+    for(int i = 0;i<(*position).size()-1;i++){
         x = (*position)[i][0];
         y = (*position)[i][1];
         z = (*position)[i][2];
