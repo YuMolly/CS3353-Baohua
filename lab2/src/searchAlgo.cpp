@@ -19,9 +19,9 @@
 using namespace std;
 using namespace std::chrono;
 
-searchAlgo::searchAlgo(int x,int scr){
+searchAlgo::searchAlgo(int depth,int scr){
     totalCost = 0.0;
-    size = x;
+    //size = x;
     path_r.push_back(scr);//recusive for list on DFS
     path_d.push_back(scr);//recusive for matrix on DFS
     explored.push_back(scr);//recusive record for list on BFS
@@ -30,7 +30,30 @@ searchAlgo::searchAlgo(int x,int scr){
     q_c2.push(scr);//queue contanier for recusive matrix on BFS
 }
 
-
+void searchAlgo::setN_Path(std::vector<std::pair<std::string, int>> x){
+    Nodes_in_path = x;
+}
+void searchAlgo::setN_e(std::vector<std::pair<std::string, int>> x){
+    Nodes_explored = x;
+}
+void searchAlgo::setD(std::vector<std::pair<std::string, int>> x){
+    Dist = x;
+}
+void searchAlgo::setA(std::vector<std::pair<std::string, float>>y){
+    avr_cost = y;
+}
+std::vector<std::pair<std::string, int>> searchAlgo::getN_Path(){
+    return Nodes_in_path;
+}
+std::vector<std::pair<std::string, int>> searchAlgo::getN_e(){
+    return Nodes_explored;
+}
+std::vector<std::pair<std::string, float>> searchAlgo::getA(){
+    return avr_cost;
+}
+std::vector<std::pair<std::string, int>> searchAlgo::getD(){
+    return Dist;
+}
 
 void searchAlgo::SLi_DFS(vector<vector<int>> adj, vector<vector<int>>* position,vector<vector<float>>* cost,int scr,int des){
     fstream output;
@@ -632,9 +655,15 @@ void searchAlgo::costCal(vector<int> path,vector<vector<int>>* position, vector<
     }
     output<<endl;
     output<<"The total cost is: "<<totalCost<<endl;
+    avr_cost.push_back(make_pair(method_Name, totalCost));
+    //std::cout << "??????????????????????";
+    
     int pSize = path.size();
     output<<"The total nodes in returned path is: "<<path.size()<<endl;
+    Nodes_in_path.push_back(make_pair(method_Name, pSize));
+    
     output<<"The total distance is: "<<dist<<endl;
+    Dist.push_back(make_pair(method_Name, dist));
     cout<<"The total cost is: "<<totalCost<<endl;
     cout<<"The total nodes in returned path is: "<<path.size()<<endl;
     cout<<"The total distance is: "<<dist<<endl;
@@ -642,7 +671,7 @@ void searchAlgo::costCal(vector<int> path,vector<vector<int>>* position, vector<
     cout<<endl;
     output<<endl;
     output.close();
-    averageOthers(totalCost,pSize,dist,method_Name);
+    //averageOthers();
 }
 
 void searchAlgo::Stats(string methodName,vector<vector<int>>* position,vector<vector<float>>* cost){
@@ -785,6 +814,245 @@ void searchAlgo::averageTime(){
     
 }
 
-void searchAlgo::averageOthers(float total_cost,int total_nodes,int total_dist,string method){
+void searchAlgo::averageOthers(){
+    string functionName1 = avr_cost[0].first;
+    string functionName2 = avr_cost[1].first;
+    string functionName3 = avr_cost[2].first;
+    string functionName4 = avr_cost[3].first;
+    string functionName5 = avr_cost[4].first;
+    string functionName6 = avr_cost[5].first;
+    string functionName7 = avr_cost[6].first;
+    string functionName8 = avr_cost[7].first;
+    string functionName9 = avr_cost[8].first;
+    string functionName10 = avr_cost[9].first;
+    string functionName11 = avr_cost[10].first;
+    string functionName12 = avr_cost[11].first;
+    
+    ///////////////////////////////////////////
+    string functionName_1 = Dist[0].first;
+    string functionName_2 = Dist[1].first;
+    string functionName_3 = Dist[2].first;
+    string functionName_4 = Dist[3].first;
+    string functionName_5 = Dist[4].first;
+    string functionName_6 = Dist[5].first;
+    string functionName_7 = Dist[6].first;
+    string functionName_8 = Dist[7].first;
+    string functionName_9 = Dist[8].first;
+    string functionName_10 = Dist[9].first;
+    string functionName_11 = Dist[10].first;
+    string functionName_12 = Dist[11].first;
+    
+    ///////////////////////////////////////////////
+    string functionName__1 = Nodes_in_path[0].first;
+    string functionName__2 = Nodes_in_path[1].first;
+    string functionName__3 = Nodes_in_path[2].first;
+    string functionName__4 = Nodes_in_path[3].first;
+    string functionName__5 = Nodes_in_path[4].first;
+    string functionName__6 = Nodes_in_path[5].first;
+    string functionName__7 = Nodes_in_path[6].first;
+    string functionName__8 = Nodes_in_path[7].first;
+    string functionName__9 = Nodes_in_path[8].first;
+    string functionName__10 = Nodes_in_path[9].first;
+    string functionName__11 = Nodes_in_path[10].first;
+    string functionName__12 = Nodes_in_path[11].first;
+    
+    ////////////////////////////////////////////////
+    float totalCost1 = 0.0;
+    float totalCost2 = 0.0;
+    float totalCost3 = 0.0;
+    float totalCost4 = 0.0;
+    float totalCost5 = 0.0;
+    float totalCost6 = 0.0;
+    float totalCost7 = 0.0;
+    float totalCost8 = 0.0;
+    float totalCost9 = 0.0;
+    float totalCost10 = 0.0;
+    float totalCost11 = 0.0;
+    float totalCost12 = 0.0;
+    /////////////////////////
+    int totalNode1 = 0;
+    int totalNode2 = 0;
+    int totalNode3 = 0;
+    int totalNode4 = 0;
+    int totalNode5 = 0;
+    int totalNode6 = 0;
+    int totalNode7 = 0;
+    int totalNode8 = 0;
+    int totalNode9 = 0;
+    int totalNode10 = 0;
+    int totalNode11 = 0;
+    int totalNode12 = 0;
+    //////////////////////////////
+    int totalDist1 = 0;
+    int totalDist2 = 0;
+    int totalDist3 = 0;
+    int totalDist4 = 0;
+    int totalDist5 = 0;
+    int totalDist6 = 0;
+    int totalDist7 = 0;
+    int totalDist8 = 0;
+    int totalDist9 = 0;
+    int totalDist10 = 0;
+    int totalDist11 = 0;
+    int totalDist12 = 0;
+    //////////////////////////
+    
+    for(int i =0;i<avr_cost.size();i++){
+        if(functionName1 == avr_cost[i].first){
+            totalCost1 += avr_cost[i].second;
+        }
+        else if(functionName2 == avr_cost[i].first){
+            totalCost2 += avr_cost[i].second;
+        }
+        else if(functionName3 == avr_cost[i].first){
+            totalCost3 += avr_cost[i].second;
+        }
+        else if(functionName4 == avr_cost[i].first){
+            totalCost4 += avr_cost[i].second;
+        }
+        else if(functionName5 == avr_cost[i].first){
+            totalCost5 += avr_cost[i].second;
+        }
+        else if(functionName6 == avr_cost[i].first){
+            totalCost6 += avr_cost[i].second;
+        }
+        else if(functionName7 == avr_cost[i].first){
+            totalCost7 += avr_cost[i].second;
+        }
+        else if(functionName8 == avr_cost[i].first){
+            totalCost8 += avr_cost[i].second;
+        }
+        else if(functionName9 == avr_cost[i].first){
+            totalCost9 += avr_cost[i].second;
+        }
+        else if(functionName10 == avr_cost[i].first){
+            totalCost10 += avr_cost[i].second;
+        }
+        else if(functionName11 == avr_cost[i].first){
+            totalCost11 += avr_cost[i].second;
+        }
+        else if(functionName12 == avr_cost[i].first){
+            totalCost12 += avr_cost[i].second;
+        }
+    }
+    cout<<functionName1<<". The average cost is: "<<totalCost1/100<<endl;
+    cout<<functionName2<<". The average cost is: "<<totalCost2/100<<endl;
+    cout<<functionName3<<". The average cost is: "<<totalCost3/100<<endl;
+    cout<<functionName4<<". The average cost is: "<<totalCost4/100<<endl;
+    cout<<functionName5<<". The average cost is: "<<totalCost5/100<<endl;
+    cout<<functionName6<<". The average cost is: "<<totalCost6/100<<endl;
+    cout<<functionName7<<". The average cost is: "<<totalCost7/100<<endl;
+    cout<<functionName8<<". The average cost is: "<<totalCost8/100<<endl;
+    cout<<functionName9<<". The average cost is: "<<totalCost9/100<<endl;
+    cout<<functionName10<<". The average cost is: "<<totalCost10/100<<endl;
+    cout<<functionName11<<". The average cost is: "<<totalCost11/100<<endl;
+    cout<<functionName12<<". The average cost is: "<<totalCost12/100<<endl;
+/////////////////////////////////////////////////////////////////////////////////////
+    
+    for(int j = 0;j<Dist.size();j++){
+        if(functionName_1 == Dist[j].first){
+            totalDist1 += Dist[j].second;
+        }
+        else if(functionName_2 == Dist[j].first){
+            totalDist2 += Dist[j].second;
+        }
+        else if(functionName_3 == Dist[j].first){
+            totalDist3 += Dist[j].second;
+        }
+        else if(functionName_4 == Dist[j].first){
+            totalDist4 += Dist[j].second;
+        }
+        else if(functionName_5 == Dist[j].first){
+            totalDist5 += Dist[j].second;
+        }
+        else if(functionName_6 == Dist[j].first){
+            totalDist6 += Dist[j].second;
+        }
+        else if(functionName_7 == Dist[j].first){
+            totalDist7 += Dist[j].second;
+        }
+        else if(functionName_8 == Dist[j].first){
+            totalDist8 += Dist[j].second;
+        }
+        else if(functionName_9 == Dist[j].first){
+            totalDist9 += Dist[j].second;
+        }
+        else if(functionName_10 == Dist[j].first){
+            totalDist10 += Dist[j].second;
+        }
+        else if(functionName_11 == Dist[j].first){
+            totalDist11 += Dist[j].second;
+        }
+        else if(functionName_12 == Dist[j].first){
+            totalDist12 += Dist[j].second;
+        }
+    }
+    cout<<functionName_1<<". The average distance is: "<<totalDist1/100<<endl;
+    cout<<functionName_2<<". The average distance is: "<<totalDist2/100<<endl;
+    cout<<functionName_3<<". The average distance is: "<<totalDist3/100<<endl;
+    cout<<functionName_4<<". The average distance is: "<<totalDist4/100<<endl;
+    cout<<functionName_5<<". The average distance is: "<<totalDist5/100<<endl;
+    cout<<functionName_6<<". The average distance is: "<<totalDist6/100<<endl;
+    cout<<functionName_7<<". The average distance is: "<<totalDist7/100<<endl;
+    cout<<functionName_8<<". The average distance is: "<<totalDist8/100<<endl;
+    cout<<functionName_9<<". The average distance is: "<<totalDist9/100<<endl;
+    cout<<functionName_10<<". The average distance is: "<<totalDist10/100<<endl;
+    cout<<functionName_11<<". The average distance is: "<<totalDist11/100<<endl;
+    cout<<functionName_12<<". The average distance is: "<<totalDist12/100<<endl;
+    //////////////////////////////////////////////////////////////////////////////////
+    
+    for(int k = 0;k<Nodes_in_path.size();k++){
+        if(functionName__1 == Nodes_in_path[k].first){
+            totalNode1 += Nodes_in_path[k].second;
+        }
+        else if(functionName__2 == Nodes_in_path[k].first){
+            totalNode2 += Nodes_in_path[k].second;
+        }
+        else if(functionName__3 == Nodes_in_path[k].first){
+            totalNode3 += Nodes_in_path[k].second;
+        }
+        else if(functionName__4 == Nodes_in_path[k].first){
+            totalNode4+= Nodes_in_path[k].second;
+        }
+        else if(functionName__5 == Nodes_in_path[k].first){
+            totalNode5 += Nodes_in_path[k].second;
+        }
+        else if(functionName__6 == Nodes_in_path[k].first){
+            totalNode6 += Nodes_in_path[k].second;
+        }
+        else if(functionName__7 == Nodes_in_path[k].first){
+            totalNode7 += Nodes_in_path[k].second;
+        }
+        else if(functionName__8 == Nodes_in_path[k].first){
+            totalNode8 += Nodes_in_path[k].second;
+        }
+        else if(functionName__9 == Nodes_in_path[k].first){
+            totalNode9 += Nodes_in_path[k].second;
+        }
+        else if(functionName__9 == Nodes_in_path[k].first){
+            totalNode9 += Nodes_in_path[k].second;
+        }
+        else if(functionName__10 == Nodes_in_path[k].first){
+            totalNode10 += Nodes_in_path[k].second;
+        }
+        else if(functionName__11 == Nodes_in_path[k].first){
+            totalNode11 += Nodes_in_path[k].second;
+        }
+        else if(functionName__12 == Nodes_in_path[k].first){
+            totalNode12 += Nodes_in_path[k].second;
+        }
+    }
+    cout<<functionName__1<<". The average number of Nodes in each path is: "<<totalNode1/100<<endl;
+    cout<<functionName__2<<". The average number of Nodes in each path is: "<<totalNode2/100<<endl;
+    cout<<functionName__3<<". The average number of Nodes in each path is: "<<totalNode3/100<<endl;
+    cout<<functionName__4<<". The average number of Nodes in each path is: "<<totalNode4/100<<endl;
+    cout<<functionName__5<<". The average number of Nodes in each path is: "<<totalNode5/100<<endl;
+    cout<<functionName__6<<". The average number of Nodes in each path is: "<<totalNode6/100<<endl;
+    cout<<functionName__7<<". The average number of Nodes in each path is: "<<totalNode7/100<<endl;
+    cout<<functionName__8<<". The average number of Nodes in each path is: "<<totalNode8/100<<endl;
+    cout<<functionName__9<<". The average number of Nodes in each path is: "<<totalNode9/100<<endl;
+    cout<<functionName__10<<". The average number of Nodes in each path is: "<<totalNode10/100<<endl;
+    cout<<functionName__11<<". The average number of Nodes in each path is: "<<totalNode11/100<<endl;
+    cout<<functionName__12<<". The average number of Nodes in each path is: "<<totalNode12/100<<endl;
     
 }

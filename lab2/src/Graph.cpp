@@ -23,7 +23,7 @@ Graph::Graph(){
     wei = 0;
     adM = nullptr;
     adj = nullptr;
-    search = nullptr;
+   
     
 }
 
@@ -167,6 +167,7 @@ while(file){
         
     }
     p.close();
+    
 }
 
 
@@ -191,8 +192,10 @@ void Graph::DFS(int scr,int des){
     int* columnSize = adM->columnSize();
     vector<bool>v(temp1.size(),false);//SET
     
-    
-    
+    search->setA(avr_cost);
+    search->setN_Path(Nodes_in_path);
+    search->setD(Dist);
+    search->setN_e(Nodes_explored);
     t_1 = high_resolution_clock::now();
     search->SLi_DFS(temp1,&node_position, &cost,scr, des);//iterative
     t_2 = high_resolution_clock::now();
@@ -217,6 +220,11 @@ void Graph::DFS(int scr,int des){
     t_2 = high_resolution_clock::now();
     time_span_1 = duration_cast<duration<double>>(t_2- t_1);
     time.push_back(make_pair("The method is adjMatrix in DFS of iterative method", time_span_1.count()));
+    
+    avr_cost = search->getA();
+    Nodes_in_path= search->getN_Path();
+    Dist = search->getD();
+    Nodes_explored= search->getN_e();
 }
 
 void Graph::BFS(int scr,int des){
@@ -232,8 +240,13 @@ void Graph::BFS(int scr,int des){
     matrixS = adM->getMatrixSize();
     int* columnSize = adM->columnSize();
     vector<bool>v(temp1.size(),false);//SET
-    t_1 = high_resolution_clock::now();
+   
+    search->setA(avr_cost);
+    search->setN_Path(Nodes_in_path);
+    search->setD(Dist);
+    search->setN_e(Nodes_explored);
     search->SLr_BFS(&v,&node_position,temp1,scr,des);//recusive
+    t_1 = high_resolution_clock::now();
     t_2 = high_resolution_clock::now();
     time_span_1 = duration_cast<duration<double>>(t_2 - t_1);
     time.push_back(make_pair("The method is adjList in BFS of recusive method", time_span_1.count()));
@@ -255,6 +268,11 @@ void Graph::BFS(int scr,int des){
     t_2 = high_resolution_clock::now();
     time_span_1 = duration_cast<duration<double>>(t_2 - t_1);
     time.push_back(make_pair("The method is adjMatrix in BFS of iterative method", time_span_1.count()));
+    
+    avr_cost = search->getA();
+    Nodes_in_path= search->getN_Path();
+    Dist = search->getD();
+    Nodes_explored= search->getN_e();
 }
 
 void Graph::Dijkstra(int scr,int des){
@@ -268,6 +286,12 @@ void Graph::Dijkstra(int scr,int des){
     temp2 = adM->getMatrix();
     matrixS = adM->getMatrixSize();
     int* columnSize = adM->columnSize();
+    
+    search->setA(avr_cost);
+    search->setN_Path(Nodes_in_path);
+    search->setD(Dist);
+    search->setN_e(Nodes_explored);
+    
     t_1 = high_resolution_clock::now();
     search->SL_Dijkstra(&cost, &node_position,temp1, scr, des);
     t_2 = high_resolution_clock::now();
@@ -279,6 +303,11 @@ void Graph::Dijkstra(int scr,int des){
     t_2 = high_resolution_clock::now();
     time_span_1 = duration_cast<duration<double>>(t_2 - t_1);
     time.push_back(make_pair("The method is adjMatrix in Dijkstra method", time_span_1.count()));
+    
+    avr_cost = search->getA();
+    Nodes_in_path= search->getN_Path();
+    Dist = search->getD();
+    Nodes_explored= search->getN_e();
 }
 
 void Graph::A_star(int scr, int des){
@@ -294,6 +323,11 @@ void Graph::A_star(int scr, int des){
     int* columnSize = adM->columnSize();
     vector<bool>v(temp1.size(),false);
     
+    search->setA(avr_cost);
+    search->setN_Path(Nodes_in_path);
+    search->setD(Dist);
+    search->setN_e(Nodes_explored);
+    
     t_1 = high_resolution_clock::now();
     search->SL_A_star(&node_position,&cost,temp1,scr,des);
     t_2 = high_resolution_clock::now();
@@ -305,6 +339,11 @@ void Graph::A_star(int scr, int des){
     t_2 = high_resolution_clock::now();
     time_span_1 = duration_cast<duration<double>>(t_2 - t_1);
     time.push_back(make_pair("The method is adjMatrix in A* method", time_span_1.count()));
+    
+    avr_cost = search->getA();
+    Nodes_in_path= search->getN_Path();
+    Dist = search->getD();
+    Nodes_explored= search->getN_e();
 }
 
 void Graph::Stats(string methodName){
@@ -334,10 +373,10 @@ void Graph::printPosition(){
 }
 
 void Graph::sentTime(){
-
     search->setTime(&time);
 }
 
 void Graph::AVG(){
     search->averageTime();
+    search->averageOthers();
 }

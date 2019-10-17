@@ -18,7 +18,7 @@ int main(int argc, char** argv){
     a.loadGraph("graph.txt","weights.txt","positions.txt");
     
     //for test
-    for(int i = 0;i<100;i++){//run 100 times
+    for(int i = 0;i<10;i++){//run 100 times
         srand(time(NULL));
         int scr = rand()%16+1;
         int des = rand()%16+1;
@@ -30,11 +30,12 @@ int main(int argc, char** argv){
         a.Stats("Mr_BFS");
         a.Dijkstra(scr,des);
         a.A_star(scr, des);
-        a.printTime();
+        //a.printTime();
         a.sentTime();
         a.AVG();
     }
     
+    //a.AVG();
     /*string x =  argv[1];
     string y =  argv[2];
     int scr = stoi(x);

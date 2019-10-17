@@ -19,6 +19,15 @@
 class searchAlgo{
 public:
     searchAlgo(int,int);
+    void setN_Path(std::vector<std::pair<std::string, int>> );
+    void setN_e(std::vector<std::pair<std::string, int>> );
+    void setD(std::vector<std::pair<std::string, int>> );
+    void setA(std::vector<std::pair<std::string, float>>);
+    std::vector<std::pair<std::string, int>> getN_Path();
+    std::vector<std::pair<std::string, int>> getN_e();
+    std::vector<std::pair<std::string, float>> getA();
+    std::vector<std::pair<std::string, int>> getD();
+    
     void SLi_DFS(std::vector<std::vector<int>>,std::vector<std::vector<int>>*,std::vector<std::vector<float>>*,int,int);
     void SLr_DFS(std::vector<bool>*,std::vector<std::vector<int>>*,std::vector<std::vector<int>>,int,int);
     void SMr_DFS(std::vector<bool>*,std::vector<std::vector<int>>*,int**,int,int,int);
@@ -47,7 +56,8 @@ public:
     void averageTime();
     
     void averageExplored();
-    void averageOthers(float,int,int,std::string);
+    void averageOthers();
+    
 private:
     std::vector<int>path_r;//LIST_DFS_r
     std::vector<int>path_b;//LIST_BFS_r

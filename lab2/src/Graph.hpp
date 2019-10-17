@@ -18,6 +18,7 @@ class Graph{
 public:
     Graph();
     ~Graph();
+    
     void loadGraph(std::string,std::string,std::string);
     void DFS(int,int);
     void BFS(int,int);
@@ -45,5 +46,10 @@ private:
     std::chrono::high_resolution_clock::time_point t_1;
     std::chrono::high_resolution_clock::time_point t_2;
     std::vector<std::pair<std::string, double>> time;
+    std::vector<std::pair<std::string, int>> Nodes_in_path;
+    std::vector<std::pair<std::string, int>> Nodes_explored;
+    std::vector<std::pair<std::string, int>> Dist;
+    std::vector<std::pair<std::string, float>> avr_cost;
+    
 };
 #endif /* Graph_hpp */
