@@ -1,0 +1,11600 @@
+The adjlist in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 5
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 5
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 5
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 5
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 5
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 5
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 5
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 5
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 5
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 5
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 5
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 5
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 5
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 5
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 5
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 5
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 5
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 5
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 5
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 5
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 5
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 5
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 15
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 2
+The total nodes in returned path is: 4
+The total distance is: 3
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 4
+The total distance is: 3
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 16
+
+The total cost is: 10
+The total nodes in returned path is: 16
+The total distance is: 42
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 3
+
+The total cost is: 3
+The total nodes in returned path is: 3
+The total distance is: 2
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 21
+The total nodes in returned path is: 13
+The total distance is: 39
+
+The adjMatrix in DFS method 
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+The total nodes explored in path is: 11
+
+The total cost is: 13
+The total nodes in returned path is: 11
+The total distance is: 28
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 6
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 9
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+The adjMatrix in DFS method 
+The total cost is: 17
+The total nodes in returned path is: 13
+The total distance is: 39
+
+
+The total cost is: 1.16144e+27
+The total nodes in returned path is: 8
+The total distance is: 16
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 10
+The total distance is: 27
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 1.16144e+27
+The total nodes in returned path is: 8
+The total distance is: 16
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 10
+The total distance is: 27
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 9
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 7
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+The adjMatrix in DFS method 
+The total cost is: 17
+The total nodes in returned path is: 13
+The total distance is: 39
+
+
+The total cost is: 1.16144e+27
+The total nodes in returned path is: 8
+The total distance is: 16
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 10
+The total distance is: 27
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 1.16144e+27
+The total nodes in returned path is: 8
+The total distance is: 16
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 10
+The total distance is: 27
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 9
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 7
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The adjlist in DFS method 
+The total cost is: 5
+The total nodes in returned path is: 5
+The total distance is: 13
+
+The adjMatrix in DFS method 
+The total cost is: 17
+The total nodes in returned path is: 13
+The total distance is: 39
+
+
+The total cost is: 1.16144e+27
+The total nodes in returned path is: 8
+The total distance is: 16
+
+The adjMatrix in BFS The iterative path for adjMatrix in BFS 
+The total cost is: 3
+The total nodes in returned path is: 10
+The total distance is: 27
+
+The total nodes explored in path is: 1
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 1.16144e+27
+The total nodes in returned path is: 8
+The total distance is: 16
+
+
+The total cost is: 0
+The total nodes in returned path is: 1
+The total distance is: 0
+
+
+The total cost is: 3
+The total nodes in returned path is: 10
+The total distance is: 27
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+The total nodes explored in path is: 8
+
+The total cost is: 6
+The total nodes in returned path is: 8
+The total distance is: 16
+
+F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 9
+
+The total cost is: 9
+The total nodes in returned path is: 9
+The total distance is: 26
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+
+The total nodes explored in path is: 7
+
+The total cost is: 7
+The total nodes in returned path is: 7
+The total distance is: 15
+
+Print F(n) for A* method in adjList:F(n) = distance(1+cost)
+F(1)=2
+F(2)=2
+F(3)=2
+F(4)=10
+F(5)=2
+F(6)=2
+F(7)=2
+F(8)=10
+F(9)=2
+F(10)=2
+F(11)=2
+F(12)=10
+F(13)=2
+F(14)=2
+F(15)=2
+

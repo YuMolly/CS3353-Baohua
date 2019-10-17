@@ -197,27 +197,26 @@ void Graph::DFS(int scr,int des){
     search->SLi_DFS(temp1,&node_position, &cost,scr, des);//iterative
     t_2 = high_resolution_clock::now();
     time_span_1 = duration_cast<duration<double>>(t_2 - t_1);
-    time.push_back(make_pair("The method is: adList in DFS of iterative method", time_span_1.count()));
+    time.push_back(make_pair("The method is adList in DFS of iterative method", time_span_1.count()));
     
     t_1 = high_resolution_clock::now();
     search->SLr_DFS(&v,&node_position,temp1, scr, des);//recusive
     t_2 = high_resolution_clock::now();
     time_span_1 = duration_cast<duration<double>>(t_2 - t_1);
-    //string functionName = "The method is: adList in DFS of recusive method";
-    time.push_back(make_pair("The method is: adList in DFS of recusive method", time_span_1.count()));
+    time.push_back(make_pair("The method is adList in DFS of recusive method", time_span_1.count()));
     
     vector<bool>v1(temp1.size(),false);//RESET
     t_1 = high_resolution_clock::now();
     search->SMr_DFS(&v1, &node_position, temp2, matrixS,scr, des);//recusive
     t_2 = high_resolution_clock::now();
     time_span_1 = duration_cast<duration<double>>(t_2- t_1);
-    time.push_back(make_pair("The method is: adMatrix in DFS of recusive method", time_span_1.count()));
+    time.push_back(make_pair("The method is adMatrix in DFS of recusive method", time_span_1.count()));
     
     t_1 = high_resolution_clock::now();
     search->SMi_DFS(temp2,&node_position,&cost,columnSize,matrixS, scr, des);//iterative
     t_2 = high_resolution_clock::now();
     time_span_1 = duration_cast<duration<double>>(t_2- t_1);
-    time.push_back(make_pair("The method is: adMatrix in DFS of iterative method", time_span_1.count()));
+    time.push_back(make_pair("The method is adMatrix in DFS of iterative method", time_span_1.count()));
 }
 
 void Graph::BFS(int scr,int des){
@@ -237,25 +236,25 @@ void Graph::BFS(int scr,int des){
     search->SLr_BFS(&v,&node_position,temp1,scr,des);//recusive
     t_2 = high_resolution_clock::now();
     time_span_1 = duration_cast<duration<double>>(t_2 - t_1);
-    time.push_back(make_pair("The method is: adList in BFS of recusive method", time_span_1.count()));
+    time.push_back(make_pair("The method is adList in BFS of recusive method", time_span_1.count()));
     
     t_1 = high_resolution_clock::now();
     search->SLi_BFS(temp1,&node_position,&cost,scr, des);//iterative
     time_span_1 = duration_cast<duration<double>>(t_2 - t_1);
-    time.push_back(make_pair("The method is: adList in BFS of iterative method", time_span_1.count()));
+    time.push_back(make_pair("The method is adList in BFS of iterative method", time_span_1.count()));
     
     vector<bool>v1(temp1.size(),false);//RESET
     t_1 = high_resolution_clock::now();
     search->SMr_BFS(&v1, &node_position,temp2, matrixS,scr, des);//recusive
     t_2 = high_resolution_clock::now();
     time_span_1 = duration_cast<duration<double>>(t_2 - t_1);
-    time.push_back(make_pair("The method is: adLMatrix in BFS of recusive method", time_span_1.count()));
+    time.push_back(make_pair("The method is adLMatrix in BFS of recusive method", time_span_1.count()));
     
     t_1 = high_resolution_clock::now();
     search->SMi_BFS(temp2,&node_position,&cost,columnSize,matrixS, scr, des);//iterative
     t_2 = high_resolution_clock::now();
     time_span_1 = duration_cast<duration<double>>(t_2 - t_1);
-    time.push_back(make_pair("The method is: adLMatrix in BFS of iterative method", time_span_1.count()));
+    time.push_back(make_pair("The method is dLMatrix in BFS of iterative method", time_span_1.count()));
 }
 
 void Graph::Dijkstra(int scr,int des){
@@ -273,13 +272,13 @@ void Graph::Dijkstra(int scr,int des){
     search->SL_Dijkstra(&cost, &node_position,temp1, scr, des);
     t_2 = high_resolution_clock::now();
     time_span_1 = duration_cast<duration<double>>(t_2 - t_1);
-    time.push_back(make_pair("The method is: adList in Dijkstra method", time_span_1.count()));
+    time.push_back(make_pair("The method is adList in Dijkstra method", time_span_1.count()));
     
     t_1 = high_resolution_clock::now();
     search->SM_Dijkstra(&cost,&node_position,temp2,matrixS,scr,des);
     t_2 = high_resolution_clock::now();
     time_span_1 = duration_cast<duration<double>>(t_2 - t_1);
-    time.push_back(make_pair("The method is: adLMatrix in Dijkstra method", time_span_1.count()));
+    time.push_back(make_pair("The method is adLMatrix in Dijkstra method", time_span_1.count()));
 }
 
 void Graph::A_star(int scr, int des){
@@ -299,24 +298,24 @@ void Graph::A_star(int scr, int des){
     search->SL_A_star(&node_position,&cost,temp1,scr,des);
     t_2 = high_resolution_clock::now();
     time_span_1 = duration_cast<duration<double>>(t_2 - t_1);
-    time.push_back(make_pair("The method is: adList in A* method", time_span_1.count()));
+    time.push_back(make_pair("The method is adList in A* method", time_span_1.count()));
     
     t_1 = high_resolution_clock::now();
     search->SM_A_star(&node_position,&cost,temp2,matrixS,scr,des);
     t_2 = high_resolution_clock::now();
     time_span_1 = duration_cast<duration<double>>(t_2 - t_1);
-    time.push_back(make_pair("The method is: adMatrix in A* method", time_span_1.count()));
+    time.push_back(make_pair("The method is dMatrix in A* method", time_span_1.count()));
 }
 
 void Graph::Stats(string methodName){
-    //adj->Stats();
-    //adM->Stats();
     search->Stats(methodName,&node_position,&cost);
+}
+
+void Graph::printTime(){
     for(int i = 0;i<time.size();i++){
         cout<<time[i].first<<" and the time is "<<time[i].second<<"s"<<endl;
     }
 }
-
 void Graph::printcost(){
     for(int i = 0;i<cost.size();i++){
         

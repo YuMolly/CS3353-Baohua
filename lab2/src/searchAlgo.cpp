@@ -34,7 +34,8 @@ searchAlgo::searchAlgo(int x,int scr){
 
 void searchAlgo::SLi_DFS(vector<vector<int>> adj, vector<vector<int>>* position,vector<vector<float>>* cost,int scr,int des){
     fstream output;
-    output.open("OutputFile.txt");
+    output.open("OutputFile.txt",fstream::app);
+    
     vector<bool> visited(adj.size(),false);
     stack<int>path;// not private valuable exist only in function
     path.push(scr);
@@ -73,6 +74,7 @@ void searchAlgo::SLi_DFS(vector<vector<int>> adj, vector<vector<int>>* position,
             }
     }
     
+    output<<"The adjlist in DFS method ";
     cout<<"The iterative path for adjlist in DFS method is: ";
     stack<int>s;
     vector<int>retured_path;
@@ -88,6 +90,7 @@ void searchAlgo::SLi_DFS(vector<vector<int>> adj, vector<vector<int>>* position,
         s.pop();
     }
     cout<<endl;
+    output.close();
     costCal(retured_path,position, cost);
 }
 
@@ -138,13 +141,15 @@ void searchAlgo::SMr_DFS(vector<bool>*visited, vector<vector<int>>* position, in
 }
 
 void searchAlgo::SMi_DFS(int** adM,vector<vector<int>> *position,vector<vector<float>> *cost,int* columnS,int Msize,int scr,int des){
-    t1 = high_resolution_clock::now();
+    fstream output;
+    output.open("OutputFile.txt",fstream::app);
+    
     vector<bool> visited(Msize,false);
     stack<int>path;
     path.push(scr);
     int temp1;
     int count;
-    int counter = -1;
+    
     while(!visited[des-1]){
         count = 0;
         for(int j = 0;j<Msize;j++){
@@ -163,7 +168,7 @@ void searchAlgo::SMi_DFS(int** adM,vector<vector<int>> *position,vector<vector<f
         if(!visited[scr-1]){
             visited[scr-1] = true;
         }
-        
+        int counter = -1;
         for (int i = 0; i < Msize; ++i){
             counter++;
             int temp = adM[scr-1][counter];
@@ -187,6 +192,7 @@ void searchAlgo::SMi_DFS(int** adM,vector<vector<int>> *position,vector<vector<f
     }
     
     cout<<"The iterative path for adjMatrix in DFS method is: ";
+    output<<"The adjMatrix in DFS method ";
     stack<int>s;
     vector<int>retured_path;
     int t;
@@ -201,6 +207,7 @@ void searchAlgo::SMi_DFS(int** adM,vector<vector<int>> *position,vector<vector<f
         s.pop();
     }
     cout<<endl;
+    output.close();
     costCal(retured_path, position,cost);
 }
 
@@ -236,7 +243,8 @@ void searchAlgo::SLr_BFS(vector<bool> *visited,vector<vector<int>>* position,vec
 }
 
 void searchAlgo::SLi_BFS(vector<vector<int>>adj,vector<vector<int>>* position,vector<vector<float>>*cost,int scr,int des){
-    
+    fstream output;
+    output.open("OutputFile.txt",fstream::app);
     vector<bool> visited(adj.size(),false);
     queue<int>path;
     vector<int>p;//create another vector to store the path
@@ -266,6 +274,7 @@ void searchAlgo::SLi_BFS(vector<vector<int>>adj,vector<vector<int>>* position,ve
     }
     p.push_back(des);
     cout<<"The iterative path for adjMatrix in BFS is: ";
+    output<<"The adjMatrix in BFS ";
     for(int j = 0;j<p.size();j++){
         cout<<p[j]<<" ";
     }
@@ -309,7 +318,8 @@ void searchAlgo::SMr_BFS(vector<bool>*visited, vector<vector<int>>* position,int
 }
 
 void searchAlgo::SMi_BFS(int**adM,vector<vector<int>>* position,vector<vector<float>>*cost,int* columns,int Msize,int scr,int des){
-   
+    fstream output;
+    output.open("OutputFile.txt",fstream::app);
     vector<bool> visited(Msize,false);
     queue<int>path;
     vector<int>p;//create another vector to store the path
@@ -341,10 +351,12 @@ void searchAlgo::SMi_BFS(int**adM,vector<vector<int>>* position,vector<vector<fl
     }
     p.push_back(des);
     cout<<"The iterative path for adjMatrix in BFS is: ";
+    output<<"The iterative path for adjMatrix in BFS ";
     for(int j = 0;j<p.size();j++){
         cout<<p[j]<<" ";
     }
     cout<<endl;
+    output.close();
     costCal(p,position, cost);
 }
 
@@ -421,6 +433,7 @@ void searchAlgo::SM_Dijkstra(vector<vector<float>>* cost,vector<vector<int>>* po
 }
 
 void searchAlgo::SL_A_star(vector<vector<int>>* position,vector<vector<float>>* cost,vector<vector<int>> adj,int scr, int des){
+
     cout<<"The path for adjList in A* is: ";
     //cout<<"A* method on adjlist. From "<<scr<<" to "<<des;
     vector<int>path;//record for the shortest path
@@ -470,7 +483,10 @@ void searchAlgo::SL_A_star(vector<vector<int>>* position,vector<vector<float>>* 
     }
     path.push_back(des);
     printS_D_A(path,position,cost,scr,des);
-    cout<<"Print F(n) for A* method in adjList:";
+    fstream output;
+    output.open("OutputFile.txt",fstream::app);
+    output<<"Print F(n) for A* method in adjList:";
+    output.close();
     Fn(path, position, cost,n);
 }
 
@@ -535,25 +551,33 @@ void searchAlgo::SM_A_star(vector<vector<int>>* position,vector<vector<float>>* 
     }
     path.push_back(des);
     printS_D_A(path,position,cost,scr,des);
-    cout<<"Print F(n) for A* method in adjMatrix:";
+    //cout<<"Print F(n) for A* method in adjMatrix:";
+    fstream output;
+    output.open("OutputFile.txt",fstream::app);
+    output<<"Print F(n) for A* method in adjList:";
+    output.close();
     Fn(path, position, cost,Msize);
 }
 
 void searchAlgo::printS_D_A(vector<int>p,vector<vector<int>>* position,vector<vector<float>>* cost,int scr,int des){
-    //cout << "\nPrinting the path from node " << scr << " to node "<< des<<endl;
-    //cout << "The path is: ";
+    fstream output;
+    output.open("OutputFile.txt",fstream::app);
     for(int i = 0; i < p.size(); i++)
     {
         cout <<p[i] <<" ";
     }
     cout<<endl;
     cout<<"The total nodes explored in path is: "<<p.size()<<endl;
+    output<<"The total nodes explored in path is: "<<p.size()<<endl;
+    output.close();
     costCal(p, position,cost);
     
 }
 
 void searchAlgo::Fn(std::vector<int>p, std::vector<std::vector<int> > *position, std::vector<std::vector<float> > *cost,int size){
-    cout<<"F(n) = distance(1+cost)"<<endl;
+    fstream output;
+    output.open("OutputFile.txt",fstream::app);
+    output<<"F(n) = distance(1+cost)"<<endl;
     int n,n1 = 0;
     float totalCost =0.0;
     float dist = 0;
@@ -570,12 +594,15 @@ void searchAlgo::Fn(std::vector<int>p, std::vector<std::vector<int> > *position,
         y1 = (*position)[i+1][1];
         z1 = (*position)[i+1][2];
         dist = pow((x1-x),power)+pow((y1-y),power)+pow((z1-z),power);
-        cout<<"F("<<i+1<<")="<<dist*(totalCost+1)<<endl;
+        output<<"F("<<i+1<<")="<<dist*(totalCost+1)<<endl;
     }
-    cout<<endl;
+    output<<endl;
+    output.close();
 }
 
 float searchAlgo::costCal(vector<int> path,vector<vector<int>>* position, vector<vector<float> > * cost){
+    fstream output;
+    output.open("OutputFile.txt",fstream::app);
     int n,n1=0;
     float totalCost =0.0;
     int dist = 0;
@@ -595,16 +622,23 @@ float searchAlgo::costCal(vector<int> path,vector<vector<int>>* position, vector
         z1 = (*position)[i+1][2];
         dist += pow((x1-x),power)+pow((y1-y),power)+pow((z1-z),power);
     }
+    output<<endl;
+    output<<"The total cost is: "<<totalCost<<endl;
+    output<<"The total nodes in returned path is: "<<path.size()<<endl;
+    output<<"The total distance is: "<<dist<<endl;
     cout<<"The total cost is: "<<totalCost<<endl;
     cout<<"The total nodes in returned path is: "<<path.size()<<endl;
     cout<<"The total distance is: "<<dist<<endl;
     //vis[scr-1] = true;
     cout<<endl;
+    output<<endl;
+    output.close();
     return totalCost;
 }
 
 void searchAlgo::Stats(string methodName,vector<vector<int>>* position,vector<vector<float>>* cost){
-    
+    fstream output;
+    output.open("OutputFile.txt",fstream::app);
     if(methodName == "Lr_DFS"){
         cout<<"The recusive path for adjList in DFS is: ";
         for(int i = 0;i<path_r.size();i++){
@@ -612,34 +646,45 @@ void searchAlgo::Stats(string methodName,vector<vector<int>>* position,vector<ve
        }
         cout<<endl;
         cout<<"The total nodes explored in path is: "<<path_r.size()<<endl;
+        output<<"The total nodes explored in path is: "<<path_r.size()<<endl;
+        output.close();
         costCal(path_r, position,cost);
 
     }
     else if (methodName == "Lr_BFS"){
+        output.open("OutputFile.txt",fstream::app);
         cout<<"The recusive path for adjList in BFS is: ";
         for(int i = 0;i<path_b.size();i++){
             cout<<path_b[i]<<" ";
         }
         cout<<endl;
         cout<<"The total nodes explored in path is: "<<explored.size()<<endl;
+        output<<"The total nodes explored in path is: "<<explored.size()<<endl;
+        output.close();
         costCal(path_b,position ,cost);
     }
     else if (methodName == "Mr_DFS"){
+        output.open("OutputFile.txt",fstream::app);
         cout<<"The recusive path for adjMartix in DFS is: ";
         for(int i = 0;i<path_d.size();i++){
             cout<<path_d[i]<<" ";
         }
         cout<<endl;
         cout<<"The total nodes explored in path is: "<<path_d.size()<<endl;
+        output<<"The total nodes explored in path is: "<<path_d.size()<<endl;
+        output.close();
         costCal(path_d, position,cost);
     }
     else if (methodName == "Mr_BFS"){
+        output.open("OutputFile.txt",fstream::app);
         cout<<"The recusive path for adjMartix in BFS is: ";
         for(int i = 0;i<path_m.size();i++){
             cout<<path_m[i]<<" ";
         }
         cout<<endl;
         cout<<"The total nodes explored in path is: "<<explored1.size()<<endl;
+        output<<"The total nodes explored in path is: "<<explored1.size()<<endl;
+        output.close();
         costCal(path_m, position,cost);
     }
 }

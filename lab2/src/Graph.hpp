@@ -28,6 +28,7 @@ public:
     std::vector<std::vector<int>> getPosition();
     void Stats(std::string);
     void printcost();
+    void printTime();
     void printPosition();
 private:
     int depth;//size for create adjlist and matrix
