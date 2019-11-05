@@ -1,0 +1,4 @@
+﻿  TSP.cpp
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab3\TSP.cpp(51,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab3\TSP.cpp(71,20): warning C4018:  '<': signed/unsigned mismatch
+  lab3.vcxproj -> C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab3\Debug\lab3.exe
