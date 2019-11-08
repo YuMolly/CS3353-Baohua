@@ -58,18 +58,14 @@ void loader::load()
 
 void loader::print()
 {
-	for (int i = 0; i < Gsize; i++) {
-		cout << "The node is: " << i+1<<" ";
-		cout << "("<<graph[i][0] <<",";
-		cout << graph[i][1] <<",";
-		cout << graph[i][2]<<")" << endl;
-	}
+	cout << "The use time of navie brute froce method is: " << time_span <<"s"<< " in "<< "7" <<" node."<<endl;
+	//chage 7 into Gsize
 }
 
 void loader::execute()
 {
 	TSP tsp;
-	tsp.BF(graph,5);
+	time_span = tsp.BF(graph,7);
 	//tsp.DP(graph,Gsize);
 
 }

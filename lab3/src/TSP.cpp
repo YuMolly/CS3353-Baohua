@@ -1,9 +1,10 @@
 #include "TSP.h"
 
-#include <iostream>
-#include <string>
+
+
 #include <math.h>
-#include <utility>
+#include <algorithm>
+
 using namespace std;
 
 
@@ -13,75 +14,51 @@ TSP::TSP()
 	
 }
 
-void TSP::BF(vector<vector<float>> a ,int x)
+double TSP::BF(vector<vector<float>> a ,int x)
 {
-	vector<pair<string,float>>path;
-	vector<string>per_path;
+	chrono::high_resolution_clock::time_point t1 = chrono::high_resolution_clock::now();
 	string my_path;
+	string shorter_path;
 	int total_path = 1;
-	bool status;
 	for (int i = 1; i < x; i++)
 		total_path *= i;
 	// create the first path
-	for (int j = 1; j <= x; j++) {
+	for (int j = 2; j <= x; j++) {
 		my_path += to_string(j);
-	}
-	//push the first path
-	float dist = 0.0;
-	dist = distance(a, my_path);
-	path.push_back(make_pair(my_path,dist));
-	int counter = 0;
-	
-	for (int k = 0; k < total_path; k++) {
-		for (int i = 1; i < x - 1; i++) {
-			swap(my_path[i], my_path[i + 1]);
-			for (int j = 1; j < x - 1; j++) {
-				swap(my_path[i + 1], my_path[j + 1]);
-				status = check(path, my_path);
-				if (status == false) {
-					counter++;
-					//calculate the distance 
-					dist = distance(a, my_path);
-					path.push_back(make_pair(my_path, dist));
-				}
-			}
-		}
-	}
-	for (int i = 0; i < path.size(); i++) {
-		cout << "The path is: " << path[i].first << " ";
-		cout << "and the size is: " << path[i].second << endl;
-	}
-	cout << "total path is: " << counter + 1 << endl;
+	} 
+	//cout << "the path is: " << my_path << endl;
+	permutation(a,my_path, 0, my_path.length());
+	checkBF();
+	chrono::high_resolution_clock::time_point t2 = chrono::high_resolution_clock::now();
+	std::chrono::duration<double> time_span = chrono::duration_cast<chrono::duration<double>>(t2 - t1);
+	return time_span.count();
+	//cout << "The use time of navie brute froce method is: " << time_span.count() <<"s"<< " in "<< x <<" node."<<endl;
 }
 
-vector<string> TSP::permutation(string path, int start, int end)
+void TSP::permutation(vector<vector<float>>a,string path, int start, int end)
 {  
-	int i;
-	vector<string>p;
-	if (start == end) {
-		cout << "The path is: " << path << endl;
-		p.push_back(path);
-		//return path;
+	
+	//vector<pair<string,float>>p;
+	if (start == end-1) {
+		float dist = 0.0;
+		path = "1" + path;
+		//cout << "The path is: " << path << " ";
+		dist = distance(a, path);
+		//cout << "The distance is " << dist << endl;
+		p1.push_back(make_pair(path,dist));
+		return;
 	}
 	else
 	{
-		for (i = start; i< path.length(); i++)
+		for (int i = start; i< end; i++)
 		{
 			swap(path[start], path[i]);
-			permutation(path, i+1, end);
+			permutation(a,path, start+1, end);
 			swap(path[start], path[i]);
 		}
 	}
-	return p;
+	
 }
-
-void TSP::DP(vector<vector<float>> a, int x)
-{
-
-
-}
-
-
 
 float TSP::distance(vector<vector<float>> graph,string path)
 {
@@ -112,13 +89,23 @@ float TSP::distance(vector<vector<float>> graph,string path)
 	return dist;
 }
 
-bool TSP::check(vector<pair<string,float>>path,string y)
-{ 
-	for (int i = 0; i < path.size(); i++) {
-		if (y == path[i].first)
-			return true;
+void TSP::checkBF()
+{   
+	int index = 0;
+	for (int i = 1; i < p1.size(); i++) {
+		if (p1[index].second > p1[i].second) {
+			index = i;
+		}
 	}
-	return false;
+	int smallerDist = p1[index].second;
+	cout << "The path is: " << p1[index].first << " and the size is: " << p1[index].second << endl;
+	//return p1[index].first;
+}
+
+void TSP::DP(vector<vector<float>> a, int x)
+{
+
+
 }
 
 
