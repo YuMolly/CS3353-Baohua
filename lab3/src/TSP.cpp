@@ -1,7 +1,4 @@
 #include "TSP.h"
-
-
-
 #include <math.h>
 #include <algorithm>
 
@@ -14,37 +11,36 @@ TSP::TSP()
 	
 }
 
-double TSP::BF(vector<vector<float>> a ,int x)
+double TSP::BF(vector<vector<float>> a,int x)
 {
+	// BF method
 	chrono::high_resolution_clock::time_point t1 = chrono::high_resolution_clock::now();
 	string my_path;
 	string shorter_path;
 	int total_path = 1;
 	for (int i = 1; i < x; i++)
 		total_path *= i;
+	cout << "The total paths: " << total_path << endl;
 	// create the first path
 	for (int j = 2; j <= x; j++) {
 		my_path += to_string(j);
 	} 
-	//cout << "the path is: " << my_path << endl;
 	permutation(a,my_path, 0, my_path.length());
 	checkBF();
+
 	chrono::high_resolution_clock::time_point t2 = chrono::high_resolution_clock::now();
 	std::chrono::duration<double> time_span = chrono::duration_cast<chrono::duration<double>>(t2 - t1);
 	return time_span.count();
-	//cout << "The use time of navie brute froce method is: " << time_span.count() <<"s"<< " in "<< x <<" node."<<endl;
 }
 
 void TSP::permutation(vector<vector<float>>a,string path, int start, int end)
 {  
-	
-	//vector<pair<string,float>>p;
+	// find all possible path
+	cout << ".";
 	if (start == end-1) {
 		float dist = 0.0;
 		path = "1" + path;
-		//cout << "The path is: " << path << " ";
 		dist = distance(a, path);
-		//cout << "The distance is " << dist << endl;
 		p1.push_back(make_pair(path,dist));
 		return;
 	}
@@ -62,6 +58,7 @@ void TSP::permutation(vector<vector<float>>a,string path, int start, int end)
 
 float TSP::distance(vector<vector<float>> graph,string path)
 {
+	// find the nodes distance
 	int path_s = 0;
 	vector<int> path_t;
 	// convert char to int
@@ -91,6 +88,7 @@ float TSP::distance(vector<vector<float>> graph,string path)
 
 void TSP::checkBF()
 {   
+	//find the smaller path 
 	int index = 0;
 	for (int i = 1; i < p1.size(); i++) {
 		if (p1[index].second > p1[i].second) {
@@ -99,7 +97,6 @@ void TSP::checkBF()
 	}
 	int smallerDist = p1[index].second;
 	cout << "The path is: " << p1[index].first << " and the size is: " << p1[index].second << endl;
-	//return p1[index].first;
 }
 
 void TSP::DP(vector<vector<float>> a, int x)

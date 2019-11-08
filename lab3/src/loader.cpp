@@ -3,6 +3,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <sstream>
 using namespace std;
 
 loader::loader()
@@ -18,7 +19,7 @@ void loader::load()
 	string leave;
 	int x, y, z;
 	int pos,pos1,pos2;
-	int node;
+	int node = 0;
 	if (!file)
 		cout << "The file fail to open" << endl;
 	else
@@ -27,7 +28,12 @@ void loader::load()
 		while (getline(file, num)) {
 			pos = num.find(',');
 			num1= num.substr(0, pos);
-			node = stoi(num1);
+			//cout << "Graph size before" << graph.size() << endl;
+			istringstream is(num1);
+			is >> node;
+			if (is.fail())
+				cout << "Check! this is wrong!" << endl;
+			//node = stoi(num1);
 			leave = num.substr(pos + 1, num.length() - pos + 1);
 			pos1 = leave.find(',');
 			x = stoi(leave.substr(0, pos1));
@@ -39,6 +45,7 @@ void loader::load()
 				vector<float> temp;
 				graph.push_back(temp);
 			}
+			//cout << "graph size after" << graph.size() << endl;
 			for (int j = graph[node - 1].size(); j < 3; j++) {
 				graph[node - 1].push_back(0);
 			}
@@ -49,8 +56,6 @@ void loader::load()
 			//cout << "position is (" << x << "," << y << "," << z << ")" << endl;
 			Gsize++;
 		}
-		
-		//cout << "The size is: " << Gsize << endl;
 	}
 	//cout << "The Gsize is: " << Gsize << endl;
 	file.close();
@@ -58,14 +63,14 @@ void loader::load()
 
 void loader::print()
 {
-	cout << "The use time of navie brute froce method is: " << time_span <<"s"<< " in "<< "7" <<" node."<<endl;
-	//chage 7 into Gsize
+	cout << "The use time of navie brute froce method is: " << time_span <<"s"<< " in "<< Gsize <<" node."<<endl;
+	//chage 4 into Gsize
 }
 
 void loader::execute()
 {
 	TSP tsp;
-	time_span = tsp.BF(graph,7);
+	time_span = tsp.BF(graph,Gsize);
 	//tsp.DP(graph,Gsize);
 
 }
