@@ -69,15 +69,15 @@ void loader::load()
 
 void loader::print()
 {
-	cout << "The use time of navie brute froce method is: " << time_span <<"s"<< " in "<< Gsize <<" node."<<endl;
-	//chage 4 into Gsize
+	cout << "The use time of navie brute froce method is: " << time_BF << "s" << " in " << Gsize << " node." << endl;
+	cout << "The use time of dynamic programming method is: " << time_DP<<"s"<< " in "<< Gsize <<" node."<<endl;
 }
 
 void loader::execute()
 {
 	TSP tsp;
-	time_span = tsp.BF(graph,path);
-	//tsp.DP(graph,Gsize);
+	time_BF = tsp.BF(graph,path);
+	//time_DP = tsp.DP(graph,path);
 
 }
 
