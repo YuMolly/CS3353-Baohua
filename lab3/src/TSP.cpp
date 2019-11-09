@@ -11,21 +11,13 @@ TSP::TSP()
 	
 }
 
-double TSP::BF(vector<vector<float>> a,int x)
+double TSP::BF(vector<vector<float>> a,vector<int> my_path)
 {
 	// BF method
 	chrono::high_resolution_clock::time_point t1 = chrono::high_resolution_clock::now();
-	string my_path;
-	string shorter_path;
-	int total_path = 1;
-	for (int i = 1; i < x; i++)
-		total_path *= i;
-	cout << "The total paths: " << total_path << endl;
-	// create the first path
-	for (int j = 2; j <= x; j++) {
-		my_path += to_string(j);
-	} 
-	permutation(a,my_path, 0, my_path.length());
+	
+	
+	permutation(a,my_path, 1, my_path.size());
 	checkBF();
 
 	chrono::high_resolution_clock::time_point t2 = chrono::high_resolution_clock::now();
@@ -33,15 +25,23 @@ double TSP::BF(vector<vector<float>> a,int x)
 	return time_span.count();
 }
 
-void TSP::permutation(vector<vector<float>>a,string path, int start, int end)
+void TSP::permutation(vector<vector<float>>a,vector<int> path, int start, int end)
 {  
 	// find all possible path
-	cout << ".";
-	if (start == end-1) {
+	//cout << ".";
+	//int num = 0;
+	//string p;
+	string my_path;
+	if (start == end) {
 		float dist = 0.0;
-		path = "1" + path;
+		
 		dist = distance(a, path);
-		p1.push_back(make_pair(path,dist));
+		for (int i = 0; i < path.size(); i++) {
+			my_path += to_string(path[i]);
+			
+		}
+		//cout << "my_path is: " << my_path << endl;
+		p1.push_back(make_pair(my_path, dist));
 		return;
 	}
 	else
@@ -56,29 +56,25 @@ void TSP::permutation(vector<vector<float>>a,string path, int start, int end)
 	
 }
 
-float TSP::distance(vector<vector<float>> graph,string path)
+float TSP::distance(vector<vector<float>> graph,vector<int> path)
 {
 	// find the nodes distance
-	int path_s = 0;
-	vector<int> path_t;
+	//int path_s = 0;
+	//vector<int> path_t;
 	// convert char to int
-	for (int i = 0; i < path.length(); i++) {
-		path_s = path[i] - '0';
-		path_t.push_back(path_s);
-	}
 
 	float dist = 0.0;
 	int x, y, z;
 	int x1, y1, z1;
-	int location;
-	for (int j = 0; j < path_t.size()-1; j++) {
-		location = path_t[j];
-		x = graph[location][0];
-		y = graph[location][1];
-		z = graph[location][2];
-		x1 = graph[location + 1][0];
-		y1 = graph[location + 1][1];
-		z1= graph[location + 1][2];
+	//int location;
+	for (int j = 0; j < path.size()-1; j++) {
+		
+		x = graph[j][0];
+		y = graph[j][1];
+		z = graph[j][2];
+		x1 = graph[j+ 1][0];
+		y1 = graph[j + 1][1];
+		z1= graph[j+ 1][2];
 		dist += pow(2, (x1 - x)) + pow(2, (y1- y)) + pow(2, (z1 - z));
 		
 	}

@@ -10,9 +10,10 @@
 class TSP {
 public:
 	TSP();
-	double BF(std::vector<std::vector<float>>,int);
-	void permutation(std::vector<std::vector<float>>, std::string, int,int);
-	float distance(std::vector<std::vector<float>>,std::string);
+	double BF(std::vector<std::vector<float>>,std::vector<int>);
+	void permutation(std::vector<std::vector<float>>, std::vector<int>, int,int);
+
+	float distance(std::vector<std::vector<float>>,std::vector<int>);
 	void checkBF();
 
 	void DP(std::vector<std::vector<float>>, int);

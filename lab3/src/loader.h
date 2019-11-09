@@ -18,6 +18,7 @@ public:
 private:
 	int Gsize;//graph size
 	std::vector<std::vector<float>> graph;
+	std::vector<int> path;
 	double time_span;
 };
 

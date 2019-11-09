@@ -8,7 +8,7 @@ int main()
 	loader lod;
 	lod.load();
 	lod.execute();
-	//lod.print();
+	lod.print();
 	cout << "HERE"<<endl;
 	
 }

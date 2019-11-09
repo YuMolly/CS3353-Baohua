@@ -27,34 +27,40 @@ void loader::load()
 	while (file) {
 		while (getline(file, num)) {
 			pos = num.find(',');
-			num1= num.substr(0, pos);
-			//cout << "Graph size before" << graph.size() << endl;
-			istringstream is(num1);
-			is >> node;
-			if (is.fail())
-				cout << "Check! this is wrong!" << endl;
-			//node = stoi(num1);
-			leave = num.substr(pos + 1, num.length() - pos + 1);
-			pos1 = leave.find(',');
-			x = stoi(leave.substr(0, pos1));
-			leave = leave.substr(pos1 + 1, leave.length() - pos1 + 1);
-			pos2 = leave.find(',');
-			y = stoi(leave.substr(0, pos2));
-			z = stoi(leave.substr(pos2 + 1));
-			for (int i = graph.size(); i < node; i++) {
-				vector<float> temp;
-				graph.push_back(temp);
+			if (pos > 0) {
+				num1 = num.substr(0, pos);
+				//cout << "pos is " << pos << endl;
+				//cout << "number is " << num1 << endl;
+				node = stoi(num1);
+				path.push_back(node);
+				//cout << "node is " << node << endl;
+				leave = num.substr(pos + 1, num.length() - pos + 1);
+				//cout << "leave is " << leave << endl;
+				pos1 = leave.find(',');
+				//cout << "pos1 is " << pos1<<endl;
+				x = stoi(leave.substr(0, pos1));
+				leave = leave.substr(pos1 + 1, leave.length() - pos1 + 1);
+				pos2 = leave.find(',');
+				y = stoi(leave.substr(0, pos2));
+				z = stoi(leave.substr(pos2 + 1));
+				Gsize++;
+				for (int i = graph.size(); i < Gsize; i++) {
+					vector<float> temp;
+					graph.push_back(temp);
+				}
+				//cout << "graph size after" << graph.size() << endl;
+				for (int j = graph[node - 1].size(); j < 3; j++) {
+					graph[node - 1].push_back(0);
+				}
+				//cout << "node is " << node;
+				graph[node - 1][0] = x;
+				graph[node - 1][1] = y;
+				graph[node - 1][2] = z;
+				//cout << "x is " << x << endl;
+				//cout << "position is (" << x << "," << y << "," << z << ")" << endl;
+				
+				//cout << "Gsize is " << Gsize << endl;
 			}
-			//cout << "graph size after" << graph.size() << endl;
-			for (int j = graph[node - 1].size(); j < 3; j++) {
-				graph[node - 1].push_back(0);
-			}
-			//cout << "node is " << node;
-			graph[node - 1][0] = x;
-			graph[node - 1][1] = y;
-			graph[node - 1][2] = z;
-			//cout << "position is (" << x << "," << y << "," << z << ")" << endl;
-			Gsize++;
 		}
 	}
 	//cout << "The Gsize is: " << Gsize << endl;
@@ -70,7 +76,7 @@ void loader::print()
 void loader::execute()
 {
 	TSP tsp;
-	time_span = tsp.BF(graph,Gsize);
+	time_span = tsp.BF(graph,path);
 	//tsp.DP(graph,Gsize);
 
 }
