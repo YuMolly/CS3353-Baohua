@@ -23,6 +23,7 @@ private:
 	std::vector<std::pair<std::string, float>>p1;
 	std::vector<float> DP_cost;
 	std::vector<int> DP_path;
+	float cost;//for DP
 };
 
 #endif //!TSP_hpp
