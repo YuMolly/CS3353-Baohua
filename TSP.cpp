@@ -125,6 +125,7 @@ void TSP::checkBF()
 double TSP::DP(vector<vector<float>> a, vector<int> my_path)
 {
 	chrono::high_resolution_clock::time_point t1 = chrono::high_resolution_clock::now();
+
 	vector<vector<float>>graph;
 	for (int i = graph.size(); i < my_path.size(); i++) {
 		vector<float>temp;
@@ -136,18 +137,24 @@ double TSP::DP(vector<vector<float>> a, vector<int> my_path)
 	float dist;
 	int x, y, z;
 	int x1, y1, z1;
-	for (int i = 0; i < graph.size() - 1; i++) {
+	for (int i = 0; i < graph.size(); i++) {
 		x = a[i][0];
 		y = a[i][1];
 		z = a[i][2];
-		x1 = a[i + 1][0];
-		y1 = a[i + 1][1];
-		z1 = a[i + 1][2];
-		dist = pow((x1 - x), 2) + pow((y1 - y), 2) + pow((z1 - z), 2);
-		//graph[i][i] = 0;
-		if (i + 1 < graph.size()) {
-			graph[i][i + 1] = dist;
+		//cout << "x is :" << x << " y is:" << y << " z is:" << z << endl;
+		for (int j = 0; j < graph.size(); j++) {
+			x1 = a[j][0];
+			y1 = a[j][1];
+			z1 = a[j][2];
+			//cout << "x1 is :" << x1 << " y1 is:" << y1 << " z1 is:" << z1 << endl;
+			dist = pow((x1 - x), 2) + pow((y1 - y), 2) + pow((z1 - z), 2);
+			//cout << "dist is " << dist << endl;
+			graph[i][j] = dist;
 		}
+		
+		
+
+		
 	}
 	vector<int> visited;
 	for (int i = 0; i < my_path.size(); i++) {
@@ -166,15 +173,18 @@ void TSP::findCost(vector<vector<float>> graph,int node,vector<int> visited)
 	int child_node;
 	//float cost = 0.0;
 	visited[node] = 1;
-	DP_path.push_back(node + 1);
+	//DP_path.push_back(node + 1);
 	//cout << "The path is: " << node+1<<"->";
 	child_node = leave(graph,node,visited,&cost);
+	
 	if (child_node == 999) {
+		cout << "The cost before child_node = 999 " << cost << endl;
+		//cout << "." << endl;
 		child_node = 0;
-		//cout << child_node + 1;
+		cout << "node is " << node << endl;
 		cost += graph[node][child_node];
 		//cost = 0
-		//cout << "The cost when child_node = 999 " << cost << endl;
+		cout << "The cost after child_node = 999 " << cost << endl;
 		return;
 	}
 	cout << "The DPcost is: " << cost << endl;
@@ -186,23 +196,29 @@ void TSP::findCost(vector<vector<float>> graph,int node,vector<int> visited)
 int TSP::leave(vector<vector<float>> graph,int node, vector<int> visited,float *cost)
 {   
 	//float cost = 0;
-	//cout << "my cost here is " << *cost << endl;
+	cout << "my node here is " << node+1 << endl;
+	DP_path.push_back(node + 1);
 	float min = 999;
 	float min_t = 0;
 	int child_node = 999;
 	for (int i = 0; i < visited.size(); i++) {
+		cout << "graph at node" << node+1 << " and i:" << i<<" and the cost is:" << graph[node][i] << endl;
+		cout << "visited?" << visited[i] << endl;
 		if ((graph[node][i] != 0) && (visited[i] == 0)) {
 			if (graph[node][i] + graph[i][node] < min) {
 				min = graph[i][0] + graph[node][i];
+				cout << "min here:" << min << endl;
 				min_t = graph[node][i];
+				cout << "min_t here:" << min_t << endl;
 				child_node = i;
+				cout << "child_node here is " << child_node << endl;
 			}
 		}
 	}
 	if (min != 999) {
 		//cout << "The min_t is: " << min_t << endl;
 		*cost += min_t;
-		//cout << "cost here is " << *cost << endl;
+		cout << "cost here is " << *cost << endl;
 	}
 	
 	return child_node;
@@ -216,11 +232,9 @@ void TSP::printDP()
 		cout << DP_path[i]<<"->";
 	}
 
-	for (int j = 0; j < DP_cost.size(); j++) {
-		cost += DP_cost[j];//correct for test =36
-	}
+
 	cout << "1 ";
-	cout << "The total cost is: " << cost << endl;
+	cout << "The total cost is: " << DP_cost[0] << endl;
 }
 
 
