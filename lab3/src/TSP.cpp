@@ -78,7 +78,14 @@ float TSP::distance(vector<vector<float>> graph,vector<int> path)
 		dist += pow(2, (x1 - x)) + pow(2, (y1- y)) + pow(2, (z1 - z));
 		
 	}
-	
+	// calculate the cost back to 1
+	x= graph[path.size()-1][0];
+	y = graph[path.size()-1][1];
+	z = graph[path.size()-1][2];
+	x1 = graph[0][0];
+	y1 = graph[0][1];
+	z1 = graph[0][2];
+	dist += pow(2, (x1 - x)) + pow(2, (y1 - y)) + pow(2, (z1 - z));
 	return dist;
 }
 
@@ -92,7 +99,12 @@ void TSP::checkBF()
 		}
 	}
 	int smallerDist = p1[index].second;
-	cout << "The path is: " << p1[index].first << " and the size is: " << p1[index].second << endl;
+	string my_path = p1[index].first;
+	cout << "The path is: ";
+	for (int j = 0; j < my_path.length(); j++) {
+		cout << my_path[j] << "->";
+	}
+	cout <<"1"<< " and the cost is: " << smallerDist << endl;
 }
 
 double TSP::DP(vector<vector<float>> a, vector<int> my_path)

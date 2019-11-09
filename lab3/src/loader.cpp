@@ -70,7 +70,7 @@ void loader::load()
 void loader::print()
 {
 	cout << "The use time of navie brute froce method is: " << time_BF << "s" << " in " << Gsize << " node." << endl;
-	cout << "The use time of dynamic programming method is: " << time_DP<<"s"<< " in "<< Gsize <<" node."<<endl;
+	//cout << "The use time of dynamic programming method is: " << time_DP<<"s"<< " in "<< Gsize <<" node."<<endl;
 }
 
 void loader::execute()
