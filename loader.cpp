@@ -75,21 +75,13 @@ void loader::print()
 
 void loader::execute()
 {
-	TSP tsp(path.size()-1);
+	TSP tsp(path.size());
 	time_BF = tsp.BF(graph,path);
 	time_DP = tsp.DP(graph,path);
-
+	//cout << "!";
 }
 
-vector<vector<float>> loader::getGraph()
-{
-	return graph;
-}
 
-int loader::getGsize()
-{
-	return Gsize;
-}
 
 
 

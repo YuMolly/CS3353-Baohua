@@ -7,10 +7,12 @@ using namespace std;
 
 
 TSP::TSP(int x)
-{    
+{
+	size = x;
+	arr = new int[(1 << size)]();
 	path = new int[x];
 	cost = 0.0;
-	size = x;
+	
 }
 
 double TSP::BF(vector<vector<float>> a,vector<int> my_path)
@@ -119,9 +121,9 @@ void TSP::checkBF()
 	string my_path = p1[index].first;
 	cout << "The path is: ";
 	for (int j = 0; j < my_path.length(); j++) {
-		cout << my_path[j] << "->";
+		cout << my_path[j];
 	}
-	cout <<"1"<< " and the cost is: " << smallerDist << endl;
+	cout << "1" << " and in BF the cost is: " << smallerDist;
 }
 
 double TSP::DP(vector<vector<float>> a, vector<int> my_path)
@@ -160,12 +162,26 @@ double TSP::DP(vector<vector<float>> a, vector<int> my_path)
 	for (auto& n : dp)
 		n = vector<int>(((1 << graph.size())-1), -1);
 
-	cout<<"min is "<< findCost(graph, 0, 1, dp)<<endl;
-	cout << "The path is: ";
-	for (int i = 0; i < size; i++) {
-		cout << path[i] << " ";
+	cout<<" and the cost in DP is: "<< findCost(graph, 0, 1, dp)<<endl;
+	//cout << "The path is: ";
+
+	//cout << "The size is: " << size << endl;
+	/*vector<int> dp_path;
+	int num = (1 << size) - 1;
+	cout << "num is: " << num << endl;
+	for (int i = 0; i < size;i++) {
+		
+		int number = arr[num];
+		cout << "number is:" << number << endl;
+		dp_path.push_back(number);
+		num = num - (1 << number);
+		cout << "num here is:" << num << endl;
 	}
-	cout << endl;
+
+	for (int j = 0; j < dp_path.size(); j++) {
+		cout << dp_path[j]<<"->";
+	}
+	cout << endl;*/
 	
 	chrono::high_resolution_clock::time_point t2 = chrono::high_resolution_clock::now();
 	std::chrono::duration<double> time_span = chrono::duration_cast<chrono::duration<double>>(t2 - t1);
@@ -175,40 +191,63 @@ double TSP::DP(vector<vector<float>> a, vector<int> my_path)
 float TSP::findCost(vector<vector<float>> &graph,int pos,int mask,vector<vector<int>> &dp)
 {   
 	
-	if (mask == ((1 << graph.size()) - 1))
+	//cout << "mask is: " << mask << endl;
+	//int Binary_s = 0;
+	//Binary_s = BinaryConvert(mask);
+	//path[pos] = Binary_s;
+	//cout << "pos is:" << pos << endl;
+	
+	if (mask == ((1 << graph.size()) - 1)) {
+		
 		return graph[pos][0];
+	}
 	if (dp[pos][mask] != -1) {
+		
 		int temp =dp[pos][mask];
 		temp = temp / 1.0;
+		
 		return temp;
 	}
 	float ans = 9999999.0;
-	int number = mask;
 	for (int city = 0; city < graph.size(); ++city) {
+		//cout << "city is: " << city << endl;
 		if ((mask & (1 << city)) == 0) {
+			
 			float newAns = graph[pos][city] + findCost(graph, city, mask | (1 << city), dp);
+			
+			/*if ((newAns < ans) || (arr[mask] == 0)) {
+				arr[mask] = pos;
+				if ((mask + (1 << city)) == (1 << graph.size() - 1)) {
+					arr[mask | (1 << city)] = city;
+				}
+			}*/
+
 			ans = min(ans, newAns);
+			
+			//Binary_s = BinaryConvert(mask);
+			//path[city] = Binary_s;
 		}
 	}
 		
-	
+	//Binary_s = BinaryConvert(mask);
+	//path[pos] = Binary_s;
 	int temp2 = dp[pos][mask] = ans;
 	temp2 = temp2 / 1.0;
 	return temp2;
 }
 
-
-/*void TSP::printDP()
+int TSP::BinaryConvert(int mask)
 {
-	float cost = 0.0;
-	cout << "The path is: ";
-	for (int i = 0; i < DP_path.size(); i++) {
-		cout << DP_path[i]<<"->";
+	vector<int> Binary;
+	int number = mask;
+	int num = 0;
+	while (number > 0) {
+		num = number % 2;
+		number = number / 2;
+		Binary.push_back(num);
 	}
-
-
-	cout << "1 ";
-	//cout << "The total cost is: " << DP_cost[0] << endl;
-}*/
+	
+	return Binary.size();
+}
 
 

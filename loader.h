@@ -12,8 +12,6 @@ public:
 	void load();
 	void print();
 	void execute();
-	std::vector<std::vector<float>> getGraph();
-	int getGsize();
 	
 private:
 	int Gsize;//graph size

@@ -17,12 +17,14 @@ public:
 
 	double DP(std::vector<std::vector<float>>, std::vector<int>);
 	float findCost(std::vector<std::vector<float>>&,int,int, std::vector<std::vector<int>>&);
+	int BinaryConvert(int);
 	//int leave(std::vector<std::vector<float>>,int, std::vector<int>,float*);
 	//void printDP();
 private:
 	std::vector<std::pair<std::string, float>>p1;
 	//std::vector<float> DP_cost;
 	int* path;
+	int* arr;
 	float cost;//for DP
 	int size;
 };
