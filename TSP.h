@@ -17,7 +17,7 @@ public:
 
 	double DP(std::vector<std::vector<float>>, std::vector<int>);
 	float findCost(std::vector<std::vector<float>>&,int,int, std::vector<std::vector<int>>&);
-	int BinaryConvert(int);
+	//int BinaryConvert(int);
 	//int leave(std::vector<std::vector<float>>,int, std::vector<int>,float*);
 	//void printDP();
 private:

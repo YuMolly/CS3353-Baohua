@@ -236,18 +236,6 @@ float TSP::findCost(vector<vector<float>> &graph,int pos,int mask,vector<vector<
 	return temp2;
 }
 
-int TSP::BinaryConvert(int mask)
-{
-	vector<int> Binary;
-	int number = mask;
-	int num = 0;
-	while (number > 0) {
-		num = number % 2;
-		number = number / 2;
-		Binary.push_back(num);
-	}
-	
-	return Binary.size();
-}
+
 
 
