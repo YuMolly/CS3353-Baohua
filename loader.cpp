@@ -75,7 +75,7 @@ void loader::print()
 
 void loader::execute()
 {
-	TSP tsp;
+	TSP tsp(path.size()-1);
 	time_BF = tsp.BF(graph,path);
 	time_DP = tsp.DP(graph,path);
 
