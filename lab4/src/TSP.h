@@ -23,7 +23,8 @@ public:
 
 	double Tabu(std::vector<std::vector<float>>, std::vector<int>);
 	std::vector<int> findNeighbour(std::vector<int>, int, int);
-
+	int checkTabuExist(std::string);
+	std::string toString(std::vector<int>);
 private:
 	std::vector<std::pair<std::string, float>>p1;
 	//BF string for each possible path and foloat for the corrsponsed cost
@@ -32,7 +33,7 @@ private:
 	int* arr;
 	float cost;//for DP
 	int size;
-	int tabu_list[20];
+	std::vector<std::pair<std::string, float>> tabu_list;
 };
 
 #endif //!TSP_hpp

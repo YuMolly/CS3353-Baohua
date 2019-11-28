@@ -267,14 +267,62 @@ double TSP::Tabu(std::vector<std::vector<float>> graph, std::vector<int> path)
 		cout << random_path[j] << " ";
 	}
 	cout << endl;*/ 
-    // ok 
+    
+	// tabu list size = 100
+	float Tabu_cost = 0.0;
 	vector<int>my_neighbour;
-	
-	for (int i = 1; i < random_path.size() - 1; i++) {
-		my_neighbour = findNeighbour(random_path,i,i+1);
-		float Tabu_cost = distance(graph, my_neighbour);
-		cout << "the cost is: " << Tabu_cost << endl;
+	vector<int>my_path;
+	string n;
+	int visited_size = 0;
+	//vector<float> min_cost;
+	float the_min = 100000000000.0;
+	n = toString(random_path);
+	Tabu_cost = distance(graph, random_path);
+	tabu_list.push_back(make_pair(n, Tabu_cost));
+
+	while(tabu_list.size() < 20){
+		string t;
+		int exist;
+		for (int i = 1; i < random_path.size() - 1; i++) {
+			my_neighbour = findNeighbour(random_path, i, i + 1);// get each possible neighbour path
+			Tabu_cost = distance(graph, my_neighbour);
+
+			// only can find the min cost
+			// need to find a way to record cost from small to large
+			if (the_min > Tabu_cost) {
+				the_min = Tabu_cost;
+				my_path = my_neighbour;
+				t = toString(my_path);
+				exist = checkTabuExist(t);
+				//visited_size += exist;
+				cout << "!";
+			}
+			//t = toString(my_neighbour);
+			//int exist = checkTabuExist(t);
+			//visited_size += exist;
+		}
+		
+		
+
+		// all the path alreay exist in tabu_list
+		if (visited_size == random_path.size() - 1) {
+			for (int j = 0; j < tabu_list.size(); j++) {
+				if (tabu_list[j].second == the_min) {
+					t = tabu_list[j].first;
+				}
+			}
+		}
+		// only can check the path exist or not
+		if (exist == 0) {
+			tabu_list.push_back(make_pair(t, the_min));
+			random_path = my_path;
+			cout << "the cost is: " << Tabu_cost << endl;
+		}
+		cout << "the tabu_list size is: " << tabu_list.size() << endl;
+		//random_path = my_neighbour;
+		//counter++;
 	}
+	
 	
 	
 	
@@ -296,6 +344,25 @@ vector<int> TSP::findNeighbour(std::vector<int> best_path,int p1,int p2)
 	}
 	cout << endl;
 	return best_path;
+}
+
+int TSP::checkTabuExist(string path)
+{
+	for (int i = 0; i < tabu_list.size(); i++) {
+		if (path == tabu_list[i].first) {
+			return 1;
+		}
+	}
+	return 0;
+}
+
+string TSP::toString(vector<int> path)
+{
+	string n;
+	for (int i = 0; i < path.size(); i++) {
+		n += to_string(path[i]);
+	}
+	return n;
 }
 
 
