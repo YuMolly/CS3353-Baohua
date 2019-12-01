@@ -39,7 +39,8 @@ private:
 	float cost;//for DP
 	int size;
 	std::vector<std::pair<std::vector<int>, float>> tabu_list;// for Tabu
-};  std::vector<std::pair<std::vector<int>, float>> GA_best;//for GA
+	std::vector<std::pair<std::vector<int>, float>> GA_best;//for GA
 
+}; 
 #endif //!TSP_hpp
 

@@ -407,8 +407,6 @@ double TSP::Tabu(vector<vector<float>> graph, vector<int> path)
 	return time_span.count();
 }
 
-
-
 vector<int> TSP::findNeighbour(std::vector<int> best_path,int p1,int p2)
 {
 	// current swap with next when i++
@@ -429,24 +427,28 @@ int TSP::checkTabuExist(vector<int> path)
 
 double TSP::GA(vector<vector<float>> graph, vector<int> path)
 {
+	chrono::high_resolution_clock::time_point t1 = chrono::high_resolution_clock::now();
 	int population_size = 0;
 	int generations = 0;
 	float GA_cost = 0.0;
 	float the_min_GA = 1000000000.0;
 	vector<int> random_child;
 	vector < pair<vector<int>, float> >parents;
-	vector<int> father;
-	vector<int> mother;
+	
 
 	// generate first parents
-	while (population_size < 10) {
-		population_size++;
+	while (population_size < 100000) {
+		
 		random_child = path_generator(path);
 		GA_cost = distance(graph, random_child);
-		cout << "The GA_cost is: " << GA_cost << endl;
+		//cout << "The GA_cost is: " << GA_cost << endl;
 		parents.push_back(make_pair(random_child, GA_cost));
+		population_size++;
 	}
-	while (generations < 5) {
+	
+	vector<int> father;
+	vector<int> mother;
+	while (generations < 20000000) {
 		// fintiness guid: choose first two smaller cost path as parents
 		float second_min = 100000000.0;
 		
@@ -465,20 +467,27 @@ double TSP::GA(vector<vector<float>> graph, vector<int> path)
 		// generate a list of children that have a same population size as parents
 		// from 1..1
 		vector < pair<vector<int>, float> >my_parents;
-		for (int i = 1; i < population_size-1; i++) {
-			random_child = findChild(father, mother, i);
+		int f_m = 0;
+		for (int i = 1; i < parents.size()-1; i++) {
+			if (f_m >= path.size()) {
+				f_m = 0;
+			}
+			else
+				f_m++;
+			}
+			random_child = findChild(father, mother, f_m);
 			GA_cost = distance(graph, random_child);
 			my_parents.push_back(make_pair(random_child, GA_cost));
 			// if exist parents cost bigger than child cost
 			if (GA_cost < the_min_GA) {
 				GA_best[0] = make_pair(random_child, GA_cost);
-				cout << "here1";
+				//cout << "here1";
 			}
 			else {
 				GA_best[0] = make_pair(father,the_min_GA);
-				cout << "here2";
+				//cout << "here2";
 			}
-		}
+			
 		// assume mutation happen by random rate
 		// random rate generator
 		int counter = 0;
@@ -491,23 +500,24 @@ double TSP::GA(vector<vector<float>> graph, vector<int> path)
 			}
 		}
 		// if 2 happen 5 times then mutation happen
+	
 		if (c > 5) {
 			random_child = path_generator(path);
 			GA_cost = distance(graph, random_child);
 			my_parents.push_back(make_pair(random_child, GA_cost));
 			if (GA_cost < the_min_GA) {
 				GA_best[0] = make_pair(random_child, GA_cost);
-				cout << "here3";
+				//cout << "here3";
 			}
 			else {
 				GA_best[0] = make_pair(father, the_min_GA);
-				cout << "here4";
+				//cout << "here4";
 			}
 		}
 		parents = my_parents;
 		generations++;
 	}
-	
+	cout << endl;
 	for (int j = 0; j < GA_best.size(); j++) {
 		vector<int> t;
 		t = GA_best[j].first;
@@ -517,7 +527,9 @@ double TSP::GA(vector<vector<float>> graph, vector<int> path)
 		std::cout << " ";
 		std::cout << GA_best[j].second << endl;
 	}
-	return 0.0;
+	chrono::high_resolution_clock::time_point t2 = chrono::high_resolution_clock::now();
+	std::chrono::duration<double> time_span = chrono::duration_cast<chrono::duration<double>>(t2 - t1);
+	return time_span.count();
 }
 
 vector<int> TSP::findChild(vector<int> father, vector<int> mother, int p)
@@ -557,11 +569,11 @@ vector<int> TSP::path_generator(vector<int>path)
 	}
 	random_path.push_back(1);// 1...1
 
-	cout << "The path is: ";
+	/*cout << "The path is: ";
 	for (int i = 0; i < random_path.size(); i++) {
 		cout << random_path[i] << " ";
 	}
-	cout << endl;
+	cout << endl;*/
 	return random_path;
 }
 

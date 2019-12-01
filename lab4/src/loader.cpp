@@ -71,8 +71,8 @@ void loader::print()
 {
 	//cout << "The use time of navie brute froce method is: " << time_BF << "s" << " in " << Gsize << " nodes." << endl;
 	cout << "The use time of dynamic programming method is: " << time_DP<<"s"<< " in "<< Gsize <<" nodes."<<endl;
-	cout << "The use time of tabu search method is: " << time_Tabu << "s" << " in " << Gsize << " nodes." << endl;
-	//cout << "The use time of tabu search method is: " << time_GA << "s" << " in " << Gsize << " nodes." << endl;
+	//cout << "The use time of tabu search method is: " << time_Tabu << "s" << " in " << Gsize << " nodes." << endl;
+	cout << "The use time of GA search method is: " << time_GA << "s" << " in " << Gsize << " nodes." << endl;
 }
 
 void loader::execute()
