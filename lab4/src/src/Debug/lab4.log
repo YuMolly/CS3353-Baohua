@@ -1,0 +1,130 @@
+﻿  TSP.cpp
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(54,21): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(86,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(90,26): warning C4244:  '=': conversion from '_Ty' to 'int', possible loss of data
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(90,26): warning C4244:         with
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(90,26): warning C4244:         [
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(90,26): warning C4244:             _Ty=float
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(90,26): warning C4244:         ]
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(91,26): warning C4244:  '=': conversion from '_Ty' to 'int', possible loss of data
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(91,26): warning C4244:         with
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(91,26): warning C4244:         [
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(91,26): warning C4244:             _Ty=float
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(91,26): warning C4244:         ]
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(92,26): warning C4244:  '=': conversion from '_Ty' to 'int', possible loss of data
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(92,26): warning C4244:         with
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(92,26): warning C4244:         [
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(92,26): warning C4244:             _Ty=float
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(92,26): warning C4244:         ]
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(94,28): warning C4244:  '=': conversion from '_Ty' to 'int', possible loss of data
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(94,28): warning C4244:         with
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(94,28): warning C4244:         [
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(94,28): warning C4244:             _Ty=float
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(94,28): warning C4244:         ]
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(95,28): warning C4244:  '=': conversion from '_Ty' to 'int', possible loss of data
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(95,28): warning C4244:         with
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(95,28): warning C4244:         [
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(95,28): warning C4244:             _Ty=float
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(95,28): warning C4244:         ]
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(96,27): warning C4244:  '=': conversion from '_Ty' to 'int', possible loss of data
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(96,27): warning C4244:         with
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(96,27): warning C4244:         [
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(96,27): warning C4244:             _Ty=float
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(96,27): warning C4244:         ]
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(100,63): warning C4244:  '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(106,20): warning C4244:  '=': conversion from '_Ty' to 'int', possible loss of data
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(106,20): warning C4244:         with
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(106,20): warning C4244:         [
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(106,20): warning C4244:             _Ty=float
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(106,20): warning C4244:         ]
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(107,21): warning C4244:  '=': conversion from '_Ty' to 'int', possible loss of data
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(107,21): warning C4244:         with
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(107,21): warning C4244:         [
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(107,21): warning C4244:             _Ty=float
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(107,21): warning C4244:         ]
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(108,21): warning C4244:  '=': conversion from '_Ty' to 'int', possible loss of data
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(108,21): warning C4244:         with
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(108,21): warning C4244:         [
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(108,21): warning C4244:             _Ty=float
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(108,21): warning C4244:         ]
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(110,17): warning C4244:  '=': conversion from '_Ty' to 'int', possible loss of data
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(110,17): warning C4244:         with
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(110,17): warning C4244:         [
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(110,17): warning C4244:             _Ty=float
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(110,17): warning C4244:         ]
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(111,17): warning C4244:  '=': conversion from '_Ty' to 'int', possible loss of data
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(111,17): warning C4244:         with
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(111,17): warning C4244:         [
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(111,17): warning C4244:             _Ty=float
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(111,17): warning C4244:         ]
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(112,17): warning C4244:  '=': conversion from '_Ty' to 'int', possible loss of data
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(112,17): warning C4244:         with
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(112,17): warning C4244:         [
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(112,17): warning C4244:             _Ty=float
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(112,17): warning C4244:         ]
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(116,64): warning C4244:  '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(125,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(135,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(146,31): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(149,21): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(156,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(157,13): warning C4244:  '=': conversion from '_Ty' to 'int', possible loss of data
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(157,13): warning C4244:         with
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(157,13): warning C4244:         [
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(157,13): warning C4244:             _Ty=float
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(157,13): warning C4244:         ]
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(158,13): warning C4244:  '=': conversion from '_Ty' to 'int', possible loss of data
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(158,13): warning C4244:         with
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(158,13): warning C4244:         [
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(158,13): warning C4244:             _Ty=float
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(158,13): warning C4244:         ]
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(159,13): warning C4244:  '=': conversion from '_Ty' to 'int', possible loss of data
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(159,13): warning C4244:         with
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(159,13): warning C4244:         [
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(159,13): warning C4244:             _Ty=float
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(159,13): warning C4244:         ]
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(161,21): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(162,15): warning C4244:  '=': conversion from '_Ty' to 'int', possible loss of data
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(162,15): warning C4244:         with
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(162,15): warning C4244:         [
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(162,15): warning C4244:             _Ty=float
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(162,15): warning C4244:         ]
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(163,15): warning C4244:  '=': conversion from '_Ty' to 'int', possible loss of data
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(163,15): warning C4244:         with
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(163,15): warning C4244:         [
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(163,15): warning C4244:             _Ty=float
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(163,15): warning C4244:         ]
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(164,15): warning C4244:  '=': conversion from '_Ty' to 'int', possible loss of data
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(164,15): warning C4244:         with
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(164,15): warning C4244:         [
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(164,15): warning C4244:             _Ty=float
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(164,15): warning C4244:         ]
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(166,47): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(194,15): warning C4244:  '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(196,10): warning C4244:  'return': conversion from 'int' to 'float', possible loss of data
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(199,26): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(210,30): warning C4244:  '=': conversion from 'float' to '_Ty', possible loss of data
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(210,30): warning C4244:         with
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(210,30): warning C4244:         [
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(210,30): warning C4244:             _Ty=int
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(210,30): warning C4244:         ]
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(211,16): warning C4244:  '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(212,9): warning C4244:  'return': conversion from 'int' to 'float', possible loss of data
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(229,17): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(249,34): warning C4305:  'initializing': truncation from 'double' to 'float'
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(257,22): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(276,22): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(287,19): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(310,14): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(313,24): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(320,22): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(347,23): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(377,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(389,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(403,12): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(407,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(448,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(459,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(469,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\TSP.cpp(483,20): warning C4018:  '<': signed/unsigned mismatch
+  lab4.vcxproj -> C:\Users\Baohua yu\source\repos\CS3353-Baohua\lab4\src\Debug\lab4.exe
