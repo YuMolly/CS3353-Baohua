@@ -17,14 +17,17 @@ public:
 
 	double DP(std::vector<std::vector<float>>, std::vector<int>);
 	float findCost(std::vector<std::vector<float>>&,int,int, std::vector<std::vector<int>>&);
-	//int BinaryConvert(int);
-	//int leave(std::vector<std::vector<float>>,int, std::vector<int>,float*);
-	//void printDP();
+	
 
 	double Tabu(std::vector<std::vector<float>>, std::vector<int>);
+	std::vector<int> path_generator(std::vector<int>);
 	std::vector<int> findNeighbour(std::vector<int>, int, int);
-	int checkTabuExist(std::string);
+
+	int checkTabuExist(std::vector<int>);
+
 	std::string toString(std::vector<int>);
+	std::vector<int> toInt(std::string);
+	std::vector<int> toPath(std::vector<int>);
 private:
 	std::vector<std::pair<std::string, float>>p1;
 	//BF string for each possible path and foloat for the corrsponsed cost
@@ -33,7 +36,7 @@ private:
 	int* arr;
 	float cost;//for DP
 	int size;
-	std::vector<std::pair<std::string, float>> tabu_list;
+	std::vector<std::pair<std::vector<int>, float>> tabu_list;// for Tabu
 };
 
 #endif //!TSP_hpp

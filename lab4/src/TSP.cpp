@@ -11,10 +11,20 @@ using namespace std;
 TSP::TSP(int x)
 {
 	size = x;
+	
 	arr = new int[(1 << size)]();
 	path = new int[x];
 	cost = 0.0;
-	
+	vector<int>temp;
+	for (int i = 0; i < x+1; i++) {
+		temp.push_back(0);
+		
+	}
+	for (int i = 0; i < 10000; i++) {
+		float n = 0.0;
+		tabu_list.push_back(make_pair(temp,n));
+	}
+	//std::cout << "size is" << tabu_list.size()<< endl;
 }
 
 double TSP::BF(vector<vector<float>> a,vector<int> my_path)
@@ -165,25 +175,6 @@ double TSP::DP(vector<vector<float>> a, vector<int> my_path)
 		n = vector<int>(((1 << graph.size())-1), -1);
 
 	cout<<" and the cost in DP is: "<< findCost(graph, 0, 1, dp)<<endl;
-	//cout << "The path is: ";
-
-	//cout << "The size is: " << size << endl;
-	/*vector<int> dp_path;
-	int num = (1 << size) - 1;
-	cout << "num is: " << num << endl;
-	for (int i = 0; i < size;i++) {
-		
-		int number = arr[num];
-		cout << "number is:" << number << endl;
-		dp_path.push_back(number);
-		num = num - (1 << number);
-		cout << "num here is:" << num << endl;
-	}
-
-	for (int j = 0; j < dp_path.size(); j++) {
-		cout << dp_path[j]<<"->";
-	}
-	cout << endl;*/
 	
 	chrono::high_resolution_clock::time_point t2 = chrono::high_resolution_clock::now();
 	std::chrono::duration<double> time_span = chrono::duration_cast<chrono::duration<double>>(t2 - t1);
@@ -192,12 +183,6 @@ double TSP::DP(vector<vector<float>> a, vector<int> my_path)
 
 float TSP::findCost(vector<vector<float>> &graph,int pos,int mask,vector<vector<int>> &dp)
 {   
-	
-	//cout << "mask is: " << mask << endl;
-	//int Binary_s = 0;
-	//Binary_s = BinaryConvert(mask);
-	//path[pos] = Binary_s;
-	//cout << "pos is:" << pos << endl;
 	
 	if (mask == ((1 << graph.size()) - 1)) {
 		
@@ -216,18 +201,7 @@ float TSP::findCost(vector<vector<float>> &graph,int pos,int mask,vector<vector<
 		if ((mask & (1 << city)) == 0) {
 			
 			float newAns = graph[pos][city] + findCost(graph, city, mask | (1 << city), dp);
-			
-			/*if ((newAns < ans) || (arr[mask] == 0)) {
-				arr[mask] = pos;
-				if ((mask + (1 << city)) == (1 << graph.size() - 1)) {
-					arr[mask | (1 << city)] = city;
-				}
-			}*/
-
 			ans = min(ans, newAns);
-			
-			//Binary_s = BinaryConvert(mask);
-			//path[city] = Binary_s;
 		}
 	}
 		
@@ -240,6 +214,191 @@ float TSP::findCost(vector<vector<float>> &graph,int pos,int mask,vector<vector<
 
 double TSP::Tabu(std::vector<std::vector<float>> graph, std::vector<int> path)
 {
+	chrono::high_resolution_clock::time_point t1 = chrono::high_resolution_clock::now();
+	vector<int>random_path;
+	int a = 0;
+	int tabu_size = 0;
+	while(a<100000) {
+		a++;
+		random_path = path_generator(path);
+		
+		float Tabu_cost = 0.0;
+		
+
+		Tabu_cost = distance(graph, random_path);
+		if (tabu_size < tabu_list.size()) {
+			tabu_list[tabu_size] = make_pair(random_path, Tabu_cost);
+			tabu_size++;
+			
+		}
+		else {
+			tabu_size = 0;
+			tabu_list[tabu_size] = make_pair(random_path, Tabu_cost);
+			tabu_size++;
+			
+		}
+
+		int steps = 0;
+		
+		// have problem on path finding becuase the path contain 1 at the end and the beginning (removed 1)
+		while (steps < 100000) {
+
+			int exist;
+			int counter = 0;
+			float bigger_min = 0.0;
+			float the_min = 100000000000.0;
+			vector<float>cost_sort;
+			vector<int>my_neighbour;
+			vector<int>my_path;
+			vector<pair<vector<int>, float>> neighbour_list;
+			bool not_option = true;
+			
+			// avoid swap 1
+			for (int i = 1; i < random_path.size() - 2; i++) {
+
+				my_neighbour = findNeighbour(random_path, i, i + 1);// get each possible neighbour paths
+
+				Tabu_cost = distance(graph, my_neighbour);//get the total cost of the neighbour
+				cost_sort.push_back(Tabu_cost);// store for sorting the cost
+
+				//store all neighbours
+				neighbour_list.push_back(make_pair(my_neighbour, Tabu_cost));
+				sort(cost_sort.begin(), cost_sort.end());
+
+				if (the_min > Tabu_cost) {
+					the_min = Tabu_cost;
+				}
+
+			}
+
+			//std::cout << "the min is: " << the_min << endl;
+
+			for (int h = 0; h < neighbour_list.size(); h++) {
+				if (neighbour_list[h].second == the_min) {
+					my_path = neighbour_list[h].first;
+				}
+			}
+
+
+			//store not exist min cost path into Tabu list
+
+			exist = checkTabuExist(my_path);
+			if (exist == 0) {
+				if (tabu_size < tabu_list.size()) {
+					tabu_list[tabu_size] = make_pair(my_path, the_min);
+					tabu_size++;
+					random_path = my_path;
+					not_option = false;
+					steps++;
+				}
+				else {
+					tabu_size = 0;
+					tabu_list[tabu_size] = make_pair(my_path, the_min);
+					tabu_size++;
+					random_path = my_path;
+					not_option = false;
+					steps++;
+				}
+				
+			}
+
+
+			// if the_min already in the Tabu_list
+			else if (exist == 1) {
+				//std::cout << "smallest occupied" << endl;
+				int c = 1;
+				while (c < cost_sort.size()) {
+					bigger_min = cost_sort[c];
+					c++;
+					for (int j = 0; j < neighbour_list.size(); j++) {
+						exist = checkTabuExist(neighbour_list[j].first);
+						
+						if ((neighbour_list[j].second == bigger_min) && (exist != 1)) {
+							the_min = bigger_min;
+							random_path = neighbour_list[j].first;
+							
+							if (tabu_size < tabu_list.size()) {
+								tabu_list[tabu_size] = make_pair(random_path, the_min);
+								tabu_size++;
+								not_option = false;
+								steps++;
+							}
+							else {
+								tabu_size = 0;
+								tabu_list[tabu_size] = make_pair(random_path, the_min);
+								tabu_size++;
+								not_option = false;
+								steps++;
+							}
+
+							break;
+						}
+						break;
+
+					}
+					break;
+				}
+				break;
+			}
+
+			// all the path alreay exist in tabu_list find the smallest cost in neighbour
+			else if (not_option == true) {
+				//std::cout << "finally" << endl;
+				for (int j = 0; j < neighbour_list.size(); j++) {
+					if (neighbour_list[j].second == cost_sort[0]) {
+						random_path = neighbour_list[j].first;
+						steps++;
+						break;
+
+					}
+				}
+			}
+
+		}
+	}
+	
+
+	
+	
+	/*for (int j = 0; j < tabu_list.size(); j++) {
+		vector<int> t;
+		t = tabu_list[j].first;
+		for (int k = 0; k < t.size(); k++) {
+			std::cout << t[k] << " ";
+		}
+		std::cout << " ";
+		std::cout << tabu_list[j].second << endl;
+	}
+	std::cout << endl;
+	*/
+	float final_min = 10000000000;
+	vector<int> f;
+	// find the final answer
+	for (int j = 0; j < tabu_list.size(); j++) {
+		
+		float num = tabu_list[j].second;
+	
+		if((num<final_min)&&(num != 0)){
+			final_min = num;
+		}
+		if (tabu_list[j].second == final_min) {
+			f = tabu_list[j].first;
+		}
+	}
+	std::cout << "The smallest path is: ";
+	for (int k = 0; k < f.size(); k++) {
+		std::cout << f[k] << " ";
+	}
+	std::cout << "The cost is: " << final_min << endl;
+
+	std::cout << "the tabu_list size is: " << tabu_list.size() << endl;
+	chrono::high_resolution_clock::time_point t2 = chrono::high_resolution_clock::now();
+	std::chrono::duration<double> time_span = chrono::duration_cast<chrono::duration<double>>(t2 - t1);
+	return time_span.count();
+}
+
+vector<int> TSP::path_generator(vector<int>path)
+{
 	// generate a random path
 	srand(time(NULL));
 	vector<int>random_path;// select as best
@@ -249,104 +408,34 @@ double TSP::Tabu(std::vector<std::vector<float>> graph, std::vector<int> path)
 		visited.push_back(0);
 	}
 	visited[0] = 1;// mark node 1 visited
-	
+
 	while (random_path.size() != path.size()) {
+
 		int p = rand() % path.size() + 1;
 		//cout << "p is: " << p << endl;
 		random_path.push_back(p);
-		
-		if (visited[p-1] != 0) {
+
+		if (visited[p - 1] != 0) {
 			random_path.pop_back();
 		}
 		else {
-			visited[p-1] = 1;
+			visited[p - 1] = 1;
 		}
 	}
-	/*cout << "The path is: ";
-	for (int j = 0; j < random_path.size(); j++) {
-		cout << random_path[j] << " ";
-	}
-	cout << endl;*/ 
-    
-	// tabu list size = 100
-	float Tabu_cost = 0.0;
-	vector<int>my_neighbour;
-	vector<int>my_path;
-	string n;
-	int visited_size = 0;
-	//vector<float> min_cost;
-	float the_min = 100000000000.0;
-	n = toString(random_path);
-	Tabu_cost = distance(graph, random_path);
-	tabu_list.push_back(make_pair(n, Tabu_cost));
+	random_path.push_back(1);// 1...1
 
-	while(tabu_list.size() < 20){
-		string t;
-		int exist;
-		for (int i = 1; i < random_path.size() - 1; i++) {
-			my_neighbour = findNeighbour(random_path, i, i + 1);// get each possible neighbour path
-			Tabu_cost = distance(graph, my_neighbour);
-
-			// only can find the min cost
-			// need to find a way to record cost from small to large
-			if (the_min > Tabu_cost) {
-				the_min = Tabu_cost;
-				my_path = my_neighbour;
-				t = toString(my_path);
-				exist = checkTabuExist(t);
-				//visited_size += exist;
-				cout << "!";
-			}
-			//t = toString(my_neighbour);
-			//int exist = checkTabuExist(t);
-			//visited_size += exist;
-		}
-		
-		
-
-		// all the path alreay exist in tabu_list
-		if (visited_size == random_path.size() - 1) {
-			for (int j = 0; j < tabu_list.size(); j++) {
-				if (tabu_list[j].second == the_min) {
-					t = tabu_list[j].first;
-				}
-			}
-		}
-		// only can check the path exist or not
-		if (exist == 0) {
-			tabu_list.push_back(make_pair(t, the_min));
-			random_path = my_path;
-			cout << "the cost is: " << Tabu_cost << endl;
-		}
-		cout << "the tabu_list size is: " << tabu_list.size() << endl;
-		//random_path = my_neighbour;
-		//counter++;
-	}
-	
-	
-	
-	
-		
-	
-	return 0.0;
+	return random_path;
 }
 
 vector<int> TSP::findNeighbour(std::vector<int> best_path,int p1,int p2)
 {
-	// right now the size of tabu list is 20
 	// current swap with next when i++
 	swap(best_path[p1], best_path[p2]);
-	best_path.push_back(1); // returning back to start point
-	cout << "The neighbour path is: ";
-	for (int i = 0; i < best_path.size(); i++) {
-		
-		cout << best_path[i] ;
-	}
-	cout << endl;
+	
 	return best_path;
 }
 
-int TSP::checkTabuExist(string path)
+int TSP::checkTabuExist(vector<int> path)
 {
 	for (int i = 0; i < tabu_list.size(); i++) {
 		if (path == tabu_list[i].first) {
@@ -363,6 +452,32 @@ string TSP::toString(vector<int> path)
 		n += to_string(path[i]);
 	}
 	return n;
+}
+
+vector<int> TSP::toInt(string x)
+{// problem!!!!!
+	vector<int>temp;
+	char t;
+	for (int i = 0; i < x.length(); i++) {
+		t = x[i];
+		int n = t - '0';
+		temp.push_back(n);
+	}
+	return temp;
+}
+
+vector<int> TSP::toPath(vector<int> p)
+{
+	// add 1 at the begin and the end
+	vector<int> temp;
+	int n;
+	temp.push_back(1);
+	for (int i = 0; i < p.size(); i++) {
+		n = p[i];
+		temp.push_back(n);
+	}
+	temp.push_back(1);
+	return temp;
 }
 
 
