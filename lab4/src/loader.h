@@ -20,6 +20,7 @@ private:
 	double time_BF;
 	double time_DP;
 	double time_Tabu;
+	double time_GA;
 };
 
 

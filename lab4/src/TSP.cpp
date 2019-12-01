@@ -2,7 +2,6 @@
 #include <math.h>
 #include <algorithm>
 #include <stdlib.h>
-#include <time.h>
 #include <sstream>
 using namespace std;
 
@@ -20,11 +19,17 @@ TSP::TSP(int x)
 		temp.push_back(0);
 		
 	}
-	for (int i = 0; i < 10000; i++) {
+	// for tabu
+	for (int i = 0; i < 1000; i++) {
 		float n = 0.0;
 		tabu_list.push_back(make_pair(temp,n));
 	}
-	//std::cout << "size is" << tabu_list.size()<< endl;
+	// intinalize a GA_beast only record one best solution
+	for (int i = 0; i < 1; i++) {
+		float b = 100000000.0;
+		GA_best.push_back(make_pair(temp, b));
+	}
+	
 }
 
 double TSP::BF(vector<vector<float>> a,vector<int> my_path)
@@ -212,38 +217,40 @@ float TSP::findCost(vector<vector<float>> &graph,int pos,int mask,vector<vector<
 	return temp2;
 }
 
-double TSP::Tabu(std::vector<std::vector<float>> graph, std::vector<int> path)
+double TSP::Tabu(vector<vector<float>> graph, vector<int> path)
 {
 	chrono::high_resolution_clock::time_point t1 = chrono::high_resolution_clock::now();
 	vector<int>random_path;
 	int a = 0;
 	int tabu_size = 0;
-	while(a<100000) {
+	int exist;
+	//cout << "tabu_list size: " << tabu_list.size();
+	while(a<1000000) {
 		a++;
 		random_path = path_generator(path);
 		
 		float Tabu_cost = 0.0;
 		
-
+		exist = checkTabuExist(random_path);
 		Tabu_cost = distance(graph, random_path);
-		if (tabu_size < tabu_list.size()) {
+		if ((tabu_size < tabu_list.size())&&(exist!=1)) {
 			tabu_list[tabu_size] = make_pair(random_path, Tabu_cost);
 			tabu_size++;
-			
+			//cout << "here1";
 		}
-		else {
+		else if ((tabu_size >= tabu_list.size()) && (exist != 1)) {
 			tabu_size = 0;
 			tabu_list[tabu_size] = make_pair(random_path, Tabu_cost);
 			tabu_size++;
-			
+			//cout << "here2";
 		}
 
 		int steps = 0;
 		
 		// have problem on path finding becuase the path contain 1 at the end and the beginning (removed 1)
-		while (steps < 100000) {
+		while (steps < 1000000) {
 
-			int exist;
+			
 			int counter = 0;
 			float bigger_min = 0.0;
 			float the_min = 100000000000.0;
@@ -290,6 +297,7 @@ double TSP::Tabu(std::vector<std::vector<float>> graph, std::vector<int> path)
 					random_path = my_path;
 					not_option = false;
 					steps++;
+					//cout << "here4";
 				}
 				else {
 					tabu_size = 0;
@@ -298,6 +306,7 @@ double TSP::Tabu(std::vector<std::vector<float>> graph, std::vector<int> path)
 					random_path = my_path;
 					not_option = false;
 					steps++;
+					//cout << "here5";
 				}
 				
 			}
@@ -305,7 +314,7 @@ double TSP::Tabu(std::vector<std::vector<float>> graph, std::vector<int> path)
 
 			// if the_min already in the Tabu_list
 			else if (exist == 1) {
-				//std::cout << "smallest occupied" << endl;
+				
 				int c = 1;
 				while (c < cost_sort.size()) {
 					bigger_min = cost_sort[c];
@@ -316,12 +325,13 @@ double TSP::Tabu(std::vector<std::vector<float>> graph, std::vector<int> path)
 						if ((neighbour_list[j].second == bigger_min) && (exist != 1)) {
 							the_min = bigger_min;
 							random_path = neighbour_list[j].first;
-							
+							//std::cout << "smallest occupied" << endl;
 							if (tabu_size < tabu_list.size()) {
 								tabu_list[tabu_size] = make_pair(random_path, the_min);
 								tabu_size++;
 								not_option = false;
 								steps++;
+								//cout << "here6";
 							}
 							else {
 								tabu_size = 0;
@@ -329,6 +339,7 @@ double TSP::Tabu(std::vector<std::vector<float>> graph, std::vector<int> path)
 								tabu_size++;
 								not_option = false;
 								steps++;
+								//cout << "here7";
 							}
 
 							break;
@@ -343,7 +354,6 @@ double TSP::Tabu(std::vector<std::vector<float>> graph, std::vector<int> path)
 
 			// all the path alreay exist in tabu_list find the smallest cost in neighbour
 			else if (not_option == true) {
-				//std::cout << "finally" << endl;
 				for (int j = 0; j < neighbour_list.size(); j++) {
 					if (neighbour_list[j].second == cost_sort[0]) {
 						random_path = neighbour_list[j].first;
@@ -360,7 +370,7 @@ double TSP::Tabu(std::vector<std::vector<float>> graph, std::vector<int> path)
 
 	
 	
-	/*for (int j = 0; j < tabu_list.size(); j++) {
+	for (int j = 0; j < tabu_list.size(); j++) {
 		vector<int> t;
 		t = tabu_list[j].first;
 		for (int k = 0; k < t.size(); k++) {
@@ -370,7 +380,7 @@ double TSP::Tabu(std::vector<std::vector<float>> graph, std::vector<int> path)
 		std::cout << tabu_list[j].second << endl;
 	}
 	std::cout << endl;
-	*/
+	
 	float final_min = 10000000000;
 	vector<int> f;
 	// find the final answer
@@ -397,35 +407,7 @@ double TSP::Tabu(std::vector<std::vector<float>> graph, std::vector<int> path)
 	return time_span.count();
 }
 
-vector<int> TSP::path_generator(vector<int>path)
-{
-	// generate a random path
-	srand(time(NULL));
-	vector<int>random_path;// select as best
-	random_path.push_back(1);
-	vector<int>visited;
-	for (int i = 0; i < path.size(); i++) {
-		visited.push_back(0);
-	}
-	visited[0] = 1;// mark node 1 visited
 
-	while (random_path.size() != path.size()) {
-
-		int p = rand() % path.size() + 1;
-		//cout << "p is: " << p << endl;
-		random_path.push_back(p);
-
-		if (visited[p - 1] != 0) {
-			random_path.pop_back();
-		}
-		else {
-			visited[p - 1] = 1;
-		}
-	}
-	random_path.push_back(1);// 1...1
-
-	return random_path;
-}
 
 vector<int> TSP::findNeighbour(std::vector<int> best_path,int p1,int p2)
 {
@@ -443,6 +425,144 @@ int TSP::checkTabuExist(vector<int> path)
 		}
 	}
 	return 0;
+}
+
+double TSP::GA(vector<vector<float>> graph, vector<int> path)
+{
+	int population_size = 0;
+	int generations = 0;
+	float GA_cost = 0.0;
+	float the_min_GA = 1000000000.0;
+	vector<int> random_child;
+	vector < pair<vector<int>, float> >parents;
+	vector<int> father;
+	vector<int> mother;
+
+	// generate first parents
+	while (population_size < 10) {
+		population_size++;
+		random_child = path_generator(path);
+		GA_cost = distance(graph, random_child);
+		cout << "The GA_cost is: " << GA_cost << endl;
+		parents.push_back(make_pair(random_child, GA_cost));
+	}
+	while (generations < 5) {
+		// fintiness guid: choose first two smaller cost path as parents
+		float second_min = 100000000.0;
+		
+		for (int j = 0; j < parents.size(); j++) {
+			if (parents[j].second < the_min_GA) {
+				the_min_GA = parents[j].second;
+				father = parents[j].first;
+				
+			}
+			else if ((parents[j].second < second_min) && (parents[j].second != the_min_GA)) {
+				second_min = parents[j].second;
+				mother = parents[j].first;
+			}
+		}
+		// assume crossover always happen
+		// generate a list of children that have a same population size as parents
+		// from 1..1
+		vector < pair<vector<int>, float> >my_parents;
+		for (int i = 1; i < population_size-1; i++) {
+			random_child = findChild(father, mother, i);
+			GA_cost = distance(graph, random_child);
+			my_parents.push_back(make_pair(random_child, GA_cost));
+			// if exist parents cost bigger than child cost
+			if (GA_cost < the_min_GA) {
+				GA_best[0] = make_pair(random_child, GA_cost);
+				cout << "here1";
+			}
+			else {
+				GA_best[0] = make_pair(father,the_min_GA);
+				cout << "here2";
+			}
+		}
+		// assume mutation happen by random rate
+		// random rate generator
+		int counter = 0;
+		int c = 0;
+		while (counter < 100) {
+			counter++;
+			int p = rand() % 100 + 1;
+			if (p == 2) {
+				c++;
+			}
+		}
+		// if 2 happen 5 times then mutation happen
+		if (c > 5) {
+			random_child = path_generator(path);
+			GA_cost = distance(graph, random_child);
+			my_parents.push_back(make_pair(random_child, GA_cost));
+			if (GA_cost < the_min_GA) {
+				GA_best[0] = make_pair(random_child, GA_cost);
+				cout << "here3";
+			}
+			else {
+				GA_best[0] = make_pair(father, the_min_GA);
+				cout << "here4";
+			}
+		}
+		parents = my_parents;
+		generations++;
+	}
+	
+	for (int j = 0; j < GA_best.size(); j++) {
+		vector<int> t;
+		t = GA_best[j].first;
+		for (int k = 0; k < t.size(); k++) {
+			std::cout << t[k] << " ";
+		}
+		std::cout << " ";
+		std::cout << GA_best[j].second << endl;
+	}
+	return 0.0;
+}
+
+vector<int> TSP::findChild(vector<int> father, vector<int> mother, int p)
+{
+	int temp  = father[p];
+	if (mother[temp] != 1) {
+		swap(mother[temp - 1], mother[temp]);
+	}
+	
+	return mother;
+}
+
+
+vector<int> TSP::path_generator(vector<int>path)
+{
+	// generate a random path
+	
+	vector<int>random_path;// select as best
+	random_path.push_back(1);
+	vector<int>visited;
+	for (int i = 0; i < path.size(); i++) {
+		visited.push_back(0);
+	}
+	visited[0] = 1;// mark node 1 visited
+
+	while (random_path.size() != path.size()) {
+
+		int p = rand() % path.size() + 1;
+		random_path.push_back(p);
+
+		if (visited[p - 1] != 0) {
+			random_path.pop_back();
+		}
+		else {
+			visited[p - 1] = 1;
+		}
+	}
+	random_path.push_back(1);// 1...1
+
+	cout << "The path is: ";
+	for (int i = 0; i < random_path.size(); i++) {
+		cout << random_path[i] << " ";
+	}
+	cout << endl;
+	return random_path;
 }
 
 string TSP::toString(vector<int> path)

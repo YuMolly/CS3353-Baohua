@@ -20,11 +20,13 @@ public:
 	
 
 	double Tabu(std::vector<std::vector<float>>, std::vector<int>);
-	std::vector<int> path_generator(std::vector<int>);
 	std::vector<int> findNeighbour(std::vector<int>, int, int);
-
 	int checkTabuExist(std::vector<int>);
+	
+	double GA(std::vector<std::vector<float>>, std::vector<int>);
+	std::vector<int> findChild(std::vector<int>,std::vector<int>, int);
 
+	std::vector<int> path_generator(std::vector<int>);
 	std::string toString(std::vector<int>);
 	std::vector<int> toInt(std::string);
 	std::vector<int> toPath(std::vector<int>);
@@ -37,7 +39,7 @@ private:
 	float cost;//for DP
 	int size;
 	std::vector<std::pair<std::vector<int>, float>> tabu_list;// for Tabu
-};
+};  std::vector<std::pair<std::vector<int>, float>> GA_best;//for GA
 
 #endif //!TSP_hpp
 
