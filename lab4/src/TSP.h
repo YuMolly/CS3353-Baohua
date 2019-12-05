@@ -20,16 +20,14 @@ public:
 	
 
 	double Tabu(std::vector<std::vector<float>>, std::vector<int>);
-	std::vector<int> findNeighbour(std::vector<int>, int, int);
+	std::vector<int> findNeighbour(std::vector<int>, int);
 	int checkTabuExist(std::vector<int>);
 	
 	double GA(std::vector<std::vector<float>>, std::vector<int>);
 	std::vector<int> findChild(std::vector<int>,std::vector<int>, int);
 
 	std::vector<int> path_generator(std::vector<int>);
-	std::string toString(std::vector<int>);
-	std::vector<int> toInt(std::string);
-	std::vector<int> toPath(std::vector<int>);
+	
 private:
 	std::vector<std::pair<std::string, float>>p1;
 	//BF string for each possible path and foloat for the corrsponsed cost

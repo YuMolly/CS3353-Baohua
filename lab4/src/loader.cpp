@@ -70,8 +70,8 @@ void loader::load()
 void loader::print()
 {
 	//cout << "The use time of navie brute froce method is: " << time_BF << "s" << " in " << Gsize << " nodes." << endl;
-	cout << "The use time of dynamic programming method is: " << time_DP<<"s"<< " in "<< Gsize <<" nodes."<<endl;
-	//cout << "The use time of tabu search method is: " << time_Tabu << "s" << " in " << Gsize << " nodes." << endl;
+	//cout << "The use time of dynamic programming method is: " << time_DP<<"s"<< " in "<< Gsize <<" nodes."<<endl;
+	cout << "The use time of tabu search method is: " << time_Tabu << "s" << " in " << Gsize << " nodes." << endl;
 	cout << "The use time of GA search method is: " << time_GA << "s" << " in " << Gsize << " nodes." << endl;
 }
 
@@ -79,8 +79,8 @@ void loader::execute()
 {
 	TSP tsp(path.size());
 	//time_BF = tsp.BF(graph,path);
-	time_DP = tsp.DP(graph,path);
-	//time_Tabu = tsp.Tabu(graph, path);
+	//time_DP = tsp.DP(graph,path);
+	time_Tabu = tsp.Tabu(graph, path);
 	time_GA = tsp.GA(graph, path);
 	//cout << "!";
 }
